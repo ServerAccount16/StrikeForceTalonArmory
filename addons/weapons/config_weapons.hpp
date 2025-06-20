@@ -314,8 +314,7 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] M7 Red-Dot SmartLink";
-    picture = "\TCP\Weapons_F_TCP\Acc\Optic\ERO\data\ui\icon_optic_ERO_Red_ca.paa";
+    displayName = "[SFT] Oracle Scope";
     weaponInfoType = "CTGCY_SRS_Display_Info";
     class ItemInfo : ItemInfo
     {
@@ -345,9 +344,11 @@ class CfgWeapons
           distanceZoomMax=2000;
           memoryPointCamera="opticView";
           modelOptics[]=
-          {
-            "\OPTRE_Weapons\Sniper\Sniper_Oracle10_Optic"
-          };
+					{
+						"\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_5",
+						"\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_10",
+						"\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_25"
+					};
             visionMode[]=
           {
             "Normal",
@@ -503,11 +504,54 @@ class CfgWeapons
     author = "Weber";
     scope = 2;
     scopeArsenal = 2;
+    baseWeapon = "SFT_M731";
     displayName = "[SFT] M731 LMG";
     reloadAction = "GestureReloadM200";
     magazines[] = M731_magazines;
     magazineWell[]   = M731_magazines;
     recoil = "recoil_rpk12";
+    modes[]=
+    {
+        "FullAuto",
+        "FullAuto_Medium",
+        "FullAuto_Close_Optics",
+        "FullAuto_Far_Optics",
+        "FullAutoFast",
+        "FullAuto_Close",
+        "FullAuto_Short"
+    };
+    class FullAuto: FullAuto
+    {
+        sounds[]=
+        {
+            "StandardSound",
+            "SilencedSound"
+        };
+        class StandardSound: StandardSound
+            {
+            soundSetShot[] =
+            {
+                "WBK_TKE_MAWV2_SoundSet",
+                "DMR03_tail_SoundSet",
+                "DMR03_InteriorTail_SoundSet"
+            };
+        };
+        class SilencedSound: SilencedSound
+        {
+            soundSetShot[] =
+            {
+                "WBK_TKE_ARBSilenced_SoundSet",
+                "SPAR02_silencerTail_SoundSet",
+                "SPAR02_silencerInteriorTail_SoundSet"
+            };
+        };
+    };
+    class FullAuto_Medium: FullAuto {};
+    class FullAuto_Close_Optics: FullAuto {};
+    class FullAuto_Far_Optics: FullAuto {};
+    class FullAutoFast:     FullAuto {};
+    class FullAuto_Close:   FullAuto {};
+    class FullAuto_Short:   FullAuto {};
   };
   //  M392
   class TCP_srifle_M392_F;
@@ -697,7 +741,7 @@ class CfgWeapons
     };
   };
   class 19_UNSC_SRS99AM;
-  class SFT_SRS99AM : 19_UNSC_SRS99AM
+  /*class SFT_SRS99AM : 19_UNSC_SRS99AM
   {
     author = "Weber";
     dlc = "SFT";
@@ -707,6 +751,52 @@ class CfgWeapons
     baseWeapon = "SFT_SRS99AM";
     //magazines[] = SRS99_magazines;
     //magazineWell[]   =;
+  };*/
+  class SFT_SRS99AM: 19_UNSC_SRS99AM
+  {
+    author="Weber";
+    baseWeapon="SFT_SRS99AM";
+    scope=2;
+    displayName="[SFT] SRS99 Anti-Material Sniper Rifle";
+    muzzles[]=
+    {
+      "this"
+    };
+    modelOptics[]=
+    {
+      "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_5",
+      "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_10",
+      "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_25"
+    };
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+      mass=300;
+      class MuzzleSlot: MuzzleSlot
+      {
+        inkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
+        displayName="Muzzle Slot";
+        compatibleItems[]={};
+        iconPosition[]={0,0.40000001};
+      };
+      class CowsSlot: CowsSlot
+      {
+        linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
+        displayName="$STR_A3_CowsSlot0";
+        compatibleitems[]=
+        {
+          "SFT_optic_SRS99AM",
+        };
+        iconPosition[]={0.5,0.30000001};
+      };
+      class PointerSlot: PointerSlot
+      {
+        compatibleitems[]={};
+      };
+      class UnderBarrelSlot: UnderBarrelSlot
+      {
+        compatibleitems[]={};
+      };
+    };
   };
   class OPTRE_M319N;
   class SFT_M319N : OPTRE_M319N
