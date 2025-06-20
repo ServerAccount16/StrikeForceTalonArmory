@@ -671,60 +671,60 @@ class CfgWeapons
       class PointerSlot : PointerSlot {};
     };
   };
-  class 19_UNSC_M7: arifle_19_UNSC_m7_Base_F
-{
-	author="19th Fleet Mod Team - Crazy & Split Jaw";
-	_generalMacro="19_UNSC_M7";
-	baseWeapon="19_UNSC_M7";
-	scope=2;
-	displayName="[19 - UNSC] M7";
-	model="\UNSC_F_Weapons\weapons\UNSC_M7.p3d";
-	mass=20;
-	reloadAction="OPTRE_GestureReloadM7";
-	//reloadAction="GestureReloadBR55";
-	picture="\UNSC_F_Weapons\weapons\UI\M7_UI.paa";
-	UiPicture="\UNSC_F_Weapons\weapons\UI\M7_UI.paa";
-handAnim[] = {"OFP2_ManSkeleton","\OPTRE_Weapons\smg\data\anim\m7_handpos.rtm","Spartan_ManSkeleton","\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\smg_handanim_Spartan.rtm"};
-	muzzles[]=
-	{
-		"this"
-	};
+  class TEST: 19_UNSC_M7
+  {
+    author="19th Fleet Mod Team - Crazy & Split Jaw";
+    _generalMacro="19_UNSC_M7";
+    baseWeapon="19_UNSC_M7";
+    scope=2;
+    displayName="[19 - UNSC] M7";
+    model="\UNSC_F_Weapons\weapons\UNSC_M7.p3d";
+    mass=20;
+    reloadAction="OPTRE_GestureReloadM7";
+    //reloadAction="GestureReloadBR55";
+    picture="\UNSC_F_Weapons\weapons\UI\M7_UI.paa";
+    UiPicture="\UNSC_F_Weapons\weapons\UI\M7_UI.paa";
+  handAnim[] = {"OFP2_ManSkeleton","\OPTRE_Weapons\smg\data\anim\m7_handpos.rtm","Spartan_ManSkeleton","\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\smg_handanim_Spartan.rtm"};
+    muzzles[]=
+    {
+      "this"
+    };
 
-	class WeaponSlotsInfo: WeaponSlotsInfo
-	{
-		holsterOffset = "";	// name of a memory point in weapon to serve as zero of the model
-		holsterScale = .75;
-		mass=20;
-		class MuzzleSlot: MuzzleSlot
-		{
-			inkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
-			displayName="Muzzle Slot";
-			compatibleItems[]=
-			{
-				"19_UNSC_m7_Suppressor"
-			};
-			iconPosition[]={0,0.40000001};
-		};
-		class CowsSlot: CowsSlot
-		{
-			linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
-			displayName="$STR_A3_CowsSlot0";
-			compatibleitems[]=
-			{
-				"19_UNSC_M7_optic",
-			};
-			iconPosition[]={0.5,0.30000001};
-		};
-		class PointerSlot: PointerSlot
-		{
-			compatibleItems[]=
-			{
-				"19_UNSC_M7_LAM"
-			};
-			iconPosition[]={0.2,0.40000001};
-		};
-	};
-};
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+      holsterOffset = "";	// name of a memory point in weapon to serve as zero of the model
+      holsterScale = .75;
+      mass=20;
+      class MuzzleSlot: MuzzleSlot
+      {
+        inkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
+        displayName="Muzzle Slot";
+        compatibleItems[]=
+        {
+          "19_UNSC_m7_Suppressor"
+        };
+        iconPosition[]={0,0.40000001};
+      };
+      class CowsSlot: CowsSlot
+      {
+        linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
+        displayName="$STR_A3_CowsSlot0";
+        compatibleitems[]=
+        {
+          "SFT_optic_M7",
+        };
+        iconPosition[]={0.5,0.30000001};
+      };
+      class PointerSlot: PointerSlot
+      {
+        compatibleItems[]=
+        {
+          "19_UNSC_M7_LAM"
+        };
+        iconPosition[]={0.2,0.40000001};
+      };
+    };
+  };
   class 19_UNSC_SRS99AM;
   class SFT_SRS99AM : 19_UNSC_SRS99AM
   {
