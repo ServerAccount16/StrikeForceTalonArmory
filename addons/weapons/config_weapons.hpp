@@ -654,15 +654,158 @@ class CfgWeapons
     magazines[] = M392_magazines;
     magazineWell[]   = M392_magazines;
     reloadAction = "GestureReloadBR55";
+    class SemiAuto;
+    class FullAuto;
     reloadMagazineSound[] =
-        {
-            "\OPTRE_Wbk_WeaponImprovements\reload\battleRifle_reload.ogg",
-            2,
-            1,
-            25};
+    {
+      "\OPTRE_Wbk_WeaponImprovements\reload\battleRifle_reload.ogg",
+      2,
+      1,
+      25
+    };
+    modes[]=
+		{
+			"M392_FullAuto",
+			"FullAuto_Close_Optics",
+			"M392_Single",
+			"Single_Close_Optics",
+			"Single_Medium_Optics"
+		};
+		class M392_Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"OPTRE_DMR_SoundSet",
+					"SyndikatLMG_Tail_SoundSet",
+					"SyndikatLMG_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"DMR06_silencerShot_SoundSet",
+					"DMR06_silencerTail_SoundSet",
+					"DMR06_silencerInteriorTail_SoundSet"
+				};
+			};
+			minRange=2;
+			minRangeProbab=0.30000001;
+			midRange=350;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.050000001;
+			reloadTime=0.33333334;
+			dispersion=0.00043633234;
+		};
+		class Single_Close_Optics: M392_Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=300;
+			minRange=2;
+			minRangeProbab=0.050000001;
+			midRange=300;
+			midRangeProbab=0.80000001;
+			maxRange=500;
+			maxRangeProbab=0.0099999998;
+			requiredOpticType=1;
+		};
+		class Single_Medium_Optics: Single_Close_Optics
+		{
+			aiRateOfFire=2;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.050000001;
+			midRange=500;
+			midRangeProbab=0.80000001;
+			maxRange=700;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=1;
+		};
+		class M392_FullAuto: FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"OPTRE_DMR_SoundSet",
+					"SyndikatLMG_Tail_SoundSet",
+					"SyndikatLMG_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"DMR05_silencerShot_SoundSet",
+					"DMR05_silencerTail_SoundSet",
+					"DMR05_silencerInteriorTail_SoundSet"
+				};
+			};
+			minRange=0;
+			minRangeProbab=0.89999998;
+			midRange=15;
+			midRangeProbab=0.69999999;
+			maxRange=30;
+			maxRangeProbab=0.050000001;
+			reloadTime="0.33333334 / 2";
+			dispersion=0.00043633234;
+		};
+		class FullAuto_Close_Optics: M392_FullAuto
+		{
+			showToPlayer=0;
+			aiBurstTerminable=1;
+			burst=3;
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=50;
+			midRangeProbab=0.69999999;
+			maxRange=100;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=1;
+		};
   };
-  class TCP_Weapon_srifle_VK78_Gray_F;
-  class SFT_VK78 : TCP_Weapon_srifle_VK78_Gray_F
+  class TCP_srifle_VK78_F;
+  class SFT_VK78 : TCP_srifle_VK78_F
   {
     author = "Weber";
     dlc = "SFT";
@@ -673,12 +816,171 @@ class CfgWeapons
     magazines[] = VK78_magazines;
     magazineWell[]   = VK78_magazines;
     reloadAction = "WBK_Commando_Reload";
+    class FullAuto;
+    class SemiAuto;
+    model="\TCP\Weapons_F_TCP\LongRangeRifles\VK78\VK78_Gray.p3d";
+		picture="\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\ui\icon_srifle_VK78_Gray_F_X_ca.paa";
+    hiddenSelectionsTextures[]=
+		{
+			"\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\camo\gray\VK78_01_CO.paa",
+			"\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\camo\gray\VK78_02_CO.paa"
+		};
     reloadMagazineSound[] =
-        {
-            "\OPTRE_Wbk_WeaponImprovements\reload\srs99_reload.ogg",
-            2,
-            1,
-            25};
+    {
+      "\OPTRE_Wbk_WeaponImprovements\reload\srs99_reload.ogg",
+      2,
+      1,
+      25
+    };
+    modes[]=
+		{
+			"VK78_FullAuto",
+			"FullAuto_Close_Optics",
+			"VK78_Single",
+			"Single_Close_Optics",
+			"Single_Medium_Optics",
+			"Single_Far_Optics"
+		};
+		class VK78_Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"DMR_Shot_Soundset"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"MMG02_silencerShot_SoundSet",
+					"MMG02_silencerTail_SoundSet",
+					"MMG02_silencerInteriorTail_SoundSet"
+				};
+			};
+			minRange=2;
+			minRangeProbab=0.2;
+			midRange=250;
+			midRangeProbab=0.69999999;
+			maxRange=450;
+			maxRangeProbab=0.5;
+			reloadTime=0.15000001;
+			dispersion=0.00058177643;
+		};
+		class Single_Close_Optics: VK78_Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=250;
+			minRange=2;
+			minRangeProbab=0.050000001;
+			midRange=250;
+			midRangeProbab=0.80000001;
+			maxRange=400;
+			maxRangeProbab=0.0099999998;
+			requiredOpticType=1;
+		};
+		class Single_Medium_Optics: Single_Close_Optics
+		{
+			aiRateOfFire=2;
+			aiRateOfFireDistance=450;
+			minRange=250;
+			minRangeProbab=0.050000001;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=600;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=1;
+		};
+		class Single_Far_Optics: Single_Close_Optics
+		{
+			aiRateOfFire=4;
+			aiRateOfFireDistance=600;
+			minRange=200;
+			minRangeProbab=0.050000001;
+			midRange=600;
+			midRangeProbab=0.5;
+			maxRange=800;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=2;
+		};
+		class VK78_FullAuto: FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"DMR_Shot_Soundset"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"MMG02_silencerShot_SoundSet",
+					"MMG02_silencerTail_SoundSet",
+					"MMG02_silencerInteriorTail_SoundSet"
+				};
+			};
+			minRange=0;
+			minRangeProbab=0.89999998;
+			midRange=15;
+			midRangeProbab=0.69999999;
+			maxRange=30;
+			maxRangeProbab=0.050000001;
+			reloadTime=0.15000001;
+			dispersion=0.00058177643;
+		};
+		class FullAuto_Close_Optics: VK78_FullAuto
+		{
+			showToPlayer=0;
+			aiBurstTerminable=1;
+			burst=3;
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=50;
+			midRangeProbab=0.69999999;
+			maxRange=100;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=1;
+		};
   };
   class TCP_arifle_M6J_F;
   class SFT_M6J : TCP_arifle_M6J_F
@@ -691,6 +993,148 @@ class CfgWeapons
     baseWeapon = "SFT_M6J";
     magazines[] = M6J_magazines;
     magazineWell[]   = M6J_magazines;
+    class SemiAuto;
+    class FullAuto;
+    modes[]=
+		{
+			"M6J_FullAuto",
+			"FullAuto_Close_Optics",
+			"M6J_Single",
+			"Single_Close_Optics",
+			"Single_Medium_Optics"
+		};
+		class M6J_Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"OPTRE_M6_Pistol_Shot_SoundSet",
+					"4Five_Tail_SoundSet",
+					"4Five_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"4Five_silencerShot_SoundSet",
+					"4Five_silencerTail_SoundSet",
+					"4Five_silencerInteriorTail_SoundSet"
+				};
+			};
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=250;
+			maxRangeProbab=0.2;
+			reloadTime=0.1;
+			dispersion=0.00058177643;
+		};
+		class Single_Close_Optics: M6J_Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=5;
+			aiRateOfFireDistance=500;
+			minRange=5;
+			minRangeProbab=0.2;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=350;
+			maxRangeProbab=0.30000001;
+			requiredOpticType=1;
+		};
+		class Single_Medium_Optics: Single_Close_Optics
+		{
+			aiRateOfFire=6;
+			aiRateOfFireDistance=600;
+			minRange=100;
+			minRangeProbab=0.1;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=1;
+		};
+		class M6J_FullAuto: FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"OPTRE_M6_Pistol_Shot_SoundSet",
+					"4Five_Tail_SoundSet",
+					"4Five_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"4Five_silencerShot_SoundSet",
+					"4Five_silencerTail_SoundSet",
+					"4Five_silencerInteriorTail_SoundSet"
+				};
+			};
+			minRange=2;
+			minRangeProbab=0.89999998;
+			midRange=15;
+			midRangeProbab=0.69999999;
+			maxRange=30;
+			maxRangeProbab=0.050000001;
+			reloadTime=0.1;
+			dispersion=0.00058177643;
+		};
+		class FullAuto_Close_Optics: M6J_FullAuto
+		{
+			showToPlayer=0;
+			aiBurstTerminable=1;
+			burst=2;
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=75;
+			midRangeProbab=0.69999999;
+			maxRange=100;
+			maxRangeProbab=0.050000001;
+			requiredOpticType=1;
+		};
   };
   class TCP_hgun_Pistol_M6C2_F;
   class SFT_M6C :TCP_hgun_Pistol_M6C2_F
@@ -753,6 +1197,76 @@ class CfgWeapons
 				discreteInitIndex=0;
 			};
 		};
+    class SemiAuto;
+    modes[]=
+		{
+			"Single",
+			"TopDown"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType {
+				begin1[] = {"OPTRE_Weapons\Rockets\data\sounds\rocket_1.wss",2.5,1,1500};
+				soundBegin[] = {"begin1",1};
+			};
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			maxRange=3450;
+			maxRangeProbab=0.85000002;
+			midRange=150;
+			midRangeProbab=0.85000002;
+			minRange=70;
+			minRangeProbab=0.60000002;
+			reloadTime=0.80000001;
+			dispersion=0;
+		};
+		class TopDown: Single
+		{
+			aIRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			displayName="Top-down Attack";
+			maxRange=2000;
+			maxRangeProbab=0.94999999;
+			midRange=500;
+			midRangeProbab=0.94999999;
+			minRange=150;
+			minRangeProbab=0.80000001;
+			textureType="topDown";
+		};
+		value=20;
+		weaponLockDelay=3;
+		weaponLockSystem=12;
+		canLock=2;
+		lockAcquire=0;
+		lockedTargetSound[]=
+		{
+			"A3\Sounds_F\arsenal\weapons\Launchers\Titan\locked_Titan",
+			0.316228,
+			2.5
+		};
+		lockingTargetSound[]=
+		{
+			"A3\Sounds_F\arsenal\weapons\Launchers\Titan\locking_Titan",
+			0.316228,
+			1
+		};
   };
   class OPTRE_M45TAC;
   class SFT_M45TAC : OPTRE_M45TAC
@@ -777,6 +1291,47 @@ class CfgWeapons
     baseWeapon = "SFT_FlareGun";
     magazines[] = FlareGun_magazines;
     magazineWell[]   = FlareGun_magazines;
+    modes[]=
+		{
+			"Single"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundsetshot[]=
+				{"Msbs65_01_Ugl_Shot_SoundSet","Msbs65_01_Ugl_Tail_SoundSet","Msbs65_01_Ugl_InteriorTail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[]=
+				{
+					"DMR06_silencerShot_SoundSet",
+					"DMR06_silencerTail_SoundSet",
+					"DMR06_silencerInteriorTail_SoundSet"
+				};
+			};
+			reloadTime=1;
+			dispersion=0.0029088822;
+		};
   };
   class 19_UNSC_M7;
   class WeaponSlotsInfo;
@@ -884,8 +1439,86 @@ class CfgWeapons
     scopeArsenal = 2;
     displayName = "[SFT] M319 Individual Grenade Launcher";
     baseWeapon = "SFT_M319N";
+    useModelOptics 				 =  0;
+		useExternalOptic 			 =  0;
+		memoryPointCamera			 =  "OP_eye"; 
+		cameraDir 					 = "eye_gl_look";
+		discreteDistance[] = {50,75,100,150,200,250,300,350,400}; //
+		discreteDistanceCameraPoint[]  = {
+			"OP_eye_50",
+			"OP_eye_75",
+			"OP_eye_100",
+			"OP_eye_150",
+			"OP_eye_200",
+			"OP_eye_250",
+			"OP_eye_300",
+			"OP_eye_350",
+			"OP_eye_400"
+
+		}; /// the angle of gun changes with zeroing "OP_eye"
     magazines[] = M319N_magazines;
     magazineWell[]   = M319N_magazines;
+    class SemiAuto;
+    reloadAction =  "WBK_HaloGL_Reload";
+		changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.31622776,1,5};
+		reloadMagazineSound[] = {"\OPTRE_Wbk_WeaponImprovements\reload\gl_reload.ogg",2,1,25};
+		drySound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Dry_ugl",0.56234133,1,10};
+		modes[]={"Single"};
+    class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				closure1[]=
+				{
+					"A3\Sounds_F\arsenal\weapons\UGL\Closure_UGL",
+					1,
+					1,
+					10
+				};
+				soundClosure[]=
+				{
+					"closure1",
+					1
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Msbs65_01_Ugl_Shot_SoundSet","Msbs65_01_Ugl_Tail_SoundSet","Msbs65_01_Ugl_InteriorTail_SoundSet"};
+				begin1[]=
+				{
+					"A3\Sounds_F\arsenal\weapons\UGL\UGL_01",
+					0.70794576,
+					1,
+					200
+				};
+				begin2[]=
+				{
+					"A3\Sounds_F\arsenal\weapons\UGL\UGL_02",
+					0.70794576,
+					1,
+					200
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.5,
+					"begin2",
+					0.5
+				};
+			};
+			recoil = "recoil_single_gm6";
+			recoilProne = "recoil_single_prone_gm6";
+			minRange = 30;
+			minRangeProbab = 0.1;
+			midRange = 200;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.05;
+		};
   };
 };
 
