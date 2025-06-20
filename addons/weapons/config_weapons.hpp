@@ -648,48 +648,19 @@ class CfgWeapons
   };
   class 19_UNSC_M7;
   class WeaponSlotsInfo;
-  class SFT_M7 : 19_UNSC_M7
+  class MuzzleSlot;
+  class CowsSlot;
+  class PointerSlot;
+  class SFT_M7: 19_UNSC_M7
   {
-    author = "Weber";
-    dlc = "SFT";
-    scope = 2;
-    scopeArsenal = 2;
-    displayName = "[SFT] M7 Caseless Submachine Gun";
-    baseWeapon = "SFT_M7";
-    magazines[] = M7_magazines;
-    magazineWell[]   = M7_magazines;
-    class WeaponSlotsInfo : WeaponSlotsInfo
-    {
-      class MuzzleSlot : MuzzleSlot {};
-      class CowsSlot : CowsSlot
-      {
-        compatibleitems[]=
-        {
-          "SFT_optic_M7",
-        };
-      };
-      class PointerSlot : PointerSlot {};
-    };
-  };
-  class TEST: 19_UNSC_M7
-  {
-    author="19th Fleet Mod Team - Crazy & Split Jaw";
-    _generalMacro="19_UNSC_M7";
-    baseWeapon="19_UNSC_M7";
+    author="Weber";
+    baseWeapon="SFT_M7";
     scope=2;
-    displayName="[19 - UNSC] M7";
-    model="\UNSC_F_Weapons\weapons\UNSC_M7.p3d";
-    mass=20;
-    reloadAction="OPTRE_GestureReloadM7";
-    //reloadAction="GestureReloadBR55";
-    picture="\UNSC_F_Weapons\weapons\UI\M7_UI.paa";
-    UiPicture="\UNSC_F_Weapons\weapons\UI\M7_UI.paa";
-  handAnim[] = {"OFP2_ManSkeleton","\OPTRE_Weapons\smg\data\anim\m7_handpos.rtm","Spartan_ManSkeleton","\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\smg_handanim_Spartan.rtm"};
+    displayName="[SFT] M7 Caseless Submachine Gun";
     muzzles[]=
     {
       "this"
     };
-
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
       holsterOffset = "";	// name of a memory point in weapon to serve as zero of the model
