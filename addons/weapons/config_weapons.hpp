@@ -316,6 +316,12 @@ class CfgWeapons
     scope = 2;
     displayName = "[SFT] Oracle Scope";
     weaponInfoType = "CTGCY_SRS_Display_Info";
+    ace_scopeZeroRange=100;
+		ace_scopeHeightAboveRail=3.4579;
+		ace_scopeAdjust_vertical[]={-5,35};
+		ace_scopeAdjust_horizontal[]={-10,10};
+		ace_scopeAdjust_verticalIncrement=0.1;
+		ace_scopeAdjust_horizontalIncrement=0.1;
     class ItemInfo : ItemInfo
     {
       class OpticsModes : OpticsModes
@@ -359,6 +365,16 @@ class CfgWeapons
         };
       };
     };
+    ACE_barrelTwist=152.39999;
+		ACE_barrelLength=1016;
+		ACE_overheating_mrbs=4000;
+		ACE_overheating_slowdownFactor=1.25;
+		ACE_overheating_allowSwapBarrel=0;
+		ACE_overheating_dispersion=4.9999999e-006;
+		ACE_arsenal_hide=0;
+		ACE_twistDirection=1;
+		ace_overheating_closedBolt=1;
+		ACE_overheating_barrelMass=62.610001;
   };
   //------------------------------------------------------------------//
   //  Arsenal inventory object
