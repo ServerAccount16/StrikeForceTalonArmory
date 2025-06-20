@@ -55,7 +55,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "CTGCY_Weapons",
-            "Weapons_F_TCP",
+            "weapons_f_tcp",
             "OPTRE_Weapons",
             "CBA_A3",
             "A3_Weapons_F",

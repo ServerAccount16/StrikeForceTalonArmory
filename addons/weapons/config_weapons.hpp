@@ -1,3 +1,5 @@
+class Mode_SemiAuto;
+class Mode_FullAuto;
 class CfgWeapons
 {
   class TCP_optic_EVOSJ;
@@ -402,8 +404,6 @@ class CfgWeapons
   //--------------------------------------------------------------------
   //  MA37
   class TCP_arifle_MA37_F;
-  class Mode_SemiAuto;
-  class Mode_FullAuto;
   class TCP_arifle_MA37_GL_F;
   class TCP_launcher_M301_F;
   class BaseSoundModeType;
@@ -437,7 +437,7 @@ class CfgWeapons
             };
         };
       };
-      class FullAuto : Mode_FullAuto
+      class MA37_FullAuto : Mode_FullAuto
       {
         class StandardSound : BaseSoundModeType
         {
@@ -500,7 +500,7 @@ class CfgWeapons
             };
         };
       };
-      class FullAuto : Mode_FullAuto
+      class MA37GL_FullAuto : Mode_FullAuto
       {
         class StandardSound : BaseSoundModeType
         {
@@ -526,9 +526,10 @@ class CfgWeapons
     magazines[] = M731_magazines;
     magazineWell[]   = M731_magazines;
     recoil = "recoil_rpk12";
+    class FullAuto;
     modes[]=
     {
-        "FullAuto",
+        "M731_FullAuto",
         "FullAuto_Medium",
         "FullAuto_Close_Optics",
         "FullAuto_Far_Optics",
@@ -536,7 +537,7 @@ class CfgWeapons
         "FullAuto_Close",
         "FullAuto_Short"
     };
-    class FullAuto: FullAuto
+    class M731_FullAuto: FullAuto
     {
         sounds[]=
         {
@@ -562,12 +563,83 @@ class CfgWeapons
             };
         };
     };
-    class FullAuto_Medium: FullAuto {};
-    class FullAuto_Close_Optics: FullAuto {};
-    class FullAuto_Far_Optics: FullAuto {};
-    class FullAutoFast:     FullAuto {};
-    class FullAuto_Close:   FullAuto {};
-    class FullAuto_Short:   FullAuto {};
+    class FullAuto_Medium: M731_FullAuto
+		{
+			showToPlayer=0;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=600;
+			burst=7;
+			minRange=200;
+			minRangeProbab=0.050000001;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.1;
+		};
+		class FullAuto_Close_Optics: M731_FullAuto
+		{
+			showToPlayer=0;
+			aiRateOfFire=10;
+			aiRateOfFireDistance=1000;
+			burst=3;
+			minRange=300;
+			minRangeProbab=0.050000001;
+			midRange=500;
+			midRangeProbab=0.40000001;
+			maxRange=650;
+			maxRangeProbab=0.0099999998;
+			requiredOpticType=1;
+		};
+		class FullAuto_Far_Optics: FullAuto_Close_Optics
+		{
+			aiRateOfFire=10;
+			aiRateOfFireDistance=1000;
+			burst=3;
+			minRange=300;
+			minRangeProbab=0.050000001;
+			midRange=500;
+			midRangeProbab=0.40000001;
+			maxRange=650;
+			maxRangeProbab=0.0099999998;
+			requiredOpticType=1;
+		};
+		class FullAutoFast: M731_FullAuto
+		{
+			textureType="fastAuto";
+			minRange=0;
+			minRangeProbab=0.30000001;
+			midRange=5;
+			midRangeProbab=0.69999999;
+			maxRange=10;
+			maxRangeProbab=0.039999999;
+			reloadTime=0.06666667;
+			dispersion=0.00087266468;
+		};
+		class FullAuto_Close: FullAutoFast
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=50;
+			burst=10;
+			minRange=10;
+			minRangeProbab=0.050000001;
+			midRange=20;
+			midRangeProbab=0.69999999;
+			maxRange=50;
+			maxRangeProbab=0.039999999;
+		};
+		class FullAuto_Short: FullAuto_Close
+		{
+			aiRateOfFire=2;
+			aiRateOfFireDistance=300;
+			burst=8;
+			minRange=50;
+			minRangeProbab=0.050000001;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=300;
+			maxRangeProbab=0.039999999;
+		};
   };
   //  M392
   class TCP_srifle_M392_F;
@@ -757,17 +829,6 @@ class CfgWeapons
     };
   };
   class 19_UNSC_SRS99AM;
-  /*class SFT_SRS99AM : 19_UNSC_SRS99AM
-  {
-    author = "Weber";
-    dlc = "SFT";
-    scope = 2;
-    scopeArsenal = 2;
-    displayName = "[SFT] SRS99 Anti-Material Sniper Rifle";
-    baseWeapon = "SFT_SRS99AM";
-    //magazines[] = SRS99_magazines;
-    //magazineWell[]   =;
-  };*/
   class SFT_SRS99AM: 19_UNSC_SRS99AM
   {
     author="Weber";

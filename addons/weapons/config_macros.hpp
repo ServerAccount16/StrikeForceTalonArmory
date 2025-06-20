@@ -20,4 +20,4 @@
 #define SRS99_magazines {"OPTRE_4Rnd_145x114_APFSDS_Mag"}
 // 12 Gauge
 #define M45TAC_magazines {"OPTRE_6Rnd_8Gauge_Pellets", "OPTRE_6Rnd_8Gauge_Slugs"}
-#define FlareGun_magazines {"TCP_1Rnd_12Gauge_Signal_Green", "TCP_1Rnd_12Gauge_Signal_Red", "TCP_1Rnd_12Gauge_Signal_White", "TCP_1Rnd_12Gauge_Signal_Yellow"}
+#define FlareGun_magazines {"OPTRE_signalSmokeB", "OPTRE_signalSmokeG", "OPTRE_signalSmokeO", "OPTRE_signalSmokeP", "OPTRE_signalSmokeR", "OPTRE_signalSmokeY"}
