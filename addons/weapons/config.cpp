@@ -5,6 +5,7 @@
 #include "config_macros.hpp"
 #include "config_ammo.hpp"
 #include "config_magazines.hpp"
+#include "config_magazinewells.hpp"
 #include "config_weapons.hpp"
 
 class CfgPatches

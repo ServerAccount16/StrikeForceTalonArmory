@@ -416,7 +416,7 @@ class CfgWeapons
     displayName = "[SFT] MA37 ICWS";
     baseWeapon = "SFT_MA37";
     magazines[] = MA37_magazines;
-    magazineWell[]   = MA37_magazines;
+    magazineWell[]   = {"SFT_762x51_30"};
     reloadMagazineSound[] =
     {
       "\OPTRE_Wbk_WeaponImprovements\reload\mb5_reload.ogg",
@@ -425,7 +425,17 @@ class CfgWeapons
       25
     };
     reloadAction = "GestureReloadMA5";
-    class Single : Mode_SemiAuto
+    class SemiAuto;
+    class FullAuto;
+    modes[]=
+		{
+			"MA37_FullAuto",
+			"FullAuto_Close_Optics",
+			"MA37_Single",
+			"Single_Close_Optics",
+			"Single_Medium_Optics"
+		};
+    class MA37_Single : Mode_SemiAuto
       {
         class StandardSound : BaseSoundModeType
         {
@@ -436,8 +446,16 @@ class CfgWeapons
                 "Rogue9_InteriorTail_SoundSet"
             };
         };
+        class SilencedSound: BaseSoundModeType
+        {
+          soundSetShot[]=
+          {
+            "Msbs65_01_Shot_Silencer_SoundSet",
+            "Msbs65_01_Tail_Int_Silencer_SoundSet"
+          };
+        };
       };
-      class MA37_FullAuto : Mode_FullAuto
+      class MA37_FullAuto : FullAuto
       {
         class StandardSound : BaseSoundModeType
         {
@@ -447,6 +465,14 @@ class CfgWeapons
                 "Rogue9_Tail_SoundSet",
                 "Rogue9_InteriorTail_SoundSet"
             };
+        };
+        class SilencedSound: BaseSoundModeType
+        {
+          soundSetShot[]=
+          {
+            "Msbs65_01_Shot_Silencer_SoundSet",
+            "Msbs65_01_Tail_Int_Silencer_SoundSet"
+          };
         };
       };
   };
@@ -459,7 +485,7 @@ class CfgWeapons
     displayName = "[SFT] MA37 + M301 ICWS";
     baseWeapon = "SFT_MA37GL";
     magazines[] = MA37_magazines;
-    magazineWell[]   = MA37_magazines;
+    magazineWell[]   = {"SFT_762x51_30"};
     reloadMagazineSound[] =
         {
             "\OPTRE_Wbk_WeaponImprovements\reload\mb5_reload.ogg",
@@ -486,9 +512,19 @@ class CfgWeapons
               "op_eye_150",
               "op_eye_200"};
       magazines[] = UGL_magazines;
-      magazineWell[]   = UGL_magazines;
+      magazineWell[]   = {"SFT_40mmugl_1"};
     };
-    class Single : Mode_SemiAuto
+    class SemiAuto;
+    class FullAuto;
+    modes[]=
+		{
+			"MA37GL_FullAuto",
+			"FullAuto_Close_Optics",
+			"MA37GL_Single",
+			"Single_Close_Optics",
+			"Single_Medium_Optics"
+		};
+    class MA37GL_Single : Mode_SemiAuto
       {
         class StandardSound : BaseSoundModeType
         {
@@ -499,17 +535,33 @@ class CfgWeapons
                 "Rogue9_InteriorTail_SoundSet"
             };
         };
+        class SilencedSound: BaseSoundModeType
+        {
+          soundSetShot[]=
+          {
+            "Msbs65_01_Shot_Silencer_SoundSet",
+            "Msbs65_01_Tail_Int_Silencer_SoundSet"
+          };
+        };
       };
-      class MA37GL_FullAuto : Mode_FullAuto
+      class MA37GL_FullAuto : FullAuto
       {
         class StandardSound : BaseSoundModeType
         {
-            soundSetShot[] =
-            {
-                "OPTRE_MA5C_SoundSet",
-                "Rogue9_Tail_SoundSet",
-                "Rogue9_InteriorTail_SoundSet"
-            };
+          soundSetShot[] =
+          {
+            "OPTRE_MA5C_SoundSet",
+            "Rogue9_Tail_SoundSet",
+            "Rogue9_InteriorTail_SoundSet"
+          };
+        };
+        class SilencedSound: BaseSoundModeType
+        {
+          soundSetShot[]=
+          {
+            "Msbs65_01_Shot_Silencer_SoundSet",
+            "Msbs65_01_Tail_Int_Silencer_SoundSet"
+          };
         };
       };
   };
@@ -524,7 +576,12 @@ class CfgWeapons
     displayName = "[SFT] M731 LMG";
     reloadAction = "GestureReloadM200";
     magazines[] = M731_magazines;
-    magazineWell[]   = M731_magazines;
+    magazineWell[]   =
+    {
+      "SFT_762x51_30",
+      "SFT_762x51_100",
+      "SFT_762x51_200"
+    };
     recoil = "recoil_rpk12";
     class FullAuto;
     modes[]=
@@ -652,7 +709,7 @@ class CfgWeapons
     displayName = "[SFT] M392 DMR";
     baseWeapon = "SFT_M392";
     magazines[] = M392_magazines;
-    magazineWell[]   = M392_magazines;
+    magazineWell[]   = {"SFT_762x51_15"};
     reloadAction = "GestureReloadBR55";
     class SemiAuto;
     class FullAuto;
@@ -814,7 +871,7 @@ class CfgWeapons
     displayName = "[SFT] VK78 Commando";
     baseWeapon = "SFT_VK78";
     magazines[] = VK78_magazines;
-    magazineWell[]   = VK78_magazines;
+    magazineWell[]   = {"SFT_65x67_20"};
     reloadAction = "WBK_Commando_Reload";
     class FullAuto;
     class SemiAuto;
@@ -992,7 +1049,11 @@ class CfgWeapons
     displayName = "[SFT] M6J Pistol Carbine";
     baseWeapon = "SFT_M6J";
     magazines[] = M6J_magazines;
-    magazineWell[]   = M6J_magazines;
+    magazineWell[]   =
+    {
+      "SFT_127x30_46_12",
+      "SFT_127x30_46_24"
+    };
     class SemiAuto;
     class FullAuto;
     modes[]=
@@ -1003,7 +1064,7 @@ class CfgWeapons
 			"Single_Close_Optics",
 			"Single_Medium_Optics"
 		};
-		class M6J_Single: Mode_SemiAuto
+		class M6J_Single: SemiAuto
 		{
 			sounds[]=
 			{
@@ -1158,7 +1219,7 @@ class CfgWeapons
     displayName = "[SFT] M41 SPNKr";
     baseWeapon = "SFT_M41";
     magazines[] = M41_magazines;
-    magazineWell[]   = M41_magazines;
+    magazineWell[]   = {"SFT_102mm_2"};
     modelOptics[]=
 		{
 			"\CTGCY_Weapons\data\scopes\UI\CTGCY_SPNKR_Scope_2.p3d",
@@ -1278,7 +1339,7 @@ class CfgWeapons
     displayName = "[SFT] M45 Combat Shotgun";
     baseWeapon = "SFT_M45TAC";
     magazines[] = M45TAC_magazines;
-    magazineWell[]   = M45TAC_magazines;
+    magazineWell[]   = {"SFT_5g_6"};
   };
   class TCP_hgun_Pistol_FlareGun_Black_F;
   class SFT_FlareGun : TCP_hgun_Pistol_FlareGun_Black_F
@@ -1290,7 +1351,7 @@ class CfgWeapons
     displayName = "[SFT] M8 12G Flare Gun";
     baseWeapon = "SFT_FlareGun";
     magazines[] = FlareGun_magazines;
-    magazineWell[]   = FlareGun_magazines;
+    magazineWell[]   = {"SFT_flare12g_1"};
     modes[]=
 		{
 			"Single"
@@ -1457,7 +1518,7 @@ class CfgWeapons
 
 		}; /// the angle of gun changes with zeroing "OP_eye"
     magazines[] = M319N_magazines;
-    magazineWell[]   = M319N_magazines;
+    magazineWell[]   = {"SFT_40mmigl_1"};
     class SemiAuto;
     reloadAction =  "WBK_HaloGL_Reload";
 		changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.31622776,1,5};
