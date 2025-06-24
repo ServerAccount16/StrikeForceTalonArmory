@@ -180,6 +180,9 @@ class CfgWeapons
     scope         = 2;
     scopeArsenal  = 2;
     displayName   = "[SFT] CH252D Helmet";
+		tcp_visrRscTitlesClass="RscTCPVisrODST";
+		tcp_visrActivatedClass="TCP_H_Helmet_ECH252D";
+		tcp_visrDeactivatedClass="TCP_H_Helmet_ECH252D_Transparent";
     hiddenSelections[]=
 		{
 			"Camo1",

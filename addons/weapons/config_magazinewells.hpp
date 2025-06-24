@@ -1,12 +1,21 @@
-class CfgMagazinesWells
+class CfgMagazineWells
 {
   class SFT_762x51_15
 	{
-		SFT[]= M392_magazines;
+		SFT[]=
+    {
+      "SFT_15Rnd_762x51_Mag", 
+      "SFT_15Rnd_762x51_Mag_Tracer"
+    };
 	};
   class SFT_762x51_30
 	{
-		SFT[]= MA37_magazines;
+		SFT[]=
+    {
+      "SFT_32Rnd_762x51_Mag", 
+      "SFT_32Rnd_762x51_Mag_Tracer", 
+      "SFT_32Rnd_762x51_Mag_UW"
+    };
 	};
   class SFT_762x51_100
 	{
@@ -19,12 +28,16 @@ class CfgMagazinesWells
   {
     SFT[]=
     {
-      "SFT_200Rnd_762x51_mag"
+      "SFT_200Rnd_762x51_Mag"
     };
   };
   class SFT_65x67_20
 	{
-		SFT[]= VK78_magazines;
+		SFT[]=
+    {
+      "SFT_20Rnd_65x57_Mag", 
+      "SFT_20Rnd_65x57_Mag_Tracer"
+    };
 	};
   class SFT_127x30_46_12
   {
@@ -44,22 +57,76 @@ class CfgMagazinesWells
   };
   class SFT_102mm_2
 	{
-		SFT[]= M41_magazines;
+		SFT[]=
+    {
+      "SFT_2Rnd_102mm_Mag_HEAT", 
+      "SFT_2Rnd_102mm_Mag_HEAP", 
+      "SFT_2Rnd_102mm_Mag_HEAT_G", 
+      "SFT_2Rnd_102mm_Mag_HEAT_SACLOS", 
+      "SFT_2Rnd_102mm_Mag_HEAT_G_AA", 
+      "SFT_2Rnd_102mm_Mag_HEAT_SALH"
+    };
 	};
   class SFT_5g_6
 	{
-		SFT[]= M45TAC_magazines;
+		SFT[]=
+    {
+      "OPTRE_6Rnd_8Gauge_Pellets", 
+      "OPTRE_6Rnd_8Gauge_Slugs"
+    };
 	};
   class SFT_flare12g_1
   {
-    SFT[] = FlareGun_magazines;
+    SFT[] =
+    {
+      "OPTRE_signalSmokeB", 
+      "OPTRE_signalSmokeG", 
+      "OPTRE_signalSmokeO", 
+      "OPTRE_signalSmokeP", 
+      "OPTRE_signalSmokeR", 
+      "OPTRE_signalSmokeY"
+    };
   };
   class SFT_40mmugl_1
   {
-    SFT[] = UGL_magazines;
+    SFT[] =
+    {
+      "M319_HE_Grenade_Shell", 
+      "M319_HEDP_Grenade_Shell", 
+      "OPTRE_3Rnd_Smoke_Grenade_shell", 
+      "OPTRE_signalSmokeB", 
+      "OPTRE_signalSmokeG", 
+      "OPTRE_signalSmokeO", 
+      "OPTRE_signalSmokeP", 
+      "OPTRE_signalSmokeR", 
+      "OPTRE_signalSmokeY", 
+      "ACE_40mm_Flare_white", 
+      "ACE_40mm_Flare_green", 
+      "ACE_40mm_Flare_red", 
+      "ACE_40mm_Flare_ir", 
+      "ACE_HuntIR_M203"
+    };
   };
   class SFT_40mmigl_1
   {
-    SFT[] = M319N_magazines;
+    SFT[] =
+    {
+      "SFT_M319_HEDP_Grenade_Shell", 
+      "SFT_M319_HE_Grenade_Shell", 
+      "SFT_M319_HEAT_Grenade_Shell", 
+      "OPTRE_3Rnd_Smoke_Grenade_shell", 
+      "SFT_signalSmokeB", 
+      "SFT_signalSmokeG", 
+      "SFT_signalSmokeO", 
+      "SFT_signalSmokeP", 
+      "SFT_signalSmokeR", 
+      "SFT_signalSmokeY", 
+      "3Rnd_UGL_FlareWhite_F", 
+      "3Rnd_UGL_FlareRed_F", 
+      "3Rnd_UGL_FlareGreen_F", 
+      "3Rnd_UGL_FlareYellow_F", 
+      "3Rnd_UGL_FlareCIR_F", 
+      "ACE_HuntIR_M203"
+    };
   };
 };

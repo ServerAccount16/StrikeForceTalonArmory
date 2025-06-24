@@ -10,7 +10,7 @@
 #define M731_magazines {"SFT_100Rnd_762x51_mag", "SFT_200Rnd_762x51_Mag", "SFT_32Rnd_762x51_Mag", "SFT_32Rnd_762x51_Mag_Tracer", "SFT_32Rnd_762x51_Mag_UW"}
 // DMR
 #define M392_magazines {"SFT_15Rnd_762x51_Mag", "SFT_15Rnd_762x51_Mag_Tracer"}
-#define VK78_magazines {"SFT_20Rnd_65x57_Mag", "SFT_20Rnd_65x57_Mag_tracer"}
+#define VK78_magazines {"SFT_20Rnd_65x57_Mag", "SFT_20Rnd_65x57_Mag_Tracer"}
 // SMG/Carbine
 #define M6J_magazines {"SFT_24Rnd_127x30_46_Mag", "SFT_24Rnd_127x30_46_Mag_Tracer", "SFT_12Rnd_127x30_46_Mag", "SFT_12Rnd_127x30_46_Mag_Tracer"}
 #define M7_magazines {""}
