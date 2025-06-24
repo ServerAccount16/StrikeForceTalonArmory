@@ -56,9 +56,9 @@ class CfgPatches
         requiredAddons[] =
         {
             "CTGCY_Weapons",
-            "weapons_f_tcp",
+            "A3_Weapons_F_TCP",
             "OPTRE_Weapons",
-            "CBA_A3",
+            "cba_main",
             "A3_Weapons_F",
             "TKE_Weapons"
         }; // IMPORTANT: If you rely on additional external mods, add them here so the game loads them before ours.

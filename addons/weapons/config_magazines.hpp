@@ -102,8 +102,8 @@ class CfgMagazines
 		tracersEvery=3;
 	};
 	// M6J
-	class TCP_24Rnd_127x30_46_Mag;
-	class SFT_24Rnd_127x30_46_Mag : TCP_24Rnd_127x30_46_Mag
+	class TCP_24Rnd_127x30_Mag;
+	class SFT_24Rnd_127x30_46_Mag : TCP_24Rnd_127x30_Mag
 	{
 		author="Weber";
 		dlc="SFT";
@@ -113,7 +113,7 @@ class CfgMagazines
 		count=24;
 		tracersEvery=0;
 	};
-	class SFT_24Rnd_127x30_46_Mag_Tracer : TCP_24Rnd_127x30_46_Mag
+	class SFT_24Rnd_127x30_46_Mag_Tracer : TCP_24Rnd_127x30_Mag
 	{
 		author="Weber";
 		dlc="SFT";

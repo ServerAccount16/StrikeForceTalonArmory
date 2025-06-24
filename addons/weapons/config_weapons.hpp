@@ -57,6 +57,7 @@ class CfgWeapons
           opticsZoomMin = 0.18;
           opticsZoomMax = 0.09;
           opticsZoomInit = 0.18;
+          discreteinitIndex=0;
           discretefov[] = {0.18, 0.09};
           modelOptics[] =
               {
@@ -92,6 +93,7 @@ class CfgWeapons
           opticsZoomMin = 0.18000001;
           opticsZoomMax = 0.090000004;
           opticsZoomInit = 0.18000001;
+          discreteinitIndex=0;
           discretefov[] = {0.18000001, 0.090000004};
           modelOptics[] =
               {
@@ -278,6 +280,7 @@ class CfgWeapons
           opticsZoomMin=0.375;
           opticsZoomMax=1.25;
           opticsZoomInit=0.75;
+          discreteinitIndex=0;
           memoryPointCamera="eye";
           visionMode[]=
           {
@@ -503,6 +506,7 @@ class CfgWeapons
       useExternalOptic = 0;
       cameraDir = "op_look";
       discreteDistance[] = {25, 50, 75, 100, 150, 200};
+      reloadAction="GestureReloadMSBS_UGL";
       discreteDistanceCameraPoint[] =
           {
               "op_eye_25",
@@ -1064,26 +1068,8 @@ class CfgWeapons
 			"Single_Close_Optics",
 			"Single_Medium_Optics"
 		};
-		class M6J_Single: SemiAuto
+		class M6J_Single: Mode_SemiAuto
 		{
-			sounds[]=
-			{
-				"StandardSound",
-				"SilencedSound"
-			};
-			class BaseSoundModeType
-			{
-				weaponSoundEffect="DefaultRifle";
-				closure1[]={};
-				closure2[]={};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
-			};
 			class StandardSound: BaseSoundModeType
 			{
 				soundSetShot[]=
@@ -1138,24 +1124,6 @@ class CfgWeapons
 		};
 		class M6J_FullAuto: FullAuto
 		{
-			sounds[]=
-			{
-				"StandardSound",
-				"SilencedSound"
-			};
-			class BaseSoundModeType
-			{
-				weaponSoundEffect="DefaultRifle";
-				closure1[]={};
-				closure2[]={};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
-			};
 			class StandardSound: BaseSoundModeType
 			{
 				soundSetShot[]=
@@ -1207,7 +1175,11 @@ class CfgWeapons
     displayName = "[SFT] M6C SOCOM";
     baseWeapon = "SFT_M6C";
     magazines[] = {"SFT_12Rnd_127x30_52_Mag"};
-    magazineWell[]   = {"SFT_12Rnd_127x30_52_Mag"};
+    magazineWell[]   =
+    {
+      "SFT_127x30_46_12",
+      "SFT_127x30_46_24"
+    };
 	};
   class TCP_launch_M41_F;
   class SFT_M41 : TCP_launch_M41_F

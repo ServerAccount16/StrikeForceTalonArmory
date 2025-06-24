@@ -16,7 +16,7 @@ class CfgPatches
     ammo[] = {};
     magazines[] = {};
     requiredVersion = 0.1;
-    requiredAddons[] = {"CTGCY_Weapons", "weapons_f_tcp", "OPTRE_Weapons", "MA_Armor"}; 
+    requiredAddons[] = {"CTGCY_Weapons", "A3_Weapons_F_TCP", "OPTRE_Weapons", "MA_Armor"}; 
         /*
         IMPORTANT: If you rely on additional external mods,
         add them here so the game loads them before ours.
