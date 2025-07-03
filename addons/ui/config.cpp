@@ -81,11 +81,12 @@ class RscTitles
 	};
 };
 
+class controls;
+class controlsBackground;
 class RscDisplayMain: RscStandardDisplay
 {
     /* --- 1st‑MEU DISABLES THE MENU; SWITCH IT BACK ON -------------------- */
     enableDisplay = 1;
-
     /* --- PRIMARY CONTROL LAYER ------------------------------------------ */
     class controls: controls
     {

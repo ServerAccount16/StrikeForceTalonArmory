@@ -5,7 +5,7 @@
 #define MA37_magazines {"SFT_32Rnd_762x51_Mag", "SFT_32Rnd_762x51_Mag_Tracer", "SFT_32Rnd_762x51_Mag_UW"}
 // 40mm Macros
 #define UGL_magazines {"M319_HE_Grenade_Shell", "M319_HEDP_Grenade_Shell", "OPTRE_3Rnd_Smoke_Grenade_shell", "OPTRE_signalSmokeB", "OPTRE_signalSmokeG", "OPTRE_signalSmokeO", "OPTRE_signalSmokeP", "OPTRE_signalSmokeR", "OPTRE_signalSmokeY", "ACE_40mm_Flare_white", "ACE_40mm_Flare_green", "ACE_40mm_Flare_red", "ACE_40mm_Flare_ir", "ACE_HuntIR_M203"}
-#define M319N_magazines {"SFT_M319_HEDP_Grenade_Shell", "SFT_M319_HE_Grenade_Shell", "SFT_M319_HEAT_Grenade_Shell", "OPTRE_3Rnd_Smoke_Grenade_shell", "SFT_signalSmokeB", "SFT_signalSmokeG", "SFT_signalSmokeO", "SFT_signalSmokeP", "SFT_signalSmokeR", "SFT_signalSmokeY", "3Rnd_UGL_FlareWhite_F", "3Rnd_UGL_FlareRed_F", "3Rnd_UGL_FlareGreen_F", "3Rnd_UGL_FlareYellow_F", "3Rnd_UGL_FlareCIR_F", "ACE_HuntIR_M203"}
+#define M319N_magazines {"SFT_M319_HEDP_Grenade_Shell", "SFT_M319_HE_Grenade_Shell", "SFT_M319_HEAT_Grenade_Shell", "OPTRE_3Rnd_Smoke_Grenade_shell", "SFT_signalSmokeB", "SFT_signalSmokeG", "SFT_signalSmokeO", "SFT_signalSmokeP", "SFT_signalSmokeR", "SFT_signalSmokeY", "3Rnd_UGL_FlareWhite_F", "3Rnd_UGL_FlareRed_F", "3Rnd_UGL_FlareGreen_F", "3Rnd_UGL_FlareYellow_F", "3Rnd_UGL_FlareCIR_F", "ACE_HuntIR_M203", "M319_HE_Grenade_Shell", "M319_HEDP_Grenade_Shell", "OPTRE_signalSmokeB", "OPTRE_signalSmokeG", "OPTRE_signalSmokeO", "OPTRE_signalSmokeP", "OPTRE_signalSmokeR", "OPTRE_signalSmokeY", "ACE_40mm_Flare_white", "ACE_40mm_Flare_green", "ACE_40mm_Flare_red", "ACE_40mm_Flare_ir"}
 // AutoRifle Macros
 #define M731_magazines {"SFT_100Rnd_762x51_mag", "SFT_200Rnd_762x51_Mag", "SFT_32Rnd_762x51_Mag", "SFT_32Rnd_762x51_Mag_Tracer", "SFT_32Rnd_762x51_Mag_UW"}
 // DMR

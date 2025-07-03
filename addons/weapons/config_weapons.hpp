@@ -516,7 +516,7 @@ class CfgWeapons
               "op_eye_150",
               "op_eye_200"};
       magazines[] = UGL_magazines;
-      magazineWell[]   = {"SFT_40mmugl_1"};
+      magazineWell[]   = {"SFT_762x51_30"};
     };
     class SemiAuto;
     class FullAuto;
@@ -588,6 +588,8 @@ class CfgWeapons
     };
     recoil = "recoil_rpk12";
     class FullAuto;
+    class StandardSound;
+    class SilencedSound;
     modes[]=
     {
         "M731_FullAuto",
@@ -848,7 +850,7 @@ class CfgWeapons
 			midRangeProbab=0.69999999;
 			maxRange=30;
 			maxRangeProbab=0.050000001;
-			reloadTime="0.33333334 / 2";
+			reloadTime=0.16666667;
 			dispersion=0.00043633234;
 		};
 		class FullAuto_Close_Optics: M392_FullAuto
@@ -1417,6 +1419,7 @@ class CfgWeapons
     };
   };
   class 19_UNSC_SRS99AM;
+  class UnderBarrelSlot;
   class SFT_SRS99AM: 19_UNSC_SRS99AM
   {
     author="Weber";
@@ -1490,7 +1493,7 @@ class CfgWeapons
 
 		}; /// the angle of gun changes with zeroing "OP_eye"
     magazines[] = M319N_magazines;
-    magazineWell[]   = {"SFT_40mmigl_1"};
+    magazineWell[]   = {"SFT_40mmigl_1", "SFT_762x51_30"};
     class SemiAuto;
     reloadAction =  "WBK_HaloGL_Reload";
 		changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.31622776,1,5};
