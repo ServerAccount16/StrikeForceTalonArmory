@@ -1,117 +1,212 @@
 class XtdGearModels
 {
-    class CfgWeapons
+  class CfgWeapons 
+  {
+    class SFT_Vests_Enlisted
     {
-        /*
-            ODST Generated Custom Gear
-        */
-        class M56_CustomVests
+      label = "[SFT] M52D Vests Enlisted";
+      author = "Weber";
+      options[] = {"MOS","Rank", "Unit"};
+      class MOS // coventional name
+      {
+        values[] = 
         {
-            label = "[MA] M56 Custom";
-            author = "Misriah Armoury";
-            options[] = {"Chestplate","LegArmour","LeftPauldron","RightPauldron","ForearmLeft","ForearmRight","ThighPouch","Canisters"};
-            class Chestplate
-            {
-                values[] = {"Halo 3","Reach"};
-            };
-            class LegArmour
-            {
-                values[] = {"Halo 3","Reach"};
-            };
-            class LeftPauldron
-            {
-                values[] = {"Halo 3","Reach","Reach Radio","CQB","Sniper","None"};
-            };
-            class RightPauldron
-            {
-                values[] = {"Halo 3","Reach","Reach Radio","CQB","Sniper","None"};
-            };
-            class ForearmLeft
-            {
-                values[] = {"Halo 3","Halo 3 Vent","Reach","Reach Vent","None"};
-            };
-            class ForearmRight
-            {
-                values[] = {"Halo 3","Halo 3 Vent","Reach","Reach Vent","None"};
-            };
-            class ThighPouch
-            {
-                values[] = {"Yes","No"};
-            };
-            class Canisters
-            {
-                values[] = {"Yes","No"};
-            };
+          "Rifleman1",
+          "Rifleman1CLS",
+          "Rifleman2",
+          "Rifleman3",
+          "Autorifleman",
+          "Marksman",
+          "Combat_Engineer",
+          "Breacher",
+          "Hellbringer",
+          "Sniper"
         };
-
-        class MA_Standard_Vests
+      };
+      class Rank
+      {
+        label = "Rank";
+        values[] = 
         {
-            label="[MA] M56 Standard Variants";
-            author="Misriah Armory";
-            options[]=
-            {
-                "Variant"
-            };
-            class Variant
-            {
-                values[]=
-                {
-                    "M56S",
-                    "M56S_Medic",
-                    "M56S_Recon",
-                    "M56S_Light",
-                    "M56R",
-                    "M56R_Medic",
-                    "M56R_Recon",
-                    "M56R_Light",
-                    "M56R_Radio",
-                    "M56R_ODST_Radio",
-                    "M56R_CQB",
-                    "M56R_Sniper"
-                };
-
-                class M56S_Medic
-                {
-                    label="M56S (Medic)";
-                };
-                class M56S_Recon
-                {
-                    label="M56S (Recon)";
-                };
-                class M56S_Light
-                {
-                    label="M56S (Light)";
-                };
-                class M56R_Medic
-                {
-                    label="M56R (Medic)";
-                };
-                class M56R_Recon
-                {
-                    label="M56R (Recon)";
-                };
-                class M56R_Light
-                {
-                    label="M56R (Light)";
-                };
-                class M56R_Radio
-                {
-                    label="M56R (Radio)";
-                };
-                class M56R_ODST_Radio
-                {
-                    label="M56R (ODST Radio)";
-                };
-                class M56R_CQB
-                {
-                    label="M56R (CQB)";
-                };
-                class M56R_Sniper
-                {
-                    label="M56R (Sniper)";
-                };
-            }
+          "Recruit",
+          "Private",
+          "PFC",
+          "LCpl",
+          "Corporal"
         };
+        changeingame = 1;
+        alwaysSelectable = 1; // allows the selection of the values even if there isn't an item with a complete match of options available, falling back to a weak match with this single value (optional)
+        // changedelay = 2; If can changeingame, wait delay before change is effective (can be 0, 0.1, or more)
+        // icon = "xxx"; If can changeingame, action group icon in ACE menu
+      };
+      class Unit
+      {
+        values[] = 
+        {
+          "Eagle",
+          "Vulture",
+          "Osprey",
+          "Cardinal",
+          "Auxiliary"
+        };
+      };
     };
+    class SFT_Vests_NCO
+    {
+      label = "[SFT] M52D Vests NCO";
+      author = "Weber";
+      options[] = {"MOS","Rank", "Unit"};
+      class MOS
+      {
+        values[] = 
+        {
+          "Rifleman1",
+          "Rifleman1CLS",
+          "Rifleman2",
+          "Rifleman3",
+          "Autorifleman",
+          "Marksman",
+        };
+      };
+      class Rank
+      {
+        label = "Rank";
+        values[] = 
+        {
+          "Sergeant",
+          "StaffSergeant",
+          "GunnerySergeant",
+          "MasterSergeant",
+        };
+        changeingame = 1;
+        alwaysSelectable = 1;
+      };
+      class Unit
+      {
+        values[] = 
+        {
+          "Eagle",
+          "Vulture",
+          "Osprey",
+          "Cardinal",
+          "Auxiliary"
+        };
+      };
+    };
+    class SFT_Vests_CO
+    {
+      label = "[SFT] M52D Vests CO";
+      author = "Weber";
+      options[] = {"MOS","Rank", "Unit"};
+      class MOS
+      {
+        values[] = 
+        {
+          "Rifleman1",
+          "Rifleman1CLS",
+          "Rifleman2",
+          "Rifleman3"
+        };
+      };
+      class Rank
+      {
+        label = "Rank";
+        values[] = 
+        {
+          "Sergeant",
+          "StaffSergeant",
+          "GunnerySergeant",
+          "MasterSergeant",
+        };
+        changeingame = 1;
+        alwaysSelectable = 1;
+      };
+      class Unit
+      {
+        values[] = 
+        {
+          "Eagle",
+          "Vulture",
+          "Osprey",
+          "Cardinal",
+          "Auxiliary"
+        };
+      };
+    };
+    class SFT_Vests_Corpsman
+    {
+      label = "[SFT] M52D Vests Corpsman";
+      author = "Weber";
+      options[] = {"MOS","Rank", "Unit"};
+      class MOS
+      {
+        values[] = 
+        {
+          "Corpsman1",
+          "Corpsman2"
+        };
+      };
+      class Rank
+      {
+        label = "Rank";
+        values[] = 
+        {
+          "HR",
+          "HM3",
+          "HM2",
+          "HM1",
+          "HMC"
+        };
+        changeingame = 1;
+        alwaysSelectable = 1;
+      };
+      class Unit
+      {
+        values[] = 
+        {
+          "Eagle",
+          "Vulture",
+          "Osprey",
+          "Cardinal",
+          "Auxiliary"
+        };
+      };
+    };
+    class SFT_Vests_Logistics
+    {
+      label = "[SFT] M52D Vests Logistics";
+      author = "Weber";
+      options[] = {"MOS","Rank", "Unit"};
+      class MOS
+      {
+        values[] = 
+        {
+          "Crewman",
+          "Pilot"
+        };
+      };
+      class Rank
+      {
+        label = "Rank";
+        values[] = 
+        {
+          "CrewmanRecruit",
+          "PO3",
+          "PO2",
+          "PPO1",
+          "CPO",
+          "SCPO"
+        };
+        changeingame = 1;
+        alwaysSelectable = 1;
+      };
+      class Unit
+      {
+        values[] = 
+        {
+          "Canary"
+        };
+      };
+    };
+  };
 };
-

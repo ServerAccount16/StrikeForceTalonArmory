@@ -1,3 +1,4 @@
+#include "config_xtdgearmodels.hpp"
 #include "config_macros.hpp"
 
 // Big Comment
@@ -46,15 +47,15 @@ class CfgWeapons
 		picture="";
 		hiddenSelectionsTextures[]=
 		{
-			"\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_cqbShoulder_M52D_co.paa",
-      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_cqbShoulder_M52D_co.paa",
-      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_marksmanShoulder_M52D_co.paa",
-      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_marksmanShoulder_M52D_co.paa",
+			"\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_cqbShoulder_M52D_co.paa",
+      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_cqbShoulder_M52D_co.paa",
+      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_marksmanShoulder_M52D_co.paa",
+      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_marksmanShoulder_M52D_co.paa",
       "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\SFT_Standard_M52D_co.paa",
       "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\SFT_Standard_M52D_co.paa",
       "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\SFT_Standard_M52D_co.paa",
-      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_standardShoulder_M52D_co.paa",
-      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_standardShoulder_M52D_co.paa",
+      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_standardShoulder_M52D_co.paa",
+      "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_standardShoulder_M52D_co.paa",
 			"MA_Armor\data\vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
 			"MA_Armor\data\vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
 			"MA_Armor\data\vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
@@ -81,15 +82,15 @@ class CfgWeapons
 			vestType="Rebreather";
 			hiddenSelectionsTextures[]=
 			{
-				"\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_cqbShoulder_M52D_co.paa",
-        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_cqbShoulder_M52D_co.paa",
-        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_marksmanShoulder_M52D_co.paa",
-        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_marksmanShoulder_M52D_co.paa",
+				"\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_cqbShoulder_M52D_co.paa",
+        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_cqbShoulder_M52D_co.paa",
+        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_marksmanShoulder_M52D_co.paa",
+        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_marksmanShoulder_M52D_co.paa",
         "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\SFT_Standard_M52D_co.paa",
         "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\SFT_Standard_M52D_co.paa",
         "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\SFT_Standard_M52D_co.paa",
-        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_standardShoulder_M52D_co.paa",
-        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\shoulders\SFT_standardShoulder_M52D_co.paa",
+        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_standardShoulder_M52D_co.paa",
+        "\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\EAGLE\shoulders\SFT_standardShoulder_M52D_co.paa",
 				"MA_Armor\data\vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
 				"MA_Armor\data\vests\Marine_Pouches\data\MA_TrooperExtras_A_CO.paa",
 				"MA_Armor\data\vests\Marine_Pouches\data\MA_TrooperExtras_B_CO.paa",
@@ -174,7 +175,139 @@ class CfgWeapons
 			};
 		};
 	};
-	DEFINE_SFT_VEST(StandardV1,"[SFT] M56D Vest (Rifleman V1)",SLOTS_RIFLEMAN_VAR1_STD)
+	// THIS IS ONLY HERE SO PEOPLE CAN SWAP OVER LOADOUTS
+	class SFT_M52_Vest_StandardV1: SFT_M52_Vest_Base
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="Weber";
+		displayName="[SFT] M56D Vest (Rifleman V1)";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4",
+			"Camo5",
+			"Camo6",
+			"Camo7",
+			"Camo8",
+			"Camo9",
+			"Camo10",
+			"Camo11",
+			"Camo12",
+			"Camo13",
+			"Camo14",
+			"Camo15",
+			"Camo16",
+			"Camo17",
+			"Camo18",
+			"Camo19",
+			"Camo20",
+			"Camo21",
+			"Camo22",
+			"Camo23",
+			"Camo24",
+			"Camo25",
+			"Camo26",
+			"Camo27",
+			"Camo28",
+			"Camo29",
+			"ChestPouch",
+			"StomachPouch",
+			"ChestPMLeft",
+			"ChestPMRight",
+			"Marksman_Left",
+			"Marksman_Right",
+			"CQB_Left",
+			"CQB_Right",
+			"LShoulderRadio",
+			"RShoulderRadio",
+			"TorsoPMRight",
+			"TorsoPouch",
+			"WaistGRight",
+			"WaistPLeft",
+			"WaistPRight",
+			"WaistRLeft",
+			"WaistRRight",
+			"WaistSLeft",
+			"LegPouchL",
+			"LegPouchR"
+		};
+		class ItemInfo: ItemInfo
+		{
+			vestType="Rebreather";
+			hiddenSelections[]=
+			{
+				"Camo1",
+				"Camo2",
+				"Camo3",
+				"Camo4",
+				"Camo5",
+				"Camo6",
+				"Camo7",
+				"Camo8",
+				"Camo9",
+				"Camo10",
+				"Camo11",
+				"Camo12",
+				"Camo13",
+				"Camo14",
+				"Camo15",
+				"Camo16",
+				"Camo17",
+				"Camo18",
+				"Camo19",
+				"Camo20",
+				"Camo21",
+				"Camo22",
+				"Camo23",
+				"Camo24",
+				"Camo25",
+				"Camo26",
+				"Camo27",
+				"Camo28",
+				"Camo29",
+				"ChestPouch",
+				"StomachPouch",
+				"ChestPMLeft",
+				"ChestPMRight",
+				"Marksman_Left",
+				"Marksman_Right",
+				"CQB_Left",
+				"CQB_Right",
+				"LShoulderRadio",
+				"RShoulderRadio",
+				"TorsoPMRight",
+				"TorsoPouch",
+				"WaistGRight",
+				"WaistPLeft",
+				"WaistPRight",
+				"WaistRLeft",
+				"WaistRRight",
+				"WaistSLeft",
+				"LegPouchL",
+				"LegPouchR"
+			};
+		};
+	};
+	Unit_Vest_Maco(Eagle)
+	Unit_Vest_Maco(Vulture)
+	Unit_Vest_Maco(Osprey)
+	Unit_Vest_Maco(Cardinal)
+	Unit_Vest_Maco(Auxiliary)
+	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,CrewmanRecruit,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,CrewmanRecruit,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,PO3,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,PO3,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,PO2,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,PO2,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,PO1,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,PO1,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,CPO,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,CPO,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,SCPO,Canary,SFT_Vests_Logistics) \
+	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,SCPO,Canary,SFT_Vests_Logistics) \
   class SFT_CH252D_Helmet: CH252D_Helmet
   {
     scope         = 2;
@@ -199,25 +332,6 @@ class CfgWeapons
       hiddenSelectionsTextures[] = {
         "\x\strikeforcetalon_armory\addons\sft_gear\helmets\SFT_Standard_CH252D_CO.paa",
         "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Visor_CO.paa",
-        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
-      };
-    };
-  };
-	class SFT_CH252D_Helmet_dp: CH252D_Helmet_dp
-  {
-    scope         = 1;
-    scopeArsenal  = 1;
-    displayName   = "[SFT] CH252D Helmet";
-    hiddenSelectionsTextures[] = {
-      "\x\strikeforcetalon_armory\addons\sft_gear\helmets\SFT_Standard_CH252D_CO.paa",
-      "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Depolarized_Visor_CA.paa",
-      "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
-    };
-    class ItemInfo : ItemInfo
-    {
-      hiddenSelectionsTextures[] = {
-        "\x\strikeforcetalon_armory\addons\sft_gear\helmets\SFT_Standard_CH252D_CO.paa",
-        "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Depolarized_Visor_CA.paa",
         "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
       };
     };

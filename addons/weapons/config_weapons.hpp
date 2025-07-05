@@ -93,7 +93,12 @@ class CfgWeapons
           opticsZoomMin = 0.18000001;
           opticsZoomMax = 0.090000004;
           opticsZoomInit = 0.18000001;
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          distanceZoomMin = 50;
+          distanceZoomMax = 500;
           discreteinitIndex=0;
+          opticsPPEffects[] = { "Default" };
           discretefov[] = {0.18000001, 0.090000004};
           modelOptics[] =
               {
