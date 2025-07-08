@@ -55,7 +55,44 @@ class CfgMagazines
 		count=200;
 		mass=88.188;
 		tracersEvery=3;
-		ACE_isBelt = 1; 
+		ACE_isBelt = 1;
+	};
+	class OPTRE_200Rnd_762x51_M118_M247A1_Box;
+	class SFT_200Rnd_762x51_M247A1_Box : OPTRE_200Rnd_762x51_M118_M247A1_Box
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 200Rnd 7.62x51mm M247A1 Box Magazine [Tracer]";
+		ammo="OPTRE_B_762x51_Tracer";
+		count=200;
+		mass=40;
+		tracersEvery=3;
+		ACE_isBelt = 1;
+	};
+	class OPTRE_50Rnd_127x99_M250_Box;
+	class SFT_50Rnd_127x99_M250_Box : OPTRE_50Rnd_127x99_M250_Box
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 50Rnd 12.7x99mm Box Magazine [Tracer]";
+		ammo="OPTRE_B_127x99_Ball_White";
+		count=50;
+		tracersEvery=3;
+		ACE_isBelt = 1;
+	};
+	class OPTRE_M739_SAW_192rnd_Box;
+	class SFT_762x51_M739_Box : OPTRE_M739_SAW_192rnd_Box
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 192Rnd 7.62x51mm Box Magazine [Tracer]";
+		ammo="OPTRE_B_762x51_Tracer";
+		count=192;
+		tracersEvery=3;
+		ACE_isBelt = 1;
 	};
 	// DMR
 	class TCP_15Rnd_762x51_Mag;

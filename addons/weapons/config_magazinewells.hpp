@@ -31,6 +31,20 @@ class CfgMagazineWells
       "SFT_200Rnd_762x51_Mag"
     };
   };
+  class SFT_762_51_200_A1
+  {
+    SFT[]=
+    {
+      "SFT_200Rnd_762x51_M247A1_Box"
+    };
+  };
+  class SFT_762_51_192
+  {
+    SFT[]=
+    {
+      "SFT_762x51_M739_Box"
+    };
+  };
   class SFT_65x67_20
 	{
 		SFT[]=
@@ -53,6 +67,13 @@ class CfgMagazineWells
     {
       "SFT_24Rnd_127x30_46_Mag",
       "SFT_24Rnd_127x30_46_Mag_Tracer"
+    };
+  };
+  class SFT_50Rnd_127x99
+  {
+    SFT[]=
+    {
+      "SFT_50Rnd_127x99_M250_Box"
     };
   };
   class SFT_102mm_2

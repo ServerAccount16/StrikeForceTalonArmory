@@ -1,3 +1,19 @@
+class asdg_OpticRail1913 // defined by CBA/ASDG
+{
+  class compatibleItems
+  {
+    SFT_optic_EVOSJ_SL = 1;
+    SFT_optic_EVOSM_SL = 1;
+    SFT_optic_EVOSD_SL = 1;
+    SFT_optic_ERO = 1;
+    SFT_optic_ERO_blue = 1;
+    SFT_optic_M7 = 1;
+    SFT_optic_SRS99AM = 1;
+  };
+};
+class asdg_MuzzleSlot_762;
+class asdg_FrontSideRail;
+class asdg_UnderSlot;
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class CfgWeapons
@@ -1561,18 +1577,76 @@ class CfgWeapons
 			maxRangeProbab = 0.05;
 		};
   };
-};
-
-class asdg_OpticRail1913 // defined by CBA/ASDG
-{
-  class compatibleItems
+  class OPTRE_M247A1;
+  class SFT_M247A1 : OPTRE_M247A1
   {
-    SFT_optic_EVOSJ_SL = 1;
-    SFT_optic_EVOSM_SL = 1;
-    SFT_optic_EVOSD_SL = 1;
-    SFT_optic_ERO = 1;
-    SFT_optic_ERO_blue = 1;
-    SFT_optic_M7 = 1;
-    SFT_optic_SRS99AM = 1;
+    author="Weber";
+    baseWeapon="SFT_M247A1";
+    displayName="[SFT] M247A1";
+    magazines[]={"SFT_200Rnd_762x51_M247A1_Box"};
+    magazineWell[]={"SFT_762_51_200_A1"};
+    class WeaponSlotsInfo
+		{
+			allowedSlots[]={901};
+			mass=170;
+			class CowsSlot: asdg_OpticRail1913 {};
+			class MuzzleSlot: asdg_MuzzleSlot_762 {};
+			class PointerSlot: asdg_FrontSideRail {};
+			class UnderBarrelSlot: asdg_UnderSlot {};
+		};
+  };
+  class OPTRE_M247A1_Stripped;
+  class SFT_M247A1_Stripped : OPTRE_M247A1_Stripped
+  {
+    author="Weber";
+    baseWeapon="SFT_M247A1_Stripped";
+    displayName="[SFT] M247A1 Stripped";
+    magazines[]={"SFT_200Rnd_762x51_M247A1_Box"};
+    magazineWell[]={"SFT_762_51_200_A1"};
+    class WeaponSlotsInfo
+		{
+			allowedSlots[]={901};
+			mass=170;
+			class CowsSlot: asdg_OpticRail1913 {};
+			class MuzzleSlot: asdg_MuzzleSlot_762 {};
+			class PointerSlot: asdg_FrontSideRail {};
+			class UnderBarrelSlot: asdg_UnderSlot {};
+		};
+  };
+  class OPTRE_M250;
+  class SFT_M250 : OPTRE_M250
+  {
+    author="Weber";
+    baseWeapon="SFT_M250";
+    displayName="[SFT] M250 GPMG";
+    magazines[]={"SFT_50Rnd_127x99_M250_Box"};
+    magazineWell[]={"SFT_50Rnd_127x99"};
+    class WeaponSlotsInfo
+		{
+			allowedSlots[]={901};
+			mass=170;
+			class CowsSlot: asdg_OpticRail1913 {};
+			class MuzzleSlot: asdg_MuzzleSlot_762 {};
+			class PointerSlot: asdg_FrontSideRail {};
+			class UnderBarrelSlot: asdg_UnderSlot {};
+		};
+  };
+  class OPTRE_M739_SAW_Foregrip_Black_F;
+  class SFT_M739 : OPTRE_M739_SAW_Foregrip_Black_F
+  {
+    author="Weber";
+    baseWeapon="SFT_M739";
+    displayName="[SFT] M739 SAW";
+    magazines[]={"SFT_762x51_M739_Box"};
+    magazineWell[]={"SFT_762_51_192"};
+    class WeaponSlotsInfo
+		{
+			allowedSlots[]={901};
+			mass=170;
+			class CowsSlot: asdg_OpticRail1913 {};
+			class MuzzleSlot: asdg_MuzzleSlot_762 {};
+			class PointerSlot: asdg_FrontSideRail {};
+			class UnderBarrelSlot: asdg_UnderSlot {};
+		};
   };
 };
