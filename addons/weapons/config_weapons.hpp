@@ -278,6 +278,8 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
+    opticsFlare = 0;
+    opticsDisablePeripherialVision = 0;
     displayName = "[SFT] M7 Red-Dot SmartLink";
     model = "\UNSC_F_Weapons\weapons\m7_data\attachments\m7_scope.p3d";
     weaponInfoType = "CTGCY_Smartlink_SMG";
@@ -297,11 +299,12 @@ class CfgWeapons
           {
             ""
           };
-          opticsDisablePeripherialVision=0;
           opticsZoomMin=0.375;
           opticsZoomMax=1.25;
           opticsZoomInit=0.75;
-          discreteinitIndex=0;
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
           memoryPointCamera="eye";
           visionMode[]=
           {
@@ -319,9 +322,16 @@ class CfgWeapons
         {
           opticsID=2;
 					useModelOptics=1;
+          opticsPPEffects[]=
+          {
+            ""
+          };
 					opticsZoomMin=0.125;
 					opticsZoomMax=0.125;
 					opticsZoomInit=0.125;
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
 					discretefov[]={0.125};
 					distanceZoomMin=50;
 					distanceZoomMax=300;
@@ -343,6 +353,9 @@ class CfgWeapons
     displayName = "[SFT] Oracle Scope";
     weaponInfoType = "CTGCY_SRS_Display_Info";
     ace_scopeZeroRange=100;
+    opticsFlare = 0;
+    opticsDisablePeripherialVision = 0;
+    discreteInitIndex = 0;
 		ace_scopeHeightAboveRail=3.4579;
 		ace_scopeAdjust_vertical[]={-5,35};
 		ace_scopeAdjust_horizontal[]={-10,10};
@@ -358,7 +371,6 @@ class CfgWeapons
         class SmartLink : EVOSJ
         {
           opticsID=2;
-          opticsDisablePeripherialVision=0;
           useModelOptics=1;
           opticsPPEffects[]=
           {
@@ -368,6 +380,8 @@ class CfgWeapons
           opticsZoomMin=0.0099999998;
           opticsZoomMax=0.25;
           opticsZoomInit=0.25;
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
           discretefov[]={0.25,0.050000001,0.025,0.0099999998};
           discreteinitIndex=0;
           discreteDistance[]={50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000};
@@ -528,6 +542,7 @@ class CfgWeapons
       cameraDir = "op_look";
       discreteDistance[] = {25, 50, 75, 100, 150, 200};
       reloadAction="GestureReloadMSBS_UGL";
+      discreteDistanceInitIndex=1;
       discreteDistanceCameraPoint[] =
           {
               "op_eye_25",
