@@ -334,4 +334,43 @@ class CfgMagazines
 		displayName="[SFT] 3Rnd Flare Smoke Yellow";
 		count=3;
 	};
+	// 12g
+	class TCP_1Rnd_12Gauge_Pellets;
+	class SFT_1Rnd_12Gauge_Pellets : TCP_1Rnd_12Gauge_Pellets
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 1Rnd 12g Pellet Shell";
+		ammo="OPTRE_8Gauge_Pellets";
+		count=1;
+	};
+	class SFT_6Rnd_12Gauge_Pellets : SFT_1Rnd_12Gauge_Pellets
+	{
+		displayName="REMOVE!";
+	};
+	class TCP_6Rnd_Internal_Mag;
+	class SFT_6Rnd_Internal_Mag : TCP_6Rnd_Internal_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=1;
+		displayName="Internal Magazine";
+		ammo="OPTRE_8Gauge_Pellets";
+		count=6;
+	};
+	class TCP_1Rnd_12Gauge_Slug;
+	class SFT_1Rnd_12Gauge_Slug : TCP_1Rnd_12Gauge_Slug
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 1Rnd 12g Slug Shell";
+		ammo="OPTRE_8Gauge_Slugs";
+		count=1;
+	};
+	class SFT_6Rnd_12Gauge_Slug : SFT_1Rnd_12Gauge_Slug
+	{
+		displayName="REMOVE!";
+	};
 };

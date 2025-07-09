@@ -150,4 +150,20 @@ class CfgMagazineWells
       "ACE_HuntIR_M203"
     };
   };
+  class SFT_12Gauge_1
+  {
+    SFT[]=
+    {
+      "SFT_1Rnd_12Gauge_Pellets",
+      "SFT_1Rnd_12Gauge_Slug"
+    };
+  };
+  class SFT_12Gauge_6
+  {
+    SFT[]=
+    {
+      "SFT_6Rnd_12Gauge_Pellets",
+      "SFT_6Rnd_12Gauge_Slug"
+    };
+  };
 };

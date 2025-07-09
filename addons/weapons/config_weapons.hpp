@@ -1649,4 +1649,147 @@ class CfgWeapons
 			class UnderBarrelSlot: asdg_UnderSlot {};
 		};
   };
+  class TCP_sgun_M45_F;
+  class EventHandlers;
+  class InternalMagazine;
+  class SFT_M45 : TCP_sgun_M45_F
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[SFT] M45 Combat Shotgun";
+    baseWeapon = "SFT_M45";
+    class InternalMagazine: InternalMagazine
+		{
+			displayName="$STR_TCP_Weapons_Shotguns_M45_displayName";
+			cursor="TCP_sgun_M45_F";
+			magazines[]=
+			{
+				"SFT_1Rnd_12Gauge_Pellets"
+			};
+			magazineWell[]=
+			{
+				"SFT_12Gauge_1"
+			};
+			magazineReloadSwitchPhase=0.40000001;
+			reloadAction="TCP_GestureM45Reload";
+			submunitionConeCoef="0f";
+			class EventHandlers: EventHandlers
+			{
+				reloaded="_this call TCP_fnc_internalMagReloaded;";
+				magazineUnloaded="_this call TCP_fnc_internalMagUnloaded;";
+				weaponChanged="_this spawn TCP_fnc_hideMuzzleWeaponChanged;";
+			};
+			modes[]=
+			{
+				"Single"
+			};
+			class Single: Mode_SemiAuto
+			{
+				showToPlayer=1;
+				sounds[]=
+				{
+					"StandardSound"
+				};
+				class BaseSoundModeType
+				{
+					weaponSoundEffect="DefaultRifle";
+					closure1[]={};
+					closure2[]={};
+					soundClosure[]=
+					{
+						"closure1",
+						0.5,
+						"closure2",
+						0.5
+					};
+				};
+				class StandardSound: BaseSoundModeType
+				{
+					soundsetshot[]=
+          {
+            "OPTRE_Shotgun_SoundSet",
+            "M320_Tail_SoundSet",
+            "M320_InteriorTail_SoundSet"
+          };
+				};
+				class SilencedSound: BaseSoundModeType
+				{
+					soundSetShot[]=
+					{
+						"HunterShotgun_01_Shot_SoundSet",
+						"HunterShotgun_01_Tail_SoundSet"
+					};
+				};
+				minRange=1;
+				minRangeProbab=0.89999998;
+				midRange=30;
+				midRangeProbab=0.69999999;
+				maxRange=80;
+				maxRangeProbab=0.2;
+				reloadTime=1;
+				dispersion=0.0014544411;
+			};
+		};
+    magazines[] = {"SFT_6Rnd_Internal_Mag"};
+    magazineWell[] = {};
+    modes[]=
+		{
+			"Single",
+			"Single_Close_Optics"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultRifle";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundsetshot[]=
+        {
+          "OPTRE_Shotgun_SoundSet",
+          "M320_Tail_SoundSet",
+          "M320_InteriorTail_SoundSet"
+        };
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"HunterShotgun_01_Shot_SoundSet",
+					"HunterShotgun_01_Tail_SoundSet"
+				};
+			};
+			reloadTime=1;
+			dispersion=0.0014544411;
+		};
+		class Single_Close_Optics: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=200;
+			minRange=50;
+			minRangeProbab=0.1;
+			midRange=170;
+			midRangeProbab=0.80000001;
+			maxRange=250;
+			maxRangeProbab=0.15000001;
+			requiredOpticType=1;
+		};
+  };
 };
