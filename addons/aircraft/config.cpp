@@ -17,8 +17,10 @@ class CfgVehicles
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] MH-144S 'Falcon' [Transport]";
-    FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
-
+    hiddenSelectionsTextures[] =
+    {
+      FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+    };
     class textureSources 
     {
       class standard
@@ -27,12 +29,7 @@ class CfgVehicles
         author = "Agony and SUFFERING";
         textures [] =
         {
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_main_co.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_attachments_co.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_interior_co.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_decal_ca.paa"
+          FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
         };
       };
     };
@@ -43,7 +40,10 @@ class CfgVehicles
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] AH-144 'Falcon' [DAP]";
-    FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+    hiddenSelectionsTextures[] =
+    {
+      FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+    };
     class textureSources 
     {
       class standard
@@ -52,12 +52,7 @@ class CfgVehicles
         author = "Agony and SUFFERING";
         textures [] =
         {
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_main_co.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_attachments_co.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_interior_co.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
-          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_decal_ca.paa"
+          FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
         };
       };
     };

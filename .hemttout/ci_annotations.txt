@@ -50,5 +50,5 @@
 1459||1459||8||55||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
 1460||1460||8||56||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
 1461||1461||8||56||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
-1523||1523||29||73||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
-1525||1525||18||57||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
+1522||1522||29||73||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
+1524||1524||18||57||warning||a property that references a file is missing a file extension||missing file extension||/addons/weapons/config_weapons.hpp
