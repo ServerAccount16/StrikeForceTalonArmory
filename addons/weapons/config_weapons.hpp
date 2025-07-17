@@ -1339,18 +1339,6 @@ class CfgWeapons
 			1
 		};
   };
-  class OPTRE_M45TAC;
-  class SFT_M45TAC : OPTRE_M45TAC
-  {
-    author = "Weber";
-    dlc = "SFT";
-    scope = 2;
-    scopeArsenal = 2;
-    displayName = "[SFT] M45 Combat Shotgun";
-    baseWeapon = "SFT_M45TAC";
-    magazines[] = M45TAC_magazines;
-    magazineWell[]   = {"SFT_5g_6"};
-  };
   class TCP_hgun_Pistol_FlareGun_Black_F;
   class SFT_FlareGun : TCP_hgun_Pistol_FlareGun_Black_F
   {
@@ -1807,4 +1795,14 @@ class CfgWeapons
 			requiredOpticType=1;
 		};
   };
+  class GrenadeLauncher;
+	class Throw: GrenadeLauncher
+	{
+		class ThrowMuzzle;
+		muzzles[] += {"SFT_M9R_FragMuzzle"};
+		class SFT_M9R_FragMuzzle: ThrowMuzzle
+		{
+			magazines[] = {"SFT_M9R_Frag"};
+		};
+	};
 };

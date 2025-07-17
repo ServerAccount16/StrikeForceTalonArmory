@@ -373,4 +373,14 @@ class CfgMagazines
 	{
 		displayName="REMOVE!";
 	};
+	// Frag Grenade
+	class TCP_M9R_Frag;
+	class SFT_M9R_Frag : TCP_M9R_Frag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] M9R Fragmentation Grenade";
+		ammo="SFT_M9R_G_Frag";
+	};
 };

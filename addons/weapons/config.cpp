@@ -7,6 +7,7 @@
 #include "config_magazines.hpp"
 #include "config_magazinewells.hpp"
 #include "config_weapons.hpp"
+#include "config_vehicles.hpp"
 
 class CfgPatches
 {
@@ -14,7 +15,7 @@ class CfgPatches
     {
         units[] =
         {
-            "SFT_Item_optic_EVOSJ_SL"
+            "SFT_Item_optic_EVOSJ_SL", "SFT_Weapon_throw_M9R"
         }; // If you add a placeable object/vehicle that belongs to this mod, add its classname here
         weapons[] =
         {
@@ -34,7 +35,7 @@ class CfgPatches
             "SFT_optic_SRS99AM",
             "SFT_SRS99AM"
         }; // Ensure any newly created weapon class is listed above.
-        ammo[] = {}; // Please add your new ammo types to this list.
+        ammo[] = {"SFT_M9R_G_Frag"}; // Please add your new ammo types to this list.
         magazines[] =
         {
             "SFT_100Rnd_762x51_mag",
@@ -50,7 +51,8 @@ class CfgPatches
             "SFT_12Rnd_127x30_46_Mag_Tracer",
             "SFT_M319_HEDP_Grenade_Shell",
             "SFT_M319_HE_Grenade_Shell",
-            "SFT_M319_HEAT_Grenade_Shell"
+            "SFT_M319_HEAT_Grenade_Shell",
+            "SFT_M9R_Frag"
         }; // Add new magazines here.
         requiredVersion = 0.1;
         requiredAddons[] =

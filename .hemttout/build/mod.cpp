@@ -1,0 +1,11 @@
+name = "Strike Force Talon Armory";
+author = "Weber";
+picture         = "logo.paa";           // Picture displayed from the expansions menu. Optimal size is 2048x1024
+logo            = "logo.paa";        // Logo displayed in the main menu 128x128
+logoOver        = "logo.paa";
+logoSmall       = "logo.paa";
+tooltip         = "Strike Force Talon Armory";
+overview        = "*Gigitty*";         // Overview text, displayed from the extension menu
+description     = "Strike Force Talon Armory"; // Probably in context with action
+action          = "aa";    // Website URL, that can accessed from the expansions menu 
+actionName      = "Website?";                 // label of button/tooltip in extension menu
