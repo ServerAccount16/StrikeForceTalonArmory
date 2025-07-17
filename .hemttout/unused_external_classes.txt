@@ -118,3 +118,12 @@ EventHandlers - addons/koslovics/config.cpp:1051:90
 EventHandlers - addons/koslovics/config.cpp:1055:68
 HeadgearItem - addons/gear/config.cpp:33:9
 CH252D_Helmet_dp - addons/gear/config.cpp:39:9
+Mode_FullAuto - addons/weapons/config_weapons.hpp:18:7
+InventoryOpticsItem_Base_F - addons/weapons/config_weapons.hpp:22:9
+SemiAuto - addons/weapons/config_weapons.hpp:466:11
+SemiAuto - addons/weapons/config_weapons.hpp:557:11
+SemiAuto - addons/weapons/config_weapons.hpp:756:11
+SemiAuto - addons/weapons/config_weapons.hpp:919:11
+SemiAuto - addons/weapons/config_weapons.hpp:1099:11
+SemiAuto - addons/weapons/config_weapons.hpp:1271:11
+SemiAuto - addons/weapons/config_weapons.hpp:1520:11
