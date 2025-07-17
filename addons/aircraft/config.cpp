@@ -17,7 +17,25 @@ class CfgVehicles
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] MH-144S 'Falcon' [Transport]";
-    //FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+    FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+
+    class textureSources 
+    {
+      class standard
+      {
+        displayName = "Standard";
+        author = "Agony and SUFFERING";
+        textures [] =
+        {
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_main_co.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_attachments_co.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_interior_co.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_decal_ca.paa"
+        };
+      };
+    };
   };
   class OPTRE_UNSC_falcon_armed;
   class SFT_AH144_Falcon : OPTRE_UNSC_falcon_armed
@@ -25,7 +43,24 @@ class CfgVehicles
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] AH-144 'Falcon' [DAP]";
-    //FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+    FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+    class textureSources 
+    {
+      class standard
+      {
+        displayName = "Standard";
+        author = "Agony and SUFFERING";
+        textures [] =
+        {
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_main_co.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_attachments_co.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_interior_co.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_glass_ca.paa",
+          "\x\StrikeForceTalonArmory\addons\aircraft\falcon\data\standard\falcon_decal_ca.paa"
+        };
+      };
+    };
   };
   class OPTRE_UNSC_falcon_medical;
   class SFT_UH144_M_Falcon : OPTRE_UNSC_falcon_medical
