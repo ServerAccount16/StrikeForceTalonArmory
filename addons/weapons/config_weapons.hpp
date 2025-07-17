@@ -1514,7 +1514,6 @@ class CfgWeapons
 			"OP_eye_300",
 			"OP_eye_350",
 			"OP_eye_400"
-
 		}; /// the angle of gun changes with zeroing "OP_eye"
     magazines[] = M319N_magazines;
     magazineWell[]   = {"SFT_40mmigl_1", "SFT_762x51_30"};
