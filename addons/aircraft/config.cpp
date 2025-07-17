@@ -1,4 +1,6 @@
 #include "config_macros.hpp"
+#include "config_weapons.hpp"
+#include "config_magazines.hpp"
 
 class CfgPatches {
   class SFT_aircraft {
@@ -6,17 +8,30 @@ class CfgPatches {
       "SFT_MH144_S_Falcon", "SFT_AH144_Falcon", "SFT_UH144_M_Falcon"
     };
     requiredVersion = 0.1;
+    requiredAddons[] = {
+      "OPTRE_Vehicles_Air"
+    };
   };
 };
 
 class CfgVehicles
 {
-  class OPTRE_UNSC_MH_144S_Falcon;
+  class OPTRE_UNSC_falcon_armed_S;
+  class OPTRE_UNSC_MH_144S_Falcon : OPTRE_UNSC_falcon_armed_S
+  {
+    class Turrets
+    {
+      class LeftDoorGun{};
+      class RightDoorGun{};
+    };
+  };
   class SFT_MH144_S_Falcon : OPTRE_UNSC_MH_144S_Falcon
   {
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] MH-144S 'Falcon' [Transport]";
+    weapons[] = {"autocannon_40mm_CTWS","CMFlareLauncher","Laserdesignator_pilotCamera"};
+    magazines[] = {"SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE"};
     hiddenSelectionsTextures[] =
     {
       FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
@@ -26,11 +41,24 @@ class CfgVehicles
       class standard
       {
         displayName = "Standard";
-        author = "Agony and SUFFERING";
+        author = "Waylen";
         textures [] =
         {
           FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
         };
+      };
+    };
+    class Turrets : Turrets
+    {
+      class LeftDoorGun  : LeftDoorGun
+      {
+        weapons[] = {"SFT_247H_Sidegun"};
+				magazines[] = {"OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE"};
+      };
+      class RightDoorGun : RightDoorGun
+      {
+        weapons[] = {"SFT_247H_Sidegun2"};
+        magazines[] = {"OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE"};
       };
     };
   };
@@ -40,6 +68,8 @@ class CfgVehicles
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] AH-144 'Falcon' [DAP]";
+    weapons[] = {"autocannon_40mm_CTWS","CMFlareLauncher","Laserdesignator_pilotCamera"};
+    magazines[] = {"SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE"};
     hiddenSelectionsTextures[] =
     {
       FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
@@ -49,11 +79,23 @@ class CfgVehicles
       class standard
       {
         displayName = "Standard";
-        author = "Agony and SUFFERING";
+        author = "Waylen ";
         textures [] =
         {
           FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
         };
+      };
+    };
+    class Turrets
+    {
+      class LeftDoorGun
+      {
+        weapons[] = {"SFT_247H_Sidegun"};
+				magazines[] = {"OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE"};
+      };
+      class RightDoorGun
+      {
+        weapons[] = {"SFT_247H_Sidegun2"};
       };
     };
   };
