@@ -11,12 +11,7 @@ class CfgPatches {
 
 class CfgVehicles
 {
-	class TCP_M12_base_F;
-  class TCP_B_M12_F : TCP_M12_base_F
-	{
-		class Turrets;
-		class CargoTurret_01;
-	};
+	class TCP_B_M12_F;
   class SFT_M12_LRV : TCP_B_M12_F
   {
     author = "Weber";
@@ -37,10 +32,6 @@ class CfgVehicles
         intercom[] = {"intercom_1"};
       };
     };
-		class Turrets : Turrets
-		{
-			class CargoTurret_01 : CargoTurret_01{};
-		};
     class Sounds
 		{
 			class Idle_ext
@@ -357,7 +348,8 @@ class CfgVehicles
 			};
 		};
   };
-	class TCP_B_M12_LAAG_M41 : TCP_M12_base_F
+	class TCP_M12_LAAG_M41_base;
+	class TCP_B_M12_LAAG_M41 : TCP_M12_LAAG_M41_base
 	{
 		class Turrets;
 		class CargoTurret_01;
