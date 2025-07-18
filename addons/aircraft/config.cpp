@@ -19,19 +19,33 @@ class CfgVehicles
   class OPTRE_UNSC_falcon_armed_S;
   class OPTRE_UNSC_MH_144S_Falcon : OPTRE_UNSC_falcon_armed_S
   {
-    class Turrets
-    {
-      class LeftDoorGun{};
-      class RightDoorGun{};
-    };
+    class Turrets;
+    class LeftDoorGun;
+    class RightDoorGun;
   };
   class SFT_MH144_S_Falcon : OPTRE_UNSC_MH_144S_Falcon
   {
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] MH-144S 'Falcon' [Transport]";
-    weapons[] = {"autocannon_40mm_CTWS","CMFlareLauncher","Laserdesignator_pilotCamera"};
-    magazines[] = {"SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE","SFT_2000Rnd_40mm_HE"};
+    weapons[] = 
+    {
+      "autocannon_40mm_CTWS",
+      "CMFlareLauncher",
+      "Laserdesignator_pilotCamera"
+    };
+    magazines[] = 
+    {
+      "60Rnd_40mm_GPR_Tracer_Red_shells",
+      "60Rnd_40mm_GPR_Tracer_Red_shells",
+      "60Rnd_40mm_GPR_Tracer_Red_shells",
+      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
+      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
+      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
+      "168Rnd_CMFlare_Chaff_Magazine",
+      "168Rnd_CMFlare_Chaff_Magazine",
+      "Laserbatteries"
+    };
     hiddenSelectionsTextures[] =
     {
       FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
