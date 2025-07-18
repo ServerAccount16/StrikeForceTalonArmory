@@ -16,6 +16,7 @@ class CfgPatches {
 
 class CfgVehicles
 {
+
   class OPTRE_UNSC_falcon_armed_S;
   class OPTRE_UNSC_MH_144S_Falcon : OPTRE_UNSC_falcon_armed_S
   {
@@ -30,6 +31,8 @@ class CfgVehicles
     class CargoTurret_06;
     class CargoTurret_07;
   };
+
+  /// MH144 ///
   class SFT_MH144_S_Falcon : OPTRE_UNSC_MH_144S_Falcon
   {
     author = "Weber";
@@ -53,6 +56,7 @@ class CfgVehicles
       "168Rnd_CMFlare_Chaff_Magazine",
       "Laserbatteries"
     };
+
     hiddenSelectionsTextures[] =
     {
       FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
@@ -69,6 +73,8 @@ class CfgVehicles
         };
       };
     };
+
+
     class Turrets : Turrets
     {
       class LeftDoorGun  : LeftDoorGun
@@ -89,7 +95,17 @@ class CfgVehicles
       class CargoTurret_06 : CargoTurret_06{};
       class CargoTurret_07 : CargoTurret_07{};
     };
+
+    bodyFrictionCoef=0.55;
+    cyclicAsideForceCoef=3.4;
+    cyclicForwardForceCoef=1.35;
+    liftForceCoef=1.8;
+    maxSpeed=300;
+
   };
+
+    // AH144 DAP ///
+
   class OPTRE_UNSC_MH_144_Falcon;
   class OPTRE_UNSC_falcon_armed : OPTRE_UNSC_MH_144_Falcon
   {
@@ -105,7 +121,9 @@ class CfgVehicles
     class CargoTurret_07;
     class CargoTurret_08;
     class CargoTurret_09;
+    class RotorLibHelicopterProperties;
   };
+
   class SFT_AH144_Falcon : OPTRE_UNSC_falcon_armed
   {
     author = "Weber";
@@ -131,7 +149,7 @@ class CfgVehicles
     };
     hiddenSelectionsTextures[] =
     {
-      FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+      FALCON_HIDDENSELECTIONSTEXTURES_DAP
     };
     class textureSources 
     {
@@ -141,7 +159,7 @@ class CfgVehicles
         author = "Waylen ";
         textures [] =
         {
-          FALCON_HIDDENSELECTIONSTEXTURES_STANDARD
+          FALCON_HIDDENSELECTIONSTEXTURES_DAP
         };
       };
     };
@@ -157,13 +175,28 @@ class CfgVehicles
       class CargoTurret_08 : CargoTurret_08{};
       class CargoTurret_09 : CargoTurret_09{};
     };
+
+    bodyFrictionCoef=0.55;
+    cyclicAsideForceCoef=3.4;
+    cyclicForwardForceCoef=1.35;
+    liftForceCoef=1.8;
+    maxSpeed=300;
   };
+
+  /// UH144 Medevac ///
+
   class OPTRE_UNSC_falcon_medical;
   class SFT_UH144_M_Falcon : OPTRE_UNSC_falcon_medical
   {
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
-    displayName = "[SFT] UH-144M 'Falcon' [Medivac]";
+    displayName = "[SFT] UH-144M 'Falcon' [Medevac]";
     //FALCON_HIDDENSELECTIONSTEXTURES_MEDICAL
+
+    bodyFrictionCoef=0.55;
+    cyclicAsideForceCoef=3.4;
+    cyclicForwardForceCoef=1.35;
+    liftForceCoef=1.8;
+    maxSpeed=300;
   };
 };

@@ -44,8 +44,9 @@ ctrlMenu - addons/ui/config.cpp:66:7
 ctrlStaticPicture - addons/ui/config.cpp:67:7
 RscButtonMenuSteam - addons/ui/config.cpp:68:7
 RscButtonTextOnly - addons/ui/config.cpp:69:7
-LeftDoorGun - addons/aircraft/config.cpp:97:11
-RightDoorGun - addons/aircraft/config.cpp:98:11
+LeftDoorGun - addons/aircraft/config.cpp:107:11
+RightDoorGun - addons/aircraft/config.cpp:108:11
+RotorLibHelicopterProperties - addons/aircraft/config.cpp:118:11
 Mode_FullAuto - addons/weapons/config_weapons.hpp:18:7
 InventoryOpticsItem_Base_F - addons/weapons/config_weapons.hpp:22:9
 SemiAuto - addons/weapons/config_weapons.hpp:466:11
@@ -120,10 +121,6 @@ EventHandlers - addons/koslovics/config.cpp:1051:90
 EventHandlers - addons/koslovics/config.cpp:1055:68
 HeadgearItem - addons/gear/config.cpp:33:9
 CH252D_Helmet_dp - addons/gear/config.cpp:39:9
-TCP_M12_LAAG_M41_base - addons/motorized/config.cpp:351:8
-TCP_M12_LAAG_M41_base - addons/motorized/config.cpp:351:8
-LeftDoorGun - addons/aircraft/config.cpp:97:11
-RightDoorGun - addons/aircraft/config.cpp:98:11
-Turrets - addons/motorized/config.cpp:354:9
-CargoTurret_01 - addons/motorized/config.cpp:355:9
-MainTurret - addons/motorized/config.cpp:356:9
+LeftDoorGun - addons/aircraft/config.cpp:113:11
+RightDoorGun - addons/aircraft/config.cpp:114:11
+RotorLibHelicopterProperties - addons/aircraft/config.cpp:124:11
