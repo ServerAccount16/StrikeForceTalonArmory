@@ -1,331 +1,333 @@
-2025-07-18T02:20:05.879386Z TRACE ThreadId(01) version: 1.16.2
-2025-07-18T02:20:05.879564Z TRACE ThreadId(01) platform: windows
-2025-07-18T02:20:05.879583Z TRACE ThreadId(01) args: [
+2025-07-18T03:10:31.858564Z TRACE ThreadId(01) version: 1.16.2
+2025-07-18T03:10:31.858714Z TRACE ThreadId(01) platform: windows
+2025-07-18T03:10:31.858739Z TRACE ThreadId(01) args: [
     "F:\\strikeforcetalon_armory\\tools\\hemtt.exe",
     "build",
     "--no-bin",
 ]
-2025-07-18T02:20:05.880385Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory"
-2025-07-18T02:20:05.880401Z TRACE ThreadId(01) using project folder: "F:\\strikeforcetalon_armory"
-2025-07-18T02:20:05.880493Z TRACE ThreadId(01) using out folder: "F:\\strikeforcetalon_armory\\.hemttout"
-2025-07-18T02:20:05.880925Z TRACE ThreadId(01) using build folder: "F:\\strikeforcetalon_armory\\.hemttout\\build"
-2025-07-18T02:20:05.916874Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/factions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.917520Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/factions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.918708Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.919264Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.919915Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/equipment/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.920597Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.921147Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/mission_assets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.921338Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/mission_assets/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.922460Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/turrets/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.923044Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/turrets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.924100Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/ui/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.924276Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/ui/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.925895Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.927776Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.928508Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/motorized/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.929082Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/motorized/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.929840Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/koslovics/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.930021Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/koslovics/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.931260Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/gear/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.931967Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/gear/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.938801Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/functions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.939385Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/functions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.940323Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/audio/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.940993Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/audio/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.941467Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/sft_faction/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.942133Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/sft_faction/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.942756Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/items/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.943325Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/items/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.944044Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/supply_pods/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.944581Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/supply_pods/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.945376Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/aircraft/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.945705Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/aircraft/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
-2025-07-18T02:20:05.950954Z TRACE ThreadId(01) reading version from project.toml
-2025-07-18T02:20:05.951208Z  INFO ThreadId(01) Config loaded for StrikeForce Talon Armory 1.0.0.0
-2025-07-18T02:20:05.951314Z TRACE ThreadId(01) Scanning F:\strikeforcetalon_armory\addons for addons
-2025-07-18T02:20:05.955450Z  INFO ThreadId(01) Creating `build` version
-2025-07-18T02:20:05.955473Z TRACE ThreadId(01) phase: init (BOM Check) (start)
-2025-07-18T02:20:05.955484Z TRACE ThreadId(01) phase: init (BOM Check) (done)
-2025-07-18T02:20:05.955487Z TRACE ThreadId(01) phase: init (Fine New Line Check) (start)
-2025-07-18T02:20:05.955491Z TRACE ThreadId(01) phase: init (Fine New Line Check) (done)
-2025-07-18T02:20:05.955497Z TRACE ThreadId(01) phase: init (Hooks) (start)
-2025-07-18T02:20:05.955593Z TRACE ThreadId(01) no hooks folder
-2025-07-18T02:20:05.955599Z TRACE ThreadId(01) phase: init (Hooks) (done)
-2025-07-18T02:20:05.955603Z TRACE ThreadId(01) phase: init (Files) (start)
-2025-07-18T02:20:05.955608Z TRACE ThreadId(01) phase: init (Files) (done)
-2025-07-18T02:20:05.955611Z TRACE ThreadId(01) phase: init (Rapifier) (start)
-2025-07-18T02:20:05.955615Z TRACE ThreadId(01) phase: init (Rapifier) (done)
-2025-07-18T02:20:05.955618Z TRACE ThreadId(01) phase: init (SQF) (start)
-2025-07-18T02:20:06.501023Z TRACE ThreadId(01) phase: init (SQF) (done)
-2025-07-18T02:20:06.501041Z TRACE ThreadId(01) phase: init (Stringtables) (start)
-2025-07-18T02:20:06.501044Z TRACE ThreadId(01) phase: init (Stringtables) (done)
-2025-07-18T02:20:06.501050Z TRACE ThreadId(01) phase: check (BOM Check) (start)
-2025-07-18T02:20:06.506654Z TRACE ThreadId(01) phase: check (BOM Check) (done)
-2025-07-18T02:20:06.506665Z TRACE ThreadId(01) phase: check (Fine New Line Check) (start)
-2025-07-18T02:20:06.511623Z TRACE ThreadId(01) phase: check (Fine New Line Check) (done)
-2025-07-18T02:20:06.511636Z TRACE ThreadId(01) phase: check (Hooks) (start)
-2025-07-18T02:20:06.511640Z TRACE ThreadId(01) phase: check (Hooks) (done)
-2025-07-18T02:20:06.511643Z TRACE ThreadId(01) phase: check (Files) (start)
-2025-07-18T02:20:06.511647Z TRACE ThreadId(01) phase: check (Files) (done)
-2025-07-18T02:20:06.511649Z TRACE ThreadId(01) phase: check (Rapifier) (start)
-2025-07-18T02:20:06.511714Z TRACE ThreadId(01) phase: check (Rapifier) (done)
-2025-07-18T02:20:06.511721Z TRACE ThreadId(01) phase: check (SQF) (start)
-2025-07-18T02:20:06.511791Z TRACE ThreadId(01) phase: check (SQF) (done)
-2025-07-18T02:20:06.511796Z TRACE ThreadId(01) phase: check (Stringtables) (start)
-2025-07-18T02:20:06.511821Z TRACE ThreadId(01) phase: check (Stringtables) (done)
-2025-07-18T02:20:06.511825Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
-2025-07-18T02:20:06.511828Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
-2025-07-18T02:20:06.511831Z TRACE ThreadId(01) phase: pre_build (Fine New Line Check) (start)
-2025-07-18T02:20:06.511834Z TRACE ThreadId(01) phase: pre_build (Fine New Line Check) (done)
-2025-07-18T02:20:06.511836Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
-2025-07-18T02:20:06.511842Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
-2025-07-18T02:20:06.511845Z TRACE ThreadId(01) phase: pre_build (Files) (start)
-2025-07-18T02:20:06.511848Z TRACE ThreadId(01) phase: pre_build (Files) (done)
-2025-07-18T02:20:06.511850Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
-2025-07-18T02:20:07.549255Z  INFO ThreadId(01) Rapified 16 addon configs
-2025-07-18T02:20:07.549340Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
-2025-07-18T02:20:07.549347Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
-2025-07-18T02:20:07.603259Z TRACE ThreadId(01) sqf compiling /addons/functions/mainMenuVideo.sqf
-2025-07-18T02:20:07.605411Z  INFO ThreadId(01) Compiled 1 sqf files
-2025-07-18T02:20:07.605470Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
-2025-07-18T02:20:07.605475Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
-2025-07-18T02:20:07.628834Z  INFO ThreadId(01) Checked 0 stringtables
-2025-07-18T02:20:07.628907Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
-2025-07-18T02:20:07.628925Z TRACE ThreadId(01) phase: build (start)
-2025-07-18T02:20:07.635578Z DEBUG ThreadId(01) creating "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons"
-2025-07-18T02:20:07.635730Z DEBUG ThreadId(01) building "addons/aircraft" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_aircraft.pbo"
-2025-07-18T02:20:07.641168Z TRACE ThreadId(01) adding file "config_weapons.hpp"
-2025-07-18T02:20:07.641494Z TRACE ThreadId(01) adding file "config_magazines.hpp"
-2025-07-18T02:20:07.641945Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.642255Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.643567Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_main_co.paa"
-2025-07-18T02:20:07.643902Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_interior_co.paa"
-2025-07-18T02:20:07.644533Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_attachments_co.paa"
-2025-07-18T02:20:07.644931Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_decal_ca.paa"
-2025-07-18T02:20:07.645465Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_glass_ca.paa"
-2025-07-18T02:20:07.659532Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.659552Z DEBUG ThreadId(01) building "addons/audio" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_audio.pbo"
-2025-07-18T02:20:07.660808Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.661034Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.662662Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.662675Z DEBUG ThreadId(01) building "addons/equipment" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_equipment.pbo"
-2025-07-18T02:20:07.663983Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.665200Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.666038Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.666049Z DEBUG ThreadId(01) building "addons/factions" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_factions.pbo"
-2025-07-18T02:20:07.667575Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.667959Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.668653Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.668662Z DEBUG ThreadId(01) building "addons/functions" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_functions.pbo"
-2025-07-18T02:20:07.669916Z TRACE ThreadId(01) adding file "mainMenuVideo.sqf"
-2025-07-18T02:20:07.670268Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.670453Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.670992Z TRACE ThreadId(01) adding file "mainMenuVideo.sqfc"
-2025-07-18T02:20:07.671775Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.671786Z DEBUG ThreadId(01) building "addons/gear" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_gear.pbo"
-2025-07-18T02:20:07.678585Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.678765Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.679617Z TRACE ThreadId(01) adding file "config_xtdgearmodels.hpp"
-2025-07-18T02:20:07.680957Z TRACE ThreadId(01) adding file "backpack\\SFT_rucksack_CO.paa"
-2025-07-18T02:20:07.681286Z TRACE ThreadId(01) adding file "backpack\\SFT_rucksackCorpsman_CO.paa"
-2025-07-18T02:20:07.682219Z TRACE ThreadId(01) adding file "armor\\vest\\EAGLE\\shoulders\\SFT_marksmanShoulder_M52D_co.paa"
-2025-07-18T02:20:07.682553Z TRACE ThreadId(01) adding file "armor\\vest\\EAGLE\\shoulders\\SFT_standardShoulder_M52D_co.paa"
-2025-07-18T02:20:07.682940Z TRACE ThreadId(01) adding file "armor\\vest\\EAGLE\\shoulders\\SFT_cqbShoulder_M52d_co.paa"
-2025-07-18T02:20:07.683278Z TRACE ThreadId(01) adding file "armor\\vest\\base\\SFT_Standard_M52D_co.paa"
-2025-07-18T02:20:07.683639Z TRACE ThreadId(01) adding file "armor\\vest\\base\\PRIVATE_SFT_Standard_M52D_co.paa"
-2025-07-18T02:20:07.683977Z TRACE ThreadId(01) adding file "helmets\\SFT_Standard_CH252D_CO.paa"
-2025-07-18T02:20:07.684296Z TRACE ThreadId(01) adding file "bdu\\SFT_bduLowerArmor_CO.paa"
-2025-07-18T02:20:07.700068Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.700087Z DEBUG ThreadId(01) building "addons/items" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_items.pbo"
-2025-07-18T02:20:07.701196Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.702334Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.703371Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.703383Z DEBUG ThreadId(01) building "addons/koslovics" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_koslovics.pbo"
-2025-07-18T02:20:07.705260Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.705664Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.706726Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.706736Z DEBUG ThreadId(01) building "addons/main" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_main.pbo"
-2025-07-18T02:20:07.708236Z TRACE ThreadId(01) adding file "script_macros.hpp"
-2025-07-18T02:20:07.708439Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.708779Z TRACE ThreadId(01) adding file "script_mod.hpp"
-2025-07-18T02:20:07.709680Z TRACE ThreadId(01) adding file "script_version.hpp"
-2025-07-18T02:20:07.710016Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-07-18T02:20:07.711163Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.711172Z DEBUG ThreadId(01) building "addons/mission_assets" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_mission_assets.pbo"
-2025-07-18T02:20:07.712125Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.712302Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.713777Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.713787Z DEBUG ThreadId(01) building "addons/motorized" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_motorized.pbo"
-2025-07-18T02:20:07.715317Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.715491Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.716378Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.716387Z DEBUG ThreadId(01) building "addons/sft_faction" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_sft_faction.pbo"
-2025-07-18T02:20:07.717881Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.718056Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.718829Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.718838Z DEBUG ThreadId(01) building "addons/supply_pods" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_supply_pods.pbo"
-2025-07-18T02:20:07.719507Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.719671Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.721231Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.721242Z DEBUG ThreadId(01) building "addons/turrets" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_turrets.pbo"
-2025-07-18T02:20:07.722616Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.722954Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.723668Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.723676Z DEBUG ThreadId(01) building "addons/ui" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_ui.pbo"
-2025-07-18T02:20:07.725124Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.725283Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.726394Z TRACE ThreadId(01) adding file "images\\logo.paa"
-2025-07-18T02:20:07.727661Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
-2025-07-18T02:20:07.727672Z DEBUG ThreadId(01) building "addons/weapons" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_weapons.pbo"
-2025-07-18T02:20:07.729819Z TRACE ThreadId(01) adding file "config_ammo.hpp"
-2025-07-18T02:20:07.730710Z TRACE ThreadId(01) adding file "config_macros.hpp"
-2025-07-18T02:20:07.731049Z TRACE ThreadId(01) adding file "config_weapons.hpp"
-2025-07-18T02:20:07.731377Z TRACE ThreadId(01) adding file "config_magazines.hpp"
-2025-07-18T02:20:07.731701Z TRACE ThreadId(01) adding file "config.bin"
-2025-07-18T02:20:07.731869Z TRACE ThreadId(01) adding file "config_vehicles.hpp"
-2025-07-18T02:20:07.732269Z TRACE ThreadId(01) adding file "config_magazinewells.hpp"
-2025-07-18T02:20:07.733788Z  INFO ThreadId(01) Built 16 PBOs
-2025-07-18T02:20:07.733804Z TRACE ThreadId(01) phase: build (done)
-2025-07-18T02:20:07.733815Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
-2025-07-18T02:20:07.733819Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
-2025-07-18T02:20:07.733822Z TRACE ThreadId(01) phase: post_build (Fine New Line Check) (start)
-2025-07-18T02:20:07.733825Z TRACE ThreadId(01) phase: post_build (Fine New Line Check) (done)
-2025-07-18T02:20:07.733828Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
-2025-07-18T02:20:07.733831Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
-2025-07-18T02:20:07.733834Z TRACE ThreadId(01) phase: post_build (Files) (start)
-2025-07-18T02:20:08.299854Z DEBUG ThreadId(01) copying "/ReadMe.md" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\ReadMe.md"
-2025-07-18T02:20:08.301563Z DEBUG ThreadId(01) copying "/logo.paa" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\logo.paa"
-2025-07-18T02:20:08.302728Z DEBUG ThreadId(01) copying "/mod.cpp" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\mod.cpp"
-2025-07-18T02:20:08.304390Z DEBUG ThreadId(01) copying "/LICENSE" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\LICENSE"
-2025-07-18T02:20:08.306217Z  INFO ThreadId(01) Copied 4 files
-2025-07-18T02:20:08.306241Z TRACE ThreadId(01) phase: post_build (Files) (done)
-2025-07-18T02:20:08.306248Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
-2025-07-18T02:20:08.306252Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
-2025-07-18T02:20:08.306256Z TRACE ThreadId(01) phase: post_build (SQF) (start)
-2025-07-18T02:20:08.306278Z TRACE ThreadId(01) phase: post_build (SQF) (done)
-2025-07-18T02:20:08.306286Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
-2025-07-18T02:20:08.306290Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
-2025-07-18T02:20:08.557818Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
-2025-07-18T02:20:08.559398Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559410Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559414Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559416Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559419Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559422Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559425Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559427Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559430Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559433Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559435Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559438Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559441Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559443Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559446Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559449Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559452Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559459Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559464Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559467Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559469Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559472Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559475Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559479Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559481Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559484Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559487Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559491Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559497Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559504Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559507Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559510Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559513Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559516Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559519Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559522Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559525Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559527Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559530Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559533Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559536Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559539Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559541Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559544Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559546Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559549Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559551Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559554Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559556Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559559Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559562Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559564Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559567Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559569Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559572Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559574Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559577Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559580Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559582Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559585Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559591Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559595Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559598Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559601Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559604Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559606Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.559609Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560433Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560446Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560450Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560453Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560455Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560458Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560461Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560464Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560467Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560469Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560472Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560475Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560479Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560482Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560484Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560487Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560490Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560493Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560495Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560498Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560501Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560504Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560507Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560509Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560512Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560515Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560518Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560520Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560523Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560526Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560529Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560531Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560534Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560538Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560541Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560544Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560552Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560557Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560560Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560563Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560566Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560570Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560573Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560576Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560579Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560582Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560585Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560588Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560590Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560593Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560596Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560598Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560601Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.560603Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
-2025-07-18T02:20:08.561305Z TRACE ThreadId(01) wrote 54 ci annotations to .hemttout/ci_annotations.txt
+2025-07-18T03:10:31.859689Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory"
+2025-07-18T03:10:31.859737Z TRACE ThreadId(01) using project folder: "F:\\strikeforcetalon_armory"
+2025-07-18T03:10:31.859919Z TRACE ThreadId(01) using out folder: "F:\\strikeforcetalon_armory\\.hemttout"
+2025-07-18T03:10:31.860511Z TRACE ThreadId(01) using build folder: "F:\\strikeforcetalon_armory\\.hemttout\\build"
+2025-07-18T03:10:31.922124Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/gear/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.922404Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/gear/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.931782Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/sft_faction/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.932448Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/sft_faction/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.934322Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/koslovics/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.935802Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/koslovics/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.937058Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/functions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.937377Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/functions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.939242Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/equipment/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.940260Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.941879Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/supply_pods/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.943014Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/supply_pods/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.944101Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/motorized/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.945186Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/motorized/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.946432Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/items/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.947057Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/items/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.948650Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/factions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.949648Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/factions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.951437Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/audio/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.951805Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/audio/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.954129Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.955743Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.956756Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/ui/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.958198Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/ui/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.960327Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/turrets/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.961410Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/turrets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.962135Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/mission_assets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.962640Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/mission_assets/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.965598Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/aircraft/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.966234Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/aircraft/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.975117Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.977503Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ryan\\AppData\\Local\\Temp\\hemtt\\strikeforcetalon_armory\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\strikeforcetalon_armory" } } } } } }] } } }
+2025-07-18T03:10:31.978152Z TRACE ThreadId(01) reading version from project.toml
+2025-07-18T03:10:31.978713Z  INFO ThreadId(01) Config loaded for StrikeForce Talon Armory 1.0.0.0
+2025-07-18T03:10:31.978880Z TRACE ThreadId(01) Scanning F:\strikeforcetalon_armory\addons for addons
+2025-07-18T03:10:31.986712Z  INFO ThreadId(01) Creating `build` version
+2025-07-18T03:10:31.986738Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-07-18T03:10:31.986754Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-07-18T03:10:31.986762Z TRACE ThreadId(01) phase: init (Fine New Line Check) (start)
+2025-07-18T03:10:31.986766Z TRACE ThreadId(01) phase: init (Fine New Line Check) (done)
+2025-07-18T03:10:31.986774Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-07-18T03:10:31.986873Z TRACE ThreadId(01) no hooks folder
+2025-07-18T03:10:31.986880Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-07-18T03:10:31.986885Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-07-18T03:10:31.986891Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-07-18T03:10:31.986895Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-07-18T03:10:31.986898Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-07-18T03:10:31.986903Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-07-18T03:10:32.584056Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-07-18T03:10:32.584087Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-07-18T03:10:32.584093Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-07-18T03:10:32.584104Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-07-18T03:10:32.589891Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-07-18T03:10:32.589909Z TRACE ThreadId(01) phase: check (Fine New Line Check) (start)
+2025-07-18T03:10:32.595185Z TRACE ThreadId(01) phase: check (Fine New Line Check) (done)
+2025-07-18T03:10:32.595197Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-07-18T03:10:32.595201Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-07-18T03:10:32.595204Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-07-18T03:10:32.595207Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-07-18T03:10:32.595210Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-07-18T03:10:32.595267Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-07-18T03:10:32.595274Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-07-18T03:10:32.595334Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-07-18T03:10:32.595337Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-07-18T03:10:32.595362Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-07-18T03:10:32.595366Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-07-18T03:10:32.595369Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-07-18T03:10:32.595372Z TRACE ThreadId(01) phase: pre_build (Fine New Line Check) (start)
+2025-07-18T03:10:32.595374Z TRACE ThreadId(01) phase: pre_build (Fine New Line Check) (done)
+2025-07-18T03:10:32.595377Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-07-18T03:10:32.595383Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-07-18T03:10:32.595386Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-07-18T03:10:32.595389Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-07-18T03:10:32.595391Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-07-18T03:10:33.646163Z  INFO ThreadId(01) Rapified 16 addon configs
+2025-07-18T03:10:33.646252Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-07-18T03:10:33.646261Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-07-18T03:10:33.703277Z TRACE ThreadId(01) sqf compiling /addons/functions/mainMenuVideo.sqf
+2025-07-18T03:10:33.705426Z  INFO ThreadId(01) Compiled 1 sqf files
+2025-07-18T03:10:33.705492Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-07-18T03:10:33.705498Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-07-18T03:10:33.733568Z  INFO ThreadId(01) Checked 0 stringtables
+2025-07-18T03:10:33.733595Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-07-18T03:10:33.733604Z TRACE ThreadId(01) phase: build (start)
+2025-07-18T03:10:33.740230Z DEBUG ThreadId(01) creating "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons"
+2025-07-18T03:10:33.740450Z DEBUG ThreadId(01) building "addons/aircraft" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_aircraft.pbo"
+2025-07-18T03:10:33.746944Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.747342Z TRACE ThreadId(01) adding file "config_weapons.hpp"
+2025-07-18T03:10:33.748321Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.748911Z TRACE ThreadId(01) adding file "config_magazines.hpp"
+2025-07-18T03:10:33.750535Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_decal_ca.paa"
+2025-07-18T03:10:33.751072Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_main_co.paa"
+2025-07-18T03:10:33.751427Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_interior_co.paa"
+2025-07-18T03:10:33.751935Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_glass_ca.paa"
+2025-07-18T03:10:33.752273Z TRACE ThreadId(01) adding file "falcon\\data\\standard\\falcon_attachments_co.paa"
+2025-07-18T03:10:33.765678Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.765705Z DEBUG ThreadId(01) building "addons/audio" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_audio.pbo"
+2025-07-18T03:10:33.767913Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.768091Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.768821Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.768831Z DEBUG ThreadId(01) building "addons/equipment" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_equipment.pbo"
+2025-07-18T03:10:33.769681Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.769873Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.771733Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.771743Z DEBUG ThreadId(01) building "addons/factions" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_factions.pbo"
+2025-07-18T03:10:33.772758Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.773022Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.774516Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.774525Z DEBUG ThreadId(01) building "addons/functions" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_functions.pbo"
+2025-07-18T03:10:33.775638Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.775969Z TRACE ThreadId(01) adding file "mainMenuVideo.sqf"
+2025-07-18T03:10:33.776137Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.776148Z TRACE ThreadId(01) adding file "mainMenuVideo.sqfc"
+2025-07-18T03:10:33.777613Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.777622Z DEBUG ThreadId(01) building "addons/gear" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_gear.pbo"
+2025-07-18T03:10:33.785762Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.786094Z TRACE ThreadId(01) adding file "config_xtdgearmodels.hpp"
+2025-07-18T03:10:33.786411Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.786582Z TRACE ThreadId(01) adding file "backpack\\SFT_rucksackCorpsman_CO.paa"
+2025-07-18T03:10:33.786909Z TRACE ThreadId(01) adding file "backpack\\SFT_rucksack_CO.paa"
+2025-07-18T03:10:33.787977Z TRACE ThreadId(01) adding file "armor\\vest\\EAGLE\\shoulders\\SFT_standardShoulder_M52D_co.paa"
+2025-07-18T03:10:33.788329Z TRACE ThreadId(01) adding file "armor\\vest\\EAGLE\\shoulders\\SFT_cqbShoulder_M52d_co.paa"
+2025-07-18T03:10:33.788656Z TRACE ThreadId(01) adding file "armor\\vest\\EAGLE\\shoulders\\SFT_marksmanShoulder_M52D_co.paa"
+2025-07-18T03:10:33.788989Z TRACE ThreadId(01) adding file "armor\\vest\\base\\SFT_Standard_M52D_co.paa"
+2025-07-18T03:10:33.789319Z TRACE ThreadId(01) adding file "armor\\vest\\base\\PRIVATE_SFT_Standard_M52D_co.paa"
+2025-07-18T03:10:33.789642Z TRACE ThreadId(01) adding file "helmets\\SFT_Standard_CH252D_CO.paa"
+2025-07-18T03:10:33.789968Z TRACE ThreadId(01) adding file "bdu\\SFT_bduLowerArmor_CO.paa"
+2025-07-18T03:10:33.804283Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.804302Z DEBUG ThreadId(01) building "addons/items" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_items.pbo"
+2025-07-18T03:10:33.806096Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.806349Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.807481Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.807490Z DEBUG ThreadId(01) building "addons/koslovics" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_koslovics.pbo"
+2025-07-18T03:10:33.808231Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.808561Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.810355Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.810364Z DEBUG ThreadId(01) building "addons/main" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_main.pbo"
+2025-07-18T03:10:33.811773Z TRACE ThreadId(01) adding file "script_version.hpp"
+2025-07-18T03:10:33.812107Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2025-07-18T03:10:33.813153Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-07-18T03:10:33.813472Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-07-18T03:10:33.813637Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.814401Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.814410Z DEBUG ThreadId(01) building "addons/mission_assets" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_mission_assets.pbo"
+2025-07-18T03:10:33.815563Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.816326Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.817199Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.817207Z DEBUG ThreadId(01) building "addons/motorized" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_motorized.pbo"
+2025-07-18T03:10:33.818769Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.818939Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.819997Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.820005Z DEBUG ThreadId(01) building "addons/sft_faction" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_sft_faction.pbo"
+2025-07-18T03:10:33.820915Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.821095Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.822379Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.822388Z DEBUG ThreadId(01) building "addons/supply_pods" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_supply_pods.pbo"
+2025-07-18T03:10:33.823080Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.824042Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.825664Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.825682Z DEBUG ThreadId(01) building "addons/turrets" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_turrets.pbo"
+2025-07-18T03:10:33.827542Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.827992Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.828706Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.828716Z DEBUG ThreadId(01) building "addons/ui" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_ui.pbo"
+2025-07-18T03:10:33.830123Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.831003Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.831481Z TRACE ThreadId(01) adding file "images\\logo.paa"
+2025-07-18T03:10:33.832717Z DEBUG ThreadId(01) "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons" already exists
+2025-07-18T03:10:33.832727Z DEBUG ThreadId(01) building "addons/weapons" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\addons\\SFT_weapons.pbo"
+2025-07-18T03:10:33.835313Z TRACE ThreadId(01) adding file "config_ammo.hpp"
+2025-07-18T03:10:33.835722Z TRACE ThreadId(01) adding file "config_macros.hpp"
+2025-07-18T03:10:33.836067Z TRACE ThreadId(01) adding file "config_magazinewells.hpp"
+2025-07-18T03:10:33.836396Z TRACE ThreadId(01) adding file "config_magazines.hpp"
+2025-07-18T03:10:33.836565Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-18T03:10:33.836739Z TRACE ThreadId(01) adding file "config_vehicles.hpp"
+2025-07-18T03:10:33.837067Z TRACE ThreadId(01) adding file "config_weapons.hpp"
+2025-07-18T03:10:33.839067Z  INFO ThreadId(01) Built 16 PBOs
+2025-07-18T03:10:33.839102Z TRACE ThreadId(01) phase: build (done)
+2025-07-18T03:10:33.839114Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-07-18T03:10:33.839119Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-07-18T03:10:33.839122Z TRACE ThreadId(01) phase: post_build (Fine New Line Check) (start)
+2025-07-18T03:10:33.839125Z TRACE ThreadId(01) phase: post_build (Fine New Line Check) (done)
+2025-07-18T03:10:33.839129Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-07-18T03:10:33.839133Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-07-18T03:10:33.839136Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-07-18T03:10:34.431165Z DEBUG ThreadId(01) copying "/LICENSE" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\LICENSE"
+2025-07-18T03:10:34.433655Z DEBUG ThreadId(01) copying "/mod.cpp" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\mod.cpp"
+2025-07-18T03:10:34.435588Z DEBUG ThreadId(01) copying "/logo.paa" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\logo.paa"
+2025-07-18T03:10:34.437417Z DEBUG ThreadId(01) copying "/ReadMe.md" => "F:\\strikeforcetalon_armory\\.hemttout\\build\\ReadMe.md"
+2025-07-18T03:10:34.440046Z  INFO ThreadId(01) Copied 4 files
+2025-07-18T03:10:34.440072Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-07-18T03:10:34.440077Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-07-18T03:10:34.440080Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-07-18T03:10:34.440083Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-07-18T03:10:34.440091Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-07-18T03:10:34.440094Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-07-18T03:10:34.440097Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-07-18T03:10:34.832107Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-07-18T03:10:34.835939Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835960Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835964Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835968Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835971Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835974Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835977Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835981Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835984Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835988Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.835994Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836000Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836007Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836015Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836021Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836030Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836039Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836074Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836106Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836120Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836129Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836139Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836144Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836147Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836150Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836153Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836156Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836159Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836162Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836165Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836168Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836171Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836174Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836177Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836180Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836183Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836185Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836188Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836191Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836194Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836197Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836200Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836202Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836205Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836208Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836211Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836214Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836220Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836223Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836226Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836229Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836234Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836237Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836240Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836243Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836246Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836249Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836252Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836255Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836258Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836265Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836271Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836275Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836279Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836283Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836287Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836291Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836294Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.836298Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837418Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837425Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837428Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837430Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837433Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837436Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837439Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837441Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837444Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837447Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837449Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837452Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837454Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837457Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837460Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837462Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837465Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837467Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837470Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837474Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837478Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837482Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837486Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837489Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837493Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837497Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837501Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837504Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837508Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837512Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837515Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837519Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837523Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837527Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837532Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837538Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837542Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837545Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837549Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837553Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837556Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837560Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837564Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837569Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837572Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837577Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837580Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837584Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837588Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837592Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837596Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837600Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837604Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.837608Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-07-18T03:10:34.838253Z TRACE ThreadId(01) wrote 86 ci annotations to .hemttout/ci_annotations.txt
