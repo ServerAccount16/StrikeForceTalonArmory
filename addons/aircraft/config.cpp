@@ -331,5 +331,26 @@ class CfgVehicles
                                                                                                         
 		};                                                                                                  
   };
-
+  class DMNS_SOEIV;
+  class SFT_SOEIV: DMNS_SOEIV
+  {
+    author = "Weber";
+    displayName = "[SFT] SOEIV Pod";
+    faction = "SFT_BLUE_SFT_F";
+    hiddenSelectionsTextures[] =
+		{
+			"\x\strikeforcetalon_armory\addons\sft_aircraft\soeiv\H2A_Pod_Body_co.paa",
+			"\x\strikeforcetalon_armory\addons\sft_aircraft\soeiv\H2A_Pod_Chute_co.paa",
+			"\x\strikeforcetalon_armory\addons\sft_aircraft\soeiv\H2A_Pod_Door_co.paa",
+			"\x\strikeforcetalon_armory\addons\sft_aircraft\soeiv\H2A_Pod_Flaps_co.paa",
+			"\x\strikeforcetalon_armory\addons\sft_aircraft\soeiv\H2A_Pod_Seat_co.paa",
+			"\x\strikeforcetalon_armory\addons\sft_aircraft\soeiv\H2A_Pod_Door_Lift_co.paa",
+			"#(argb,256,512,1)r2t(rendertarget0,1.0)",
+			"#(argb,256,512,1)r2t(rendertarget1,1.0)",
+			"#(argb,256,512,1)r2t(rendertarget2,1.0)",
+			"#(argb,256,512,1)r2t(rendertarget3,1.0)",
+			"#(argb,256,512,1)r2t(rendertarget4,1.0)",
+			"#(argb,256,512,1)r2t(rendertarget5,1.0)"
+		};
+  };
 };

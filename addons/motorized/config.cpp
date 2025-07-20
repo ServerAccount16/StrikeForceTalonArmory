@@ -8,7 +8,7 @@ class CfgPatches {
     requiredVersion = 0.1;
   };
 };
-
+/*
 class CfgVehicles
 {
 	class TCP_B_M12_F;
@@ -700,4 +700,4 @@ class CfgVehicles
 			};
 		};
 	};
-};
+};*/
