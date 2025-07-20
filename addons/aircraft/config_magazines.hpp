@@ -9,4 +9,11 @@ class cfgMagazines
     mass = 100;
     tracersEvery=3;
   };
+
+  class OPTRE_2000Rnd_20mm_HEIAP;
+  class SFT_2000rnd_20mm: OPTRE_2000Rnd_20mm_HEIAP
+  {
+    ammo = "SFT_20mm_HEIAP";
+  };
+
 };

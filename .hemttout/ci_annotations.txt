@@ -1,3 +1,12 @@
+281||281||15||25||notice||Math could be unquoted||reducible to: 0.25||/addons/aircraft/config.cpp
+282||282||14||24||notice||Math could be unquoted||reducible to: 0.25||/addons/aircraft/config.cpp
+283||283||14||24||notice||Math could be unquoted||reducible to: 0.25||/addons/aircraft/config.cpp
+302||302||15||24||notice||Math could be unquoted||reducible to: 0.05||/addons/aircraft/config.cpp
+303||303||14||23||notice||Math could be unquoted||reducible to: 0.05||/addons/aircraft/config.cpp
+304||304||14||23||notice||Math could be unquoted||reducible to: 0.05||/addons/aircraft/config.cpp
+310||310||15||24||notice||Math could be unquoted||reducible to: 0.016666668||/addons/aircraft/config.cpp
+311||311||14||23||notice||Math could be unquoted||reducible to: 0.016666668||/addons/aircraft/config.cpp
+312||312||14||23||notice||Math could be unquoted||reducible to: 0.016666668||/addons/aircraft/config.cpp
 159||159||17||70||warning||a property that references a file is missing a file extension||missing file extension||/addons/motorized/config.cpp
 165||165||17||64||warning||a property that references a file is missing a file extension||missing file extension||/addons/motorized/config.cpp
 171||171||17||70||warning||a property that references a file is missing a file extension||missing file extension||/addons/motorized/config.cpp
