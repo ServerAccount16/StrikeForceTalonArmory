@@ -531,411 +531,131 @@ class CfgGroups {
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
-
+    class EventHandlers;
     class O_Soldier_F;
-    class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
-    class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_lite_F;
-    class O_Soldier_lite_F_OCimport_01 : O_Soldier_lite_F { scope = 0; class EventHandlers; };
-    class O_Soldier_lite_F_OCimport_02 : O_Soldier_lite_F_OCimport_01 { class EventHandlers; };
 
     class O_officer_F;
-    class O_officer_F_OCimport_01 : O_officer_F { scope = 0; class EventHandlers; };
-    class O_officer_F_OCimport_02 : O_officer_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_GL_F;
-    class O_Soldier_GL_F_OCimport_01 : O_Soldier_GL_F { scope = 0; class EventHandlers; };
-    class O_Soldier_GL_F_OCimport_02 : O_Soldier_GL_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_AR_F;
-    class O_Soldier_AR_F_OCimport_01 : O_Soldier_AR_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AR_F_OCimport_02 : O_Soldier_AR_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_SL_F;
-    class O_Soldier_SL_F_OCimport_01 : O_Soldier_SL_F { scope = 0; class EventHandlers; };
-    class O_Soldier_SL_F_OCimport_02 : O_Soldier_SL_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_TL_F;
-    class O_Soldier_TL_F_OCimport_01 : O_Soldier_TL_F { scope = 0; class EventHandlers; };
-    class O_Soldier_TL_F_OCimport_02 : O_Soldier_TL_F_OCimport_01 { class EventHandlers; };
 
     class O_soldier_M_F;
-    class O_soldier_M_F_OCimport_01 : O_soldier_M_F { scope = 0; class EventHandlers; };
-    class O_soldier_M_F_OCimport_02 : O_soldier_M_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_LAT_F;
-    class O_Soldier_LAT_F_OCimport_01 : O_Soldier_LAT_F { scope = 0; class EventHandlers; };
-    class O_Soldier_LAT_F_OCimport_02 : O_Soldier_LAT_F_OCimport_01 { class EventHandlers; };
 
     class O_medic_F;
-    class O_medic_F_OCimport_01 : O_medic_F { scope = 0; class EventHandlers; };
-    class O_medic_F_OCimport_02 : O_medic_F_OCimport_01 { class EventHandlers; };
 
     class O_soldier_repair_F;
-    class O_soldier_repair_F_OCimport_01 : O_soldier_repair_F { scope = 0; class EventHandlers; };
-    class O_soldier_repair_F_OCimport_02 : O_soldier_repair_F_OCimport_01 { class EventHandlers; };
 
     class O_soldier_exp_F;
-    class O_soldier_exp_F_OCimport_01 : O_soldier_exp_F { scope = 0; class EventHandlers; };
-    class O_soldier_exp_F_OCimport_02 : O_soldier_exp_F_OCimport_01 { class EventHandlers; };
 
     class O_helipilot_F;
-    class O_helipilot_F_OCimport_01 : O_helipilot_F { scope = 0; class EventHandlers; };
-    class O_helipilot_F_OCimport_02 : O_helipilot_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_A_F;
-    class O_Soldier_A_F_OCimport_01 : O_Soldier_A_F { scope = 0; class EventHandlers; };
-    class O_Soldier_A_F_OCimport_02 : O_Soldier_A_F_OCimport_01 { class EventHandlers; };
-
     class O_Soldier_AT_F;
-    class O_Soldier_AT_F_OCimport_01 : O_Soldier_AT_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AT_F_OCimport_02 : O_Soldier_AT_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_AA_F;
-    class O_Soldier_AA_F_OCimport_01 : O_Soldier_AA_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AA_F_OCimport_02 : O_Soldier_AA_F_OCimport_01 { class EventHandlers; };
 
     class O_engineer_F;
-    class O_engineer_F_OCimport_01 : O_engineer_F { scope = 0; class EventHandlers; };
-    class O_engineer_F_OCimport_02 : O_engineer_F_OCimport_01 { class EventHandlers; };
 
     class O_crew_F;
-    class O_crew_F_OCimport_01 : O_crew_F { scope = 0; class EventHandlers; };
-    class O_crew_F_OCimport_02 : O_crew_F_OCimport_01 { class EventHandlers; };
 
     class O_Pilot_F;
-    class O_Pilot_F_OCimport_01 : O_Pilot_F { scope = 0; class EventHandlers; };
-    class O_Pilot_F_OCimport_02 : O_Pilot_F_OCimport_01 { class EventHandlers; };
 
     class O_helicrew_F;
-    class O_helicrew_F_OCimport_01 : O_helicrew_F { scope = 0; class EventHandlers; };
-    class O_helicrew_F_OCimport_02 : O_helicrew_F_OCimport_01 { class EventHandlers; };
 
     class O_soldier_UAV_F;
-    class O_soldier_UAV_F_OCimport_01 : O_soldier_UAV_F { scope = 0; class EventHandlers; };
-    class O_soldier_UAV_F_OCimport_02 : O_soldier_UAV_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_AAR_F;
-    class O_Soldier_AAR_F_OCimport_01 : O_Soldier_AAR_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AAR_F_OCimport_02 : O_Soldier_AAR_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_AAT_F;
-    class O_Soldier_AAT_F_OCimport_01 : O_Soldier_AAT_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AAT_F_OCimport_02 : O_Soldier_AAT_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_AAA_F;
-    class O_Soldier_AAA_F_OCimport_01 : O_Soldier_AAA_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AAA_F_OCimport_02 : O_Soldier_AAA_F_OCimport_01 { class EventHandlers; };
 
     class O_support_AMG_F;
-    class O_support_AMG_F_OCimport_01 : O_support_AMG_F { scope = 0; class EventHandlers; };
-    class O_support_AMG_F_OCimport_02 : O_support_AMG_F_OCimport_01 { class EventHandlers; };
 
     class O_Sharpshooter_F;
-    class O_Sharpshooter_F_OCimport_01 : O_Sharpshooter_F { scope = 0; class EventHandlers; };
-    class O_Sharpshooter_F_OCimport_02 : O_Sharpshooter_F_OCimport_01 { class EventHandlers; };
 
     class O_HeavyGunner_F;
-    class O_HeavyGunner_F_OCimport_01 : O_HeavyGunner_F { scope = 0; class EventHandlers; };
-    class O_HeavyGunner_F_OCimport_02 : O_HeavyGunner_F_OCimport_01 { class EventHandlers; };
 
     class O_Fighter_Pilot_F;
-    class O_Fighter_Pilot_F_OCimport_01 : O_Fighter_Pilot_F { scope = 0; class EventHandlers; };
-    class O_Fighter_Pilot_F_OCimport_02 : O_Fighter_Pilot_F_OCimport_01 { class EventHandlers; };
 
     class O_soldier_mine_F;
-    class O_soldier_mine_F_OCimport_01 : O_soldier_mine_F { scope = 0; class EventHandlers; };
-    class O_soldier_mine_F_OCimport_02 : O_soldier_mine_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_HAT_F;
-    class O_Soldier_HAT_F_OCimport_01 : O_Soldier_HAT_F { scope = 0; class EventHandlers; };
-    class O_Soldier_HAT_F_OCimport_02 : O_Soldier_HAT_F_OCimport_01 { class EventHandlers; };
 
     class O_Soldier_AHAT_F;
-    class O_Soldier_AHAT_F_OCimport_01 : O_Soldier_AHAT_F { scope = 0; class EventHandlers; };
-    class O_Soldier_AHAT_F_OCimport_02 : O_Soldier_AHAT_F_OCimport_01 { class EventHandlers; };
 
     class SA_KOS_Soldier_Breacher;
-    class SA_KOS_Soldier_Breacher_OCimport_01 : SA_KOS_Soldier_Breacher { scope = 0; class EventHandlers; };
-    class SA_KOS_Soldier_Breacher_OCimport_02 : SA_KOS_Soldier_Breacher_OCimport_01 { class EventHandlers; };
 
     class O_Truck_02_transport_F;
-    class O_Truck_02_transport_F_OCimport_01 : O_Truck_02_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_Truck_02_transport_F_OCimport_02 : O_Truck_02_transport_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-        };
-    };
-
     class O_Truck_02_covered_F;
-    class O_Truck_02_covered_F_OCimport_01 : O_Truck_02_covered_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_Truck_02_covered_F_OCimport_02 : O_Truck_02_covered_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-        };
-    };
 
     class O_Truck_02_box_F;
-    class O_Truck_02_box_F_OCimport_01 : O_Truck_02_box_F { scope = 0; class EventHandlers; };
-    class O_Truck_02_box_F_OCimport_02 : O_Truck_02_box_F_OCimport_01 { scope = 0; class EventHandlers; };
 
     class O_Truck_02_medical_F;
-    class O_Truck_02_medical_F_OCimport_01 : O_Truck_02_medical_F { scope = 0; class EventHandlers; };
-    class O_Truck_02_medical_F_OCimport_02 : O_Truck_02_medical_F_OCimport_01 { scope = 0; class EventHandlers; };
 
     class O_Truck_02_Ammo_F;
-    class O_Truck_02_Ammo_F_OCimport_01 : O_Truck_02_Ammo_F { scope = 0; class EventHandlers; };
-    class O_Truck_02_Ammo_F_OCimport_02 : O_Truck_02_Ammo_F_OCimport_01 { scope = 0; class EventHandlers; };
 
     class O_Truck_02_fuel_F;
-    class O_Truck_02_fuel_F_OCimport_01 : O_Truck_02_fuel_F { scope = 0; class EventHandlers; };
-    class O_Truck_02_fuel_F_OCimport_02 : O_Truck_02_fuel_F_OCimport_01 { scope = 0; class EventHandlers; };
 
     class ARHAN38_F_UCG_ATGM;
-    class ARHAN38_F_UCG_ATGM_OCimport_01 : ARHAN38_F_UCG_ATGM { scope = 0; class EventHandlers; class Turrets; };
-    class ARHAN38_F_UCG_ATGM_OCimport_02 : ARHAN38_F_UCG_ATGM_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class ARHAN38_UCG_F;
-    class ARHAN38_UCG_F_OCimport_01 : ARHAN38_UCG_F { scope = 0; class EventHandlers; };
-    class ARHAN38_UCG_F_OCimport_02 : ARHAN38_UCG_F_OCimport_01 { scope = 0; class EventHandlers; };
 
     class ARHAN38_UCG_Ammo_B;
-    class ARHAN38_UCG_Ammo_B_OCimport_01 : ARHAN38_UCG_Ammo_B { scope = 0; class EventHandlers; };
-    class ARHAN38_UCG_Ammo_B_OCimport_02 : ARHAN38_UCG_Ammo_B_OCimport_01 { scope = 0; class EventHandlers; };
 
     class qav_625e;
-    class qav_625e_OCimport_01 : qav_625e { scope = 0; class EventHandlers; class Turrets; };
-    class qav_625e_OCimport_02 : qav_625e_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class AATurret;
-        };
-    };
 
     class qav_ripsaw_Mk44;
-    class qav_ripsaw_Mk44_OCimport_01 : qav_ripsaw_Mk44 { scope = 0; class EventHandlers; class Turrets; };
-    class qav_ripsaw_Mk44_OCimport_02 : qav_ripsaw_Mk44_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class qav_ripsaw_c;
-    class qav_ripsaw_c_OCimport_01 : qav_ripsaw_c { scope = 0; class EventHandlers; class Turrets; };
-    class qav_ripsaw_c_OCimport_02 : qav_ripsaw_c_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class mainTurret;
-        };
-    };
 
     class qav_ztl11;
-    class qav_ztl11_OCimport_01 : qav_ztl11 { scope = 0; class EventHandlers; class Turrets; };
-    class qav_ztl11_OCimport_02 : qav_ztl11_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class LoaderTurret;
-        };
-    };
 
     class qav_merkava_mk2B;
-    class qav_merkava_mk2B_OCimport_01 : qav_merkava_mk2B { scope = 0; class EventHandlers; class Turrets; };
-    class qav_merkava_mk2B_OCimport_02 : qav_merkava_mk2B_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class LoaderTurret;
-        };
-    };
 
     class qav_merkava_mk3b;
-    class qav_merkava_mk3b_OCimport_01 : qav_merkava_mk3b { scope = 0; class EventHandlers; class Turrets; };
-    class qav_merkava_mk3b_OCimport_02 : qav_merkava_mk3b_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class LoaderTurret;
-        };
-    };
 
     class URF_IFV_KOMODO;
-    class URF_IFV_KOMODO_OCimport_01 : URF_IFV_KOMODO { scope = 0; class EventHandlers; class Turrets; };
-    class URF_IFV_KOMODO_OCimport_02 : URF_IFV_KOMODO_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_UH101_FRI;
-    class TCF_UH101_FRI_OCimport_01 : TCF_UH101_FRI { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_UH101_FRI_OCimport_02 : TCF_UH101_FRI_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_Felix_Rotary_Frieden;
-    class TCF_Felix_Rotary_Frieden_OCimport_01 : TCF_Felix_Rotary_Frieden { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Felix_Rotary_Frieden_OCimport_02 : TCF_Felix_Rotary_Frieden_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-        };
-    };
 
     class TCF_Ural_MLRS_Koslovic;
-    class TCF_Ural_MLRS_Koslovic_OCimport_01 : TCF_Ural_MLRS_Koslovic { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Ural_MLRS_Koslovic_OCimport_02 : TCF_Ural_MLRS_Koslovic_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_Arkhangelsk_Koslovic;
-    class TCF_Arkhangelsk_Koslovic_OCimport_01 : TCF_Arkhangelsk_Koslovic { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Arkhangelsk_Koslovic_OCimport_02 : TCF_Arkhangelsk_Koslovic_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_Bastardsword;
-    class TCF_Bastardsword_OCimport_01 : TCF_Bastardsword { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Bastardsword_OCimport_02 : TCF_Bastardsword_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_Raptor_Frieden_IFV;
-    class TCF_Raptor_Frieden_IFV_OCimport_01 : TCF_Raptor_Frieden_IFV { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Raptor_Frieden_IFV_OCimport_02 : TCF_Raptor_Frieden_IFV_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_D56V;
-    class TCF_D56V_OCimport_01 : TCF_D56V { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_D56V_OCimport_02 : TCF_D56V_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class GunnerTurret;
-        };
-    };
 
     class TCF_Raptor_Frieden_APC;
-    class TCF_Raptor_Frieden_APC_OCimport_01 : TCF_Raptor_Frieden_APC { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Raptor_Frieden_APC_OCimport_02 : TCF_Raptor_Frieden_APC_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class TCF_Ratt_Koslovic;
-    class TCF_Ratt_Koslovic_OCimport_01 : TCF_Ratt_Koslovic { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Ratt_Koslovic_OCimport_02 : TCF_Ratt_Koslovic_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
     class TCF_Ratt_Koslovic_HMG;
-    class TCF_Ratt_Koslovic_HMG_OCimport_01 : TCF_Ratt_Koslovic_HMG { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Ratt_Koslovic_HMG_OCimport_02 : TCF_Ratt_Koslovic_HMG_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-        };
-    };
 
     class TCF_Ratt_Koslovic_AT;
-    class TCF_Ratt_Koslovic_AT_OCimport_01 : TCF_Ratt_Koslovic_AT { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_Ratt_Koslovic_AT_OCimport_02 : TCF_Ratt_Koslovic_AT_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-        };
-    };
 
     class TCF_D56I;
-    class TCF_D56I_OCimport_01 : TCF_D56I { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_D56I_OCimport_02 : TCF_D56I_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class GunnerTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-        };
-    };
 
     class TCF_D81LRTI;
-    class TCF_D81LRTI_OCimport_01 : TCF_D81LRTI { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_D81LRTI_OCimport_02 : TCF_D81LRTI_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class PassengerTurret_01;
-            class PassengerTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
 
     class TCF_Witherwing_Frieden;
-    class TCF_Witherwing_Frieden_OCimport_01 : TCF_Witherwing_Frieden { scope = 0; class EventHandlers; };
-    class TCF_Witherwing_Frieden_OCimport_02 : TCF_Witherwing_Frieden_OCimport_01 { scope = 0; class EventHandlers; };
 
     class TCF_D81LRTA;
-    class TCF_D81LRTA_OCimport_01 : TCF_D81LRTA { scope = 0; class EventHandlers; class Turrets; };
-    class TCF_D81LRTA_OCimport_02 : TCF_D81LRTA_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class GunnerTurret_01;
-            class GunnerTurret_02;
-        };
-    };
 
-
-    class O_IN_Rifleman_01 : O_Soldier_F_OCimport_02 {
+    class O_IN_Rifleman_01 : O_Soldier_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -975,7 +695,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Rifleman_light_01 : O_Soldier_lite_F_OCimport_02 {
+    class O_IN_Rifleman_light_01 : O_Soldier_lite_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1013,7 +733,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Officer_01 : O_officer_F_OCimport_02 {
+    class O_IN_Officer_01 : O_officer_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1053,7 +773,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Grenadier_01 : O_Soldier_GL_F_OCimport_02 {
+    class O_IN_Grenadier_01 : O_Soldier_GL_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1093,7 +813,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Autorifleman_01 : O_Soldier_AR_F_OCimport_02 {
+    class O_IN_Autorifleman_01 : O_Soldier_AR_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1133,7 +853,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Squad_Leader_01 : O_Soldier_SL_F_OCimport_02 {
+    class O_IN_Squad_Leader_01 : O_Soldier_SL_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1173,7 +893,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Team_Leader_01 : O_Soldier_TL_F_OCimport_02 {
+    class O_IN_Team_Leader_01 : O_Soldier_TL_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1213,7 +933,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Marksman_01 : O_soldier_M_F_OCimport_02 {
+    class O_IN_Marksman_01 : O_soldier_M_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1251,7 +971,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Rifleman_Disposable_01 : O_Soldier_LAT_F_OCimport_02 {
+    class O_IN_Rifleman_Disposable_01 : O_Soldier_LAT_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1291,7 +1011,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Medic_01 : O_medic_F_OCimport_02 {
+    class O_IN_Medic_01 : O_medic_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1331,7 +1051,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Repair_Specialist_01 : O_soldier_repair_F_OCimport_02 {
+    class O_IN_Repair_Specialist_01 : O_soldier_repair_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1371,7 +1091,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Explosive_Specialist_01 : O_soldier_exp_F_OCimport_02 {
+    class O_IN_Explosive_Specialist_01 : O_soldier_exp_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1411,7 +1131,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Helicopter_Pilot_01 : O_helipilot_F_OCimport_02 {
+    class O_IN_Helicopter_Pilot_01 : O_helipilot_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1449,7 +1169,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Ammo_Bearer_01 : O_Soldier_A_F_OCimport_02 {
+    class O_IN_Ammo_Bearer_01 : O_Soldier_A_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1489,7 +1209,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Missile_Specialist_AT_01 : O_Soldier_AT_F_OCimport_02 {
+    class O_IN_Missile_Specialist_AT_01 : O_Soldier_AT_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1529,7 +1249,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Missile_Specialist_AA_01 : O_Soldier_AA_F_OCimport_02 {
+    class O_IN_Missile_Specialist_AA_01 : O_Soldier_AA_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1569,7 +1289,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Engineer_01 : O_engineer_F_OCimport_02 {
+    class O_IN_Engineer_01 : O_engineer_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1609,7 +1329,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Crewman_01 : O_crew_F_OCimport_02 {
+    class O_IN_Crewman_01 : O_crew_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1649,7 +1369,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Pilot_01 : O_Pilot_F_OCimport_02 {
+    class O_IN_Pilot_01 : O_Pilot_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1689,7 +1409,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Helicopter_Crew_01 : O_helicrew_F_OCimport_02 {
+    class O_IN_Helicopter_Crew_01 : O_helicrew_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1727,7 +1447,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_UAV_Operator_01 : O_soldier_UAV_F_OCimport_02 {
+    class O_IN_UAV_Operator_01 : O_soldier_UAV_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1767,7 +1487,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Assist_AutoRifleman_01 : O_Soldier_AAR_F_OCimport_02 {
+    class O_IN_Assist_AutoRifleman_01 : O_Soldier_AAR_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1807,7 +1527,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Assist_Missile_Specialsit_AT_01 : O_Soldier_AAT_F_OCimport_02 {
+    class O_IN_Assist_Missile_Specialsit_AT_01 : O_Soldier_AAT_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1847,7 +1567,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Assist_Missile_Specialist_AA_01 : O_Soldier_AAA_F_OCimport_02 {
+    class O_IN_Assist_Missile_Specialist_AA_01 : O_Soldier_AAA_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1887,7 +1607,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Assist_Heavy_AutoRifleman_01 : O_support_AMG_F_OCimport_02 {
+    class O_IN_Assist_Heavy_AutoRifleman_01 : O_support_AMG_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1927,7 +1647,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Sharpshooter_01 : O_Sharpshooter_F_OCimport_02 {
+    class O_IN_Sharpshooter_01 : O_Sharpshooter_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -1965,7 +1685,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Heavy_AutoRifleman_01 : O_HeavyGunner_F_OCimport_02 {
+    class O_IN_Heavy_AutoRifleman_01 : O_HeavyGunner_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2005,7 +1725,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Fighter_Pilot_01 : O_Fighter_Pilot_F_OCimport_02 {
+    class O_IN_Fighter_Pilot_01 : O_Fighter_Pilot_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2043,7 +1763,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Mine_Specialist_01 : O_soldier_mine_F_OCimport_02 {
+    class O_IN_Mine_Specialist_01 : O_soldier_mine_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2083,7 +1803,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Rifleman_Heavy_AT_01 : O_Soldier_HAT_F_OCimport_02 {
+    class O_IN_Rifleman_Heavy_AT_01 : O_Soldier_HAT_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2123,7 +1843,7 @@ class CfgVehicles {
 
     };
 
-    class O_IN_Assist_Rifleman_Heavy_AT_01 : O_Soldier_AHAT_F_OCimport_02 {
+    class O_IN_Assist_Rifleman_Heavy_AT_01 : O_Soldier_AHAT_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2163,7 +1883,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_Breacher_01 : SA_KOS_Soldier_Breacher_OCimport_02 {
+    class O_OIN_Breacher_01 : SA_KOS_Soldier_Breacher {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2203,7 +1923,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_KamAZ_Transport_01 : O_Truck_02_transport_F_OCimport_02 {
+    class O_OIN_KamAZ_Transport_01 : O_Truck_02_transport_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2212,13 +1932,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
 
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2234,7 +1947,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_KamAZ_Transport_Covered_01 : O_Truck_02_covered_F_OCimport_02 {
+    class O_OIN_KamAZ_Transport_Covered_01 : O_Truck_02_covered_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2243,13 +1956,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
 
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2265,7 +1971,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_KamAZ_Repair_01 : O_Truck_02_box_F_OCimport_02 {
+    class O_OIN_KamAZ_Repair_01 : O_Truck_02_box_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2290,7 +1996,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_KamAZ_Medical_01 : O_Truck_02_medical_F_OCimport_02 {
+    class O_OIN_KamAZ_Medical_01 : O_Truck_02_medical_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2315,7 +2021,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_KamAZ_Ammo_01 : O_Truck_02_Ammo_F_OCimport_02 {
+    class O_OIN_KamAZ_Ammo_01 : O_Truck_02_Ammo_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2340,7 +2046,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_KamAZ_Fuel_01 : O_Truck_02_fuel_F_OCimport_02 {
+    class O_OIN_KamAZ_Fuel_01 : O_Truck_02_fuel_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2365,7 +2071,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_Novatr_AT_01 : ARHAN38_F_UCG_ATGM_OCimport_02 {
+    class O_OIN_Novatr_AT_01 : ARHAN38_F_UCG_ATGM {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2373,12 +2079,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Rifleman_01"; };
-        };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2394,7 +2094,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_Novator_01 : ARHAN38_UCG_F_OCimport_02 {
+    class O_OIN_Novator_01 : ARHAN38_UCG_F {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2418,7 +2118,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_Novator_Ammo_01 : ARHAN38_UCG_Ammo_B_OCimport_02 {
+    class O_OIN_Novator_Ammo_01 : ARHAN38_UCG_Ammo_B {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2442,7 +2142,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_PGL_625E_01 : qav_625e_OCimport_02 {
+    class O_OIN_PGL_625E_01 : qav_625e {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2450,13 +2150,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
-
-        class Turrets : Turrets {
-            class AATurret : AATurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2472,7 +2165,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M6A_Ripsaw_Mk44_01 : qav_ripsaw_Mk44_OCimport_02 {
+    class O_OIN_M6A_Ripsaw_Mk44_01 : qav_ripsaw_Mk44 {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2481,12 +2174,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2501,7 +2188,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M6C_Bullfrog_Cargo_01 : qav_ripsaw_c_OCimport_02 {
+    class O_OIN_M6C_Bullfrog_Cargo_01 : qav_ripsaw_c {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2510,12 +2197,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class mainTurret : mainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2530,7 +2211,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_ZTL_11_01 : qav_ztl11_OCimport_02 {
+    class O_OIN_ZTL_11_01 : qav_ztl11 {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2538,12 +2219,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-            class LoaderTurret : LoaderTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
 
 
         class EventHandlers : EventHandlers {
@@ -2561,7 +2236,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_Merkava_01 : qav_merkava_mk2B_OCimport_02 {
+    class O_OIN_Merkava_01 : qav_merkava_mk2B {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2569,13 +2244,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-            class LoaderTurret : LoaderTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2592,7 +2260,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_Merkava_120mm_01 : qav_merkava_mk3b_OCimport_02 {
+    class O_OIN_Merkava_120mm_01 : qav_merkava_mk3b {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2601,13 +2269,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-            class LoaderTurret : LoaderTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2622,7 +2283,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_IFV_008_Komodo_01 : URF_IFV_KOMODO_OCimport_02 {
+    class O_OIN_IFV_008_Komodo_01 : URF_IFV_KOMODO {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2631,12 +2292,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2651,7 +2306,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_AH_57S_Eagle_01 : TCF_UH101_FRI_OCimport_02 {
+    class O_OIN_AH_57S_Eagle_01 : TCF_UH101_FRI {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2659,13 +2314,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Helicopter_Pilot_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2680,7 +2328,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_AH_22L_Felix_01 : TCF_Felix_Rotary_Frieden_OCimport_02 {
+    class O_OIN_AH_22L_Felix_01 : TCF_Felix_Rotary_Frieden {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2688,14 +2336,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Helicopter_Pilot_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "O_IN_Helicopter_Crew_01"; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = "O_IN_Helicopter_Crew_01"; };
-        };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2712,7 +2352,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_MLRS_01 : TCF_Ural_MLRS_Koslovic_OCimport_02 {
+    class O_OIN_MLRS_01 : TCF_Ural_MLRS_Koslovic {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2721,12 +2361,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Rifleman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2741,7 +2375,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M400_01 : TCF_Arkhangelsk_Koslovic_OCimport_02 {
+    class O_OIN_M400_01 : TCF_Arkhangelsk_Koslovic {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2750,12 +2384,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2770,7 +2398,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_UAV_043_Bastardsword_01 : TCF_Bastardsword_OCimport_02 {
+    class O_OIN_UAV_043_Bastardsword_01 : TCF_Bastardsword {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2778,11 +2406,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
 
 
         class EventHandlers : EventHandlers {
@@ -2800,7 +2423,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M3_IFV_Cougar_01 : TCF_Raptor_Frieden_IFV_OCimport_02 {
+    class O_OIN_M3_IFV_Cougar_01 : TCF_Raptor_Frieden_IFV {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2809,12 +2432,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2829,7 +2446,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_D56_TC_AV_Wyvern_01 : TCF_D56V_OCimport_02 {
+    class O_OIN_D56_TC_AV_Wyvern_01 : TCF_D56V {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2838,12 +2455,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Pilot_01";
 
-        class Turrets : Turrets {
-            class GunnerTurret : GunnerTurret { gunnerType = "O_IN_Pilot_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2858,7 +2469,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M3_APC_Cougar_01 : TCF_Raptor_Frieden_APC_OCimport_02 {
+    class O_OIN_M3_APC_Cougar_01 : TCF_Raptor_Frieden_APC {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2867,12 +2478,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Crewman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Crewman_01"; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2887,7 +2492,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M121_Ratt_01 : TCF_Ratt_Koslovic_OCimport_02 {
+    class O_OIN_M121_Ratt_01 : TCF_Ratt_Koslovic {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2896,17 +2501,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
 
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2921,7 +2515,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M121_HMG_Ratt_01 : TCF_Ratt_Koslovic_HMG_OCimport_02 {
+    class O_OIN_M121_HMG_Ratt_01 : TCF_Ratt_Koslovic_HMG {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2930,17 +2524,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Rifleman_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2955,7 +2538,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_M121_AT_Ratt_01 : TCF_Ratt_Koslovic_AT_OCimport_02 {
+    class O_OIN_M121_AT_Ratt_01 : TCF_Ratt_Koslovic_AT {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2964,17 +2547,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Rifleman_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_IN_Rifleman_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2989,7 +2561,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_D56I_TC_AV_Wyvern_01 : TCF_D56I_OCimport_02 {
+    class O_OIN_D56I_TC_AV_Wyvern_01 : TCF_D56I {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -2998,14 +2570,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "TCF_FRI_Crewman";
 
-        class Turrets : Turrets {
-            class GunnerTurret : GunnerTurret { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -3020,7 +2584,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_D81_LRTI_Harpy_01 : TCF_D81LRTI_OCimport_02 {
+    class O_OIN_D81_LRTI_Harpy_01 : TCF_D81LRTI {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -3029,16 +2593,6 @@ class CfgVehicles {
         faction = "O_IN";
         crew = "O_IN_Pilot_01";
 
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "O_IN_Pilot_01"; };
-            class PassengerTurret_01 : PassengerTurret_01 { gunnerType = ""; };
-            class PassengerTurret_02 : PassengerTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-        };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -3053,7 +2607,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_VF22_Witherwing_01 : TCF_Witherwing_Frieden_OCimport_02 {
+    class O_OIN_VF22_Witherwing_01 : TCF_Witherwing_Frieden {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -3077,7 +2631,7 @@ class CfgVehicles {
 
     };
 
-    class O_OIN_D81_LRTI_Harpy_02 : TCF_D81LRTA_OCimport_02 {
+    class O_OIN_D81_LRTI_Harpy_02 : TCF_D81LRTA {
         author = "A.Weber";
         scope = 2;
         scopeCurator = 2;
@@ -3085,14 +2639,6 @@ class CfgVehicles {
         side = 0;
         faction = "O_IN";
         crew = "O_IN_Pilot_01";
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "O_IN_Pilot_01"; };
-            class GunnerTurret_01 : GunnerTurret_01 { gunnerType = "O_IN_Pilot_01"; };
-            class GunnerTurret_02 : GunnerTurret_02 { gunnerType = "O_IN_Pilot_01"; };
-        };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
