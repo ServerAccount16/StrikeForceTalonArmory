@@ -90,5 +90,11 @@
 			maxMouseYRotSpeed=0.5;                                                                            \
 			pilotOpticsShowCursor=1;                                                                          \
 			controllable=1;                                                                                   \
-                                                                                                        \
-		};                                                                                                  \
+		};                                                                                                  
+
+#define FALCON_FLIGHTMODEL         \
+    bodyFrictionCoef=0.7;          \
+    cyclicAsideForceCoef=3.4;      \
+    cyclicForwardForceCoef=1.35;   \
+    liftForceCoef=1.9;             \
+    maxSpeed=280;                  

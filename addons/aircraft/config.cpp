@@ -39,9 +39,10 @@ class CfgVehicles
     author = "Weber";
     faction = "SFT_BLUE_SFT_F";
     displayName = "[SFT] MH-144S 'Falcon' [Transport]";
+    crew = "SFT_B_UNSCMarines_Helicopter_Pilot_Woodland_01";
     weapons[] = 
     {
-      "autocannon_40mm_CTWS",
+      "SFT_40mm",
       "CMFlareLauncher",
       "Laserdesignator_pilotCamera"
     };
@@ -97,11 +98,7 @@ class CfgVehicles
       class CargoTurret_07 : CargoTurret_07{};
     };
 
-    bodyFrictionCoef=0.7;
-    cyclicAsideForceCoef=3.4;
-    cyclicForwardForceCoef=1.35;
-    liftForceCoef=1.9;
-    maxSpeed=280;
+    FALCON_FLIGHTMODEL
 
     PILOTCAMERA_FALCON
   };
@@ -133,7 +130,7 @@ class CfgVehicles
     displayName = "[SFT] AH-144 'Falcon' [DAP]";
     weapons[] = 
     {
-      "autocannon_40mm_CTWS",
+      "SFT_40mm_Chingun",
       "CMFlareLauncher",
       "Laserdesignator_pilotCamera"
     };
@@ -178,11 +175,7 @@ class CfgVehicles
       class CargoTurret_09 : CargoTurret_09{};
     };
 
-    bodyFrictionCoef=0.7;
-    cyclicAsideForceCoef=3.4;
-    cyclicForwardForceCoef=1.35;
-    liftForceCoef=1.9;
-    maxSpeed=280;
+    FALCON_FLIGHTMODEL
 
     PILOTCAMERA_FALCON
 
@@ -198,11 +191,7 @@ class CfgVehicles
     displayName = "[SFT] UH-144M 'Falcon' [Medevac]";
     //FALCON_HIDDENSELECTIONSTEXTURES_MEDICAL
 
-    bodyFrictionCoef=0.7;
-    cyclicAsideForceCoef=3.4;
-    cyclicForwardForceCoef=1.35;
-    liftForceCoef=1.9;
-    maxSpeed=280;
+    FALCON_FLIGHTMODEL
 
     PILOTCAMERA_FALCON
   };

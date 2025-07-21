@@ -32,12 +32,27 @@ class CfgWeapons
       reloadTime = 0.25;
     };
   };
-  //class autocannon_40mm_CTWS;
-  //class SFT_40mm_Chingun : autocannon_40mm_CTWS
-  //{
-  //  author = "Weber";
-  //  displayName = "[SFT] 40mm Chingun";
-  //};
+
+  class autocannon_Base_F;
+  class autocannon_40mm_CTWS: autocannon_Base_F
+  {
+    class AP;
+    class HE;
+  };
+  class SFT_40mm_Chingun : autocannon_40mm_CTWS
+  {
+    author = "Weber";
+    displayName = "[SFT] 40mm Chingun";
+
+    class AP: AP
+    {
+      displayName = "[SFT] 40mm Chingun";
+    };
+    class HE: HE
+    {
+      displayName = "[SFT] 40mm Chingun";
+    };
+  };
 
   class M134_minigun;
   class OPTRE_GUA23A: M134_minigun
