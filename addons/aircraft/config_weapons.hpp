@@ -2,6 +2,9 @@ class Mode_FullAuto;
 
 class CfgWeapons
 {
+
+  // Falcon sideguns //
+
   class OPTRE_M247T_Coax;
   class OPTRE_M247H_SideGun: OPTRE_M247T_Coax
   {
@@ -33,6 +36,8 @@ class CfgWeapons
     };
   };
 
+  // Falcon nosegun //
+
   class autocannon_Base_F;
   class autocannon_40mm_CTWS: autocannon_Base_F
   {
@@ -42,17 +47,27 @@ class CfgWeapons
   class SFT_40mm_Chingun : autocannon_40mm_CTWS
   {
     author = "Weber";
-    displayName = "[SFT] 40mm Chingun";
+    displayName = "M750 40mm Chaingun";
 
     class AP: AP
     {
-      displayName = "[SFT] 40mm Chingun";
+      displayName = "M750 40mm Chaingun";
+      magazines [] =
+      {
+        "SFT_60Rnd_40mm_AP"
+      };
     };
     class HE: HE
     {
-      displayName = "[SFT] 40mm Chingun";
+      displayName = "M750 40mm Chaingun";
+      magazines [] = 
+      {
+        "SFT_60Rnd_40mm_HE"
+      };
     };
   };
+
+  // Hornet autocannons //
 
   class M134_minigun;
   class OPTRE_GUA23A: M134_minigun
@@ -61,7 +76,8 @@ class CfgWeapons
   };
   class SFT_GAU23A: OPTRE_GUA23A
   {
-    magazines[] = {
+    magazines[] = 
+    {
       "SFT_2000rnd_20mm"
     };    
     reloadTime = 0.0625;
@@ -101,6 +117,58 @@ class CfgWeapons
       maxRange = 1800;
       dispersion = 0.005;
       showToPlayer = 1;    
+    };
+  };
+
+  // Anvil rework //
+
+  class RocketPods;
+  class missiles_DAR:RocketPods
+  {
+    class Burst;
+  };
+
+  class SFT_Anvil_1: missiles_DAR
+  {
+    displayName = "[SFT] 'ANVIL I' Rocket";
+    descriptionShort = "'Anvil-I' Rocket";
+    magazines [] = 
+    {
+      "SFT_16rnd_Anvil1_HE",
+      "SFT_16rnd_Anvil1_HEAT"
+    };
+    showCursorAimInteral = 0;
+    reloadTime = 1;
+    magazineReloadTime = 5;
+    cursor = "EmptyCursor";
+    cursorAim = "EmptyCursor";
+    canlock = 0;
+    ballisticsComputer = 4;
+    modes [] =
+    {
+      "Far_AI",
+      "Medium_AI",
+      "Single",
+      "Salvo",
+      "Auto"
+    };
+    class Auto: Burst
+    {
+      displayName = "AUTO";
+    };
+    class Salvo: Burst
+    {
+			displayName	= "BURST";
+			autoFire	= 0;
+			burst		= 6;
+			textureType	= "dual";      
+    };
+    class Single: Burst
+    {
+			displayName	= "SNGL";
+			autoFire	= 0;
+			burst		= 2;
+			textureType	= "semi";
     };
   };
 

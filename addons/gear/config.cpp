@@ -291,11 +291,11 @@ class CfgWeapons
 			};
 		};
 	};
-	Unit_Vest_Maco(Eagle)
-	Unit_Vest_Maco(Vulture)
-	Unit_Vest_Maco(Osprey)
-	Unit_Vest_Maco(Cardinal)
-	Unit_Vest_Maco(Auxiliary)
+	Unit_Vest_Macro(Eagle)
+	Unit_Vest_Macro(Vulture)
+	Unit_Vest_Macro(Osprey)
+	Unit_Vest_Macro(Cardinal)
+	Unit_Vest_Macro(Auxiliary)
 	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,CrewmanRecruit,Canary,SFT_Vests_Logistics) \
 	DEFINE_SFT_VEST(Crewman,"[SFT] M52D Vest (Crewman)",SLOTS_CREWMAN_STD,CrewmanRecruit,Canary,SFT_Vests_Logistics) \
 	DEFINE_SFT_VEST(Pilot,"[SFT] M52D Vest (Pilot)",SLOTS_PILOT_STD,PO3,Canary,SFT_Vests_Logistics) \

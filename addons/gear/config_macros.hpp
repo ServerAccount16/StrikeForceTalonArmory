@@ -154,7 +154,7 @@ class SFT_M52_Vest_##SQUAD##_##RANK##_##SLOT: SFT_M52_Vest_Base { \
 };
 
 // Unit Macro
-#define Unit_Vest_Maco(SQUAD) \
+#define Unit_Vest_Macro(SQUAD) \
 	DEFINE_SFT_VEST(Rifleman1,"[SFT] M52D Vest (Rifleman)",SLOTS_RIFLEMAN_VAR1_STD,Recruit,SQUAD,SFT_Vests_Enlisted) \
 	DEFINE_SFT_VEST(Rifleman1CLS,"[SFT] M52D Vest (Combat Life Saver)",SLOTS_RIFLEMAN_VAR1_STD,Recruit,SQUAD,SFT_Vests_Enlisted) \
 	DEFINE_SFT_VEST(Rifleman2,"[SFT] M52D Vest (Rifleman)",SLOTS_RIFLEMAN_VAR2_STD,Recruit,SQUAD,SFT_Vests_Enlisted) \

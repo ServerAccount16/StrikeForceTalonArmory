@@ -2,6 +2,7 @@
 #include "config_weapons.hpp"
 #include "config_magazines.hpp"
 #include "config_ammo.hpp"
+#include "HMD.hpp"
 
 class CfgPatches {
   class SFT_aircraft {
@@ -48,12 +49,12 @@ class CfgVehicles
     };
     magazines[] = 
     {
-      "60Rnd_40mm_GPR_Tracer_Red_shells",
-      "60Rnd_40mm_GPR_Tracer_Red_shells",
-      "60Rnd_40mm_GPR_Tracer_Red_shells",
-      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
-      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
-      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
+      "SFT_60Rnd_40mm_HE",
+      "SFT_60Rnd_40mm_HE",
+      "SFT_60Rnd_40mm_HE",
+      "SFT_60Rnd_40mm_AP",
+      "SFT_60Rnd_40mm_AP",
+      "SFT_60Rnd_40mm_AP",
       "168Rnd_CMFlare_Chaff_Magazine",
       "168Rnd_CMFlare_Chaff_Magazine",
       "Laserbatteries"
@@ -121,6 +122,12 @@ class CfgVehicles
     class CargoTurret_08;
     class CargoTurret_09;
     class RotorLibHelicopterProperties;
+    class Components;
+    class TransportPylonsComponent;
+    class WingPylonLeft;
+    class WingPylonRight;
+    class UserActions;
+    class ViewPilot;
   };
 
   class SFT_AH144_Falcon : OPTRE_UNSC_falcon_armed
@@ -136,12 +143,12 @@ class CfgVehicles
     };
     magazines[] = 
     {
-      "60Rnd_40mm_GPR_Tracer_Red_shells",
-      "60Rnd_40mm_GPR_Tracer_Red_shells",
-      "60Rnd_40mm_GPR_Tracer_Red_shells",
-      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
-      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
-      "40Rnd_40mm_APFSDS_Tracer_Red_shells",
+      "SFT_60Rnd_40mm_HE",
+      "SFT_60Rnd_40mm_HE",
+      "SFT_60Rnd_40mm_HE",
+      "SFT_60Rnd_40mm_AP",
+      "SFT_60Rnd_40mm_AP",
+      "SFT_60Rnd_40mm_AP",
       "168Rnd_CMFlare_Chaff_Magazine",
       "168Rnd_CMFlare_Chaff_Magazine",
       "Laserbatteries"
@@ -175,11 +182,55 @@ class CfgVehicles
       class CargoTurret_09 : CargoTurret_09{};
     };
 
+    class ViewPilot: ViewPilot
+    {
+      initAngleX = 0;
+      minMoveZ = -0.2;
+    };
+
     FALCON_FLIGHTMODEL
 
     PILOTCAMERA_FALCON
 
+    class Components: Components
+    {
+      class TransportPylonsComponent: TransportPylonsComponent
+      {
+        class pylons
+        {
+          class WingPylonRight
+          {
+            attachment = "SFT_16rnd_Anvil1_HE";
+            hardpoints [] = 
+            {
+              "OPAEX_Hardpoint_UH144",
+              "SFT_Anvil"
+            };          
+            bay=-1;
+						priority = 4; 
+						UIposition[]={0.34999999,0.1};
+						turret[]={};
+          };
+          class WingPylonLeft: WingPylonRight
+          {
+            attachment = "SFT_16rnd_Anvil1_HE";
+            hardpoints [] = 
+            {
+              "OPAEX_Hardpoint_UH144",
+              "SFT_Anvil"
+            };
+            priority = 5;
+						mirroredMissilePos=1;
+						UIposition[]={0.34999999,0.46700001};
+          };
+        };
+      };  
+    }; 
+
+    HMD
+
   };
+  
 
   /// UH144 Medevac ///
 
@@ -197,7 +248,13 @@ class CfgVehicles
   };
 
   // AV-14 Hornet
-  class OPTRE_UNSC_hornet_CAP;
+  class OPTRE_Hornet_base;
+  class OPTRE_UNSC_hornet_CAP: OPTRE_Hornet_base
+  {
+    class Components;
+    class UserActions;
+    class TransportPylonsComponent;
+  };
   class SFT_AV14_Hornet: OPTRE_UNSC_hornet_CAP
   {
     author = "Weber";
@@ -254,71 +311,45 @@ class CfgVehicles
       };
     };
 
-    class pilotCamera                                                                                   
-		{                                                                                                   
-			class OpticsIn                                                                                    
-			{                                                                                                 
-				class Wide                                                                                      
-				{                                                                                               
-					opticsDisplayName="WFOV";                                                                     
-					initAngleX=0;                                                                                 
-					minAngleX=-140;                                                                               
-					maxAngleX=140;                                                                                
-					initAngleY=0;                                                                                 
-					minAngleY=-30;                                                                                
-					maxAngleY=90;                                                                                 
-					initFov="(30 / 120)";                                                                         
-					minFov="(30 / 120)";                                                                          
-					maxFov="(30 / 120)";                                                                          
-					directionStabilized=1;                                                                        
-					visionMode[]=                                                                                 
-					{                                                                                             
-						"Normal",                                                                                   
-						"NVG",                                                                                      
-						"Ti"                                                                                        
-					};                                                                                            
-					thermalMode[]={0,1};                                                                          
-					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";        
-					opticsPPEffects[]=                                                                            
-					{                                                                                             
-						"OpticsCHAbera2",                                                                           
-						"OpticsBlur2"                                                                               
-					};                                                                                            
-				};                                                                                              
-				class Medium: Wide                                                                              
-				{                                                                                               
-					opticsDisplayName="MFOV";                                                                     
-					initFov="(6 / 120)";                                                                          
-					minFov="(6 / 120)";                                                                           
-					maxFov="(6 / 120)";                                                                           
-					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";      
-				};                                                                                              
-				class Narrow: Wide                                                                              
-				{                                                                                               
-					opticsDisplayName="NFOV";                                                                     
-					initFov="(2 / 120)";                                                                          
-					minFov="(2 / 120)";                                                                           
-					maxFov="(2 / 120)";                                                                           
-					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";      
-				};                                                                                              
-				showMiniMapInOptics=0;                                                                          
-				showUAVViewInOptics=0;                                                                          
-				showSlingLoadManagerInOptics=0;                                                                 
-			};                                                                                                
-			minTurn=-140;                                                                                     
-			maxTurn=140;                                                                                      
-			initTurn=0;                                                                                       
-			minElev=-30;                                                                                      
-			maxElev=90;                                                                                       
-			initElev=0;                                                                                       
-			maxXRotSpeed=1;                                                                                   
-			maxYRotSpeed=1;                                                                                   
-			maxMouseXRotSpeed=0.5;                                                                            
-			maxMouseYRotSpeed=0.5;                                                                            
-			pilotOpticsShowCursor=1;                                                                          
-			controllable=1;                                                                                   
-                                                                                                        
-		};                                                                                                  
+    PILOTCAMERA_HORNET
+
+    class Components: Components
+    {
+      class TransportPylonsComponent: TransportPylonsComponent
+      {
+        class pylons
+        {
+          class pylons1
+          {
+            attachment = "SFT_16rnd_Anvil1_HE";
+            hardpoints [] = 
+            {
+              "OPAEX_Hardpoint_AV14",
+              "SFT_Anvil"
+            };          
+            bay=-1;
+						priority = 5; 
+						UIposition[]={0.34999999,0.1};
+						turret[]={};
+          };
+          class pylons2: pylons1
+          {
+            attachment = "SFT_16rnd_Anvil1_HE";
+            hardpoints [] = 
+            {
+              "OPAEX_Hardpoint_AV14",
+              "SFT_Anvil"
+            };
+            priority = 4;
+						mirroredMissilePos=1;
+						UIposition[]={0.34999999,0.46700001};
+          };
+        };
+      };  
+    }; 
+
+    HMD
+
   };
 
 };
