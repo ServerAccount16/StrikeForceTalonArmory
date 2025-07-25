@@ -32,6 +32,8 @@ class CfgVehicles
     class CargoTurret_05;
     class CargoTurret_06;
     class CargoTurret_07;
+    class UserActions;
+    class ViewPilot;
   };
 
   /// MH144 ///
@@ -99,9 +101,18 @@ class CfgVehicles
       class CargoTurret_07 : CargoTurret_07{};
     };
 
+    class ViewPilot: ViewPilot
+    {
+      initAngleX = 0;
+      minMoveZ = -0.2;
+    };
+
     FALCON_FLIGHTMODEL
 
     PILOTCAMERA_FALCON
+
+    HMD
+
   };
 
     // AH144 DAP ///
@@ -236,7 +247,12 @@ class CfgVehicles
 
   /// UH144 Medevac ///
 
-  class OPTRE_UNSC_falcon_medical;
+  class OPTRE_UNSC_falcon_medical; 
+  
+  // TODO
+
+  // set up inheritance for ViewPilot and UserActions classes
+
   class SFT_UH144_M_Falcon : OPTRE_UNSC_falcon_medical
   {
     author = "Weber";
@@ -244,9 +260,17 @@ class CfgVehicles
     displayName = "[SFT] UH-144M 'Falcon' [Medevac]";
     //FALCON_HIDDENSELECTIONSTEXTURES_MEDICAL
 
+    //class ViewPilot: ViewPilot
+    //{
+    //  initAngleX = 0;
+    //  minMoveZ = -0.2;
+    //};
+
     FALCON_FLIGHTMODEL
 
     PILOTCAMERA_FALCON
+
+    //HMD
   };
 
   // AV-14 Hornet
@@ -256,6 +280,7 @@ class CfgVehicles
     class Components;
     class UserActions;
     class TransportPylonsComponent;
+    class ViewPilot;
   };
   class SFT_AV14_Hornet: OPTRE_UNSC_hornet_CAP
   {
@@ -324,7 +349,7 @@ class CfgVehicles
         {
           class pylons1
           {
-            attachment = "SFT_16rnd_Anvil1_HE";
+            attachment = "OPTRE_missiles_C2GMLS";
             hardpoints [] = 
             {
               "OPAEX_Hardpoint_AV14",
@@ -338,7 +363,7 @@ class CfgVehicles
           };
           class pylons2: pylons1
           {
-            attachment = "SFT_16rnd_Anvil1_HE";
+            attachment = "OPTRE_missiles_C2GMLS";
             hardpoints [] = 
             {
               "OPAEX_Hardpoint_AV14",
