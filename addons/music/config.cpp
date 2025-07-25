@@ -1,5 +1,13 @@
 #include "config_macros.hpp"
 
+class CfgPatches
+{
+	class SFTMusic
+	{
+		name = "SFT Music";
+	};
+};
+
 class CfgMusicClasses
 {
 	class SFTAction
