@@ -670,4 +670,68 @@ class v18
 		duration = "155";
 		musicClass = "SFTVocal";
 	};
+class v19
+	{
+		name = "The Clash Should I Stay or Should I Go";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\The_Clash_Should_I_Stay_or_Should_I_Go.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "188";
+		musicClass = "SFTVocal";
+	};
+class v20
+	{
+		name = "Ram Jam Black Betty";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Ram_Jam_Black_Betty.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "144";
+		musicClass = "SFTVocal";
+	};
+class v21
+	{
+		name = "Plankton War Pigs";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Plankton_War_Pigs.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "600";
+		musicClass = "SFTVocal";
+	};
+class v22
+	{
+		name = "Motley Crue Kickstart My Heart";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Motley_Crue_Kickstart_My_Heart.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "282";
+		musicClass = "SFTVocal";
+	};
+class v23
+	{
+		name = "Metallica Crash Course In Brain Surgery";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Metallica_Crash_Course_In_Brain_Surgery.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "190";
+		musicClass = "SFTVocal";
+	};
+	class v24
+	{
+		name = "Franz Ferdinand Take Me Out";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Franz_Ferdinand_Take_Me_Out.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "237";
+		musicClass = "SFTVocal";
+	};
+	class v25
+	{
+		name = "Dio Holy Diver";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Dio_Holy_Diver.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "280";
+		musicClass = "SFTVocal";
+	};
+	class v26
+	{
+		name = "Black Sabbath War Pigs";
+		sound[] = {"\x\strikeforcetalon_armory\addons\sft_music\music\Vocal\Black_Sabbath_War_Pigs.ogg",1,1};
+		theme = "SFTVocal";
+		duration = "475";
+		musicClass = "SFTVocal";
+	};
 };
