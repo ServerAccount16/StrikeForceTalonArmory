@@ -40,9 +40,9 @@
 					initAngleY=0;                                                                                 \
 					minAngleY=-30;                                                                                \
 					maxAngleY=90;                                                                                 \
-					initFov="(30 / 120)";                                                                         \
-					minFov="(30 / 120)";                                                                          \
-					maxFov="(30 / 120)";                                                                          \
+					initFov="(0.25)";                                                                         \
+					minFov="(0.25)";                                                                          \
+					maxFov="(0.25)";                                                                          \
 					directionStabilized=1;                                                                        \
 					visionMode[]=                                                                                 \
 					{                                                                                             \
@@ -61,17 +61,17 @@
 				class Medium: Wide                                                                              \
 				{                                                                                               \
 					opticsDisplayName="MFOV";                                                                     \
-					initFov="(6 / 120)";                                                                          \
-					minFov="(6 / 120)";                                                                           \
-					maxFov="(6 / 120)";                                                                           \
+					initFov="(0.05)";                                                                          \
+					minFov="(0.05)";                                                                           \
+					maxFov="(0.05)";                                                                           \
 					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";      \
 				};                                                                                              \
 				class Narrow: Wide                                                                              \
 				{                                                                                               \
 					opticsDisplayName="NFOV";                                                                     \
-					initFov="(2 / 120)";                                                                          \
-					minFov="(2 / 120)";                                                                           \
-					maxFov="(2 / 120)";                                                                           \
+					initFov="(0.016666668)";                                                                          \
+					minFov="(0.016666668)";                                                                           \
+					maxFov="(0.016666668)";                                                                           \
 					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";      \
 				};                                                                                              \
 				showMiniMapInOptics=0;                                                                          \
@@ -107,9 +107,9 @@
 					initAngleY=0;                                                                                 \
 					minAngleY=-30;                                                                                \
 					maxAngleY=90;                                                                                 \
-					initFov="(30 / 120)";                                                                         \
-					minFov="(30 / 120)";                                                                          \
-					maxFov="(30 / 120)";                                                                          \
+					initFov="(0.25)";                                                                         \
+					minFov="(0.25)";                                                                          \
+					maxFov="(0.25)";                                                                          \
 					directionStabilized=1;                                                                        \
 					visionMode[]=                                                                                 \
 					{                                                                                             \
@@ -128,17 +128,17 @@
 				class Medium: Wide                                                                              \
 				{                                                                                               \
 					opticsDisplayName="MFOV";                                                                     \
-					initFov="(6 / 120)";                                                                          \
-					minFov="(6 / 120)";                                                                           \
-					maxFov="(6 / 120)";                                                                           \
+					initFov="(0.05)";                                                                          \
+					minFov="(0.05)";                                                                           \
+					maxFov="(0.05)";                                                                           \
 					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";      \
 				};                                                                                              \
 				class Narrow: Wide                                                                              \
 				{                                                                                               \
 					opticsDisplayName="NFOV";                                                                     \
-					initFov="(2 / 120)";                                                                          \
-					minFov="(2 / 120)";                                                                           \
-					maxFov="(2 / 120)";                                                                           \
+					initFov="(0.016666668)";                                                                          \
+					minFov="(0.016666668)";                                                                           \
+					maxFov="(0.016666668)";                                                                           \
 					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";      \
 				};                                                                                              \
 				showMiniMapInOptics=0;                                                                          \

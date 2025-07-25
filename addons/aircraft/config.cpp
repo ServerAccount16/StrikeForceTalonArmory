@@ -208,7 +208,8 @@ class CfgVehicles
             };          
             bay=-1;
 						priority = 4; 
-						UIposition[]={0.34999999,0.1};
+            // UI position values simplified
+            UIposition[]={0.35,0.1};
 						turret[]={};
           };
           class WingPylonLeft: WingPylonRight
@@ -221,7 +222,8 @@ class CfgVehicles
             };
             priority = 5;
 						mirroredMissilePos=1;
-						UIposition[]={0.34999999,0.46700001};
+            // UI position values simplified
+            UIposition[]={0.35,0.467};
           };
         };
       };  
@@ -288,7 +290,8 @@ class CfgVehicles
 		cyclicAsideForceCoef=3.85;
 		cyclicForwardForceCoef=1.6;
 		backrotorforcecoef=1.8;
-		bodyFrictionCoef=0.3000001;
+    // Simplified body friction coefficient
+    bodyFrictionCoef=0.3;
 
     hiddenSelectionsTextures [] =
     {
@@ -329,7 +332,8 @@ class CfgVehicles
             };          
             bay=-1;
 						priority = 5; 
-						UIposition[]={0.34999999,0.1};
+            // UI position values simplified
+            UIposition[]={0.35,0.1};
 						turret[]={};
           };
           class pylons2: pylons1
@@ -342,7 +346,8 @@ class CfgVehicles
             };
             priority = 4;
 						mirroredMissilePos=1;
-						UIposition[]={0.34999999,0.46700001};
+            // UI position values simplified
+            UIposition[]={0.35,0.467};
           };
         };
       };  
