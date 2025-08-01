@@ -20,6 +20,7 @@ class CfgAmmo
    {
       hit = 55;
       CraterEffects = "";
+      ace_frag_skip = 1;
    };
 
    class ammo_Penetrator_Titan_AT;

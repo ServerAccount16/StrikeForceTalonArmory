@@ -24,6 +24,9 @@ class CfgWeapons
   class OpticsModes;
   class EVOSJ;
   class TCP_OpticsMode_Base_3D_F;
+  class Launcher_Base_F;
+  class ace_csw_staticM2ShieldCarry;
+
   //--------------------------------------------------------------------
   //  Optics
   //--------------------------------------------------------------------
@@ -1804,4 +1807,84 @@ class CfgWeapons
 			magazines[] = {"SFT_M9R_Frag"};
 		};
 	};
+
+  //--------------------------------------------------------------------
+  //  ACE CSW Weapons
+  //--------------------------------------------------------------------
+  
+
+  // 247H
+  class OPTRE_CSW_M247H_Carry_Tripod: Launcher_Base_F
+  {
+    class ace_csw;
+    class WeaponSlotsInfo;
+  };
+  class OPTRE_CSW_M247H_Weapon: ace_csw_staticM2ShieldCarry
+  {
+    class ace_csw;
+    class WeaponSlotsInfo;
+  };
+  class OPTRE_CSW_M247H_Shield_Weapon: OPTRE_CSW_M247H_Weapon
+  {
+    class ace_csw;
+    class WeaponSlotsInfo;
+  };
+
+  class SFT_M247H_Carry_Tripod: OPTRE_CSW_M247H_Carry_Tripod
+  {
+    author = "Waylen";
+    dlc = "SFT";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[SFT] M247H Tripod";    
+    class ace_csw: ace_csw
+    {
+      deploy = "SFT_CSW_M247H_Tripod";
+    };
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+      mass = 218;
+    };
+  };
+
+  class SFT_M247H_Weapon: OPTRE_CSW_M247H_Weapon
+  {
+    author = "Waylen";
+    dlc = "SFT";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[SFT] M247H Gun";    
+    class ace_csw: ace_csw
+    {
+      class assembleTo
+      {
+        SFT_CSW_M247H_Tripod = "SFT_Static_M247H_Tripod";
+      };
+    };
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+      mass = 300;
+    };
+  };
+
+  class SFT_M247H_Shield_Weapon: OPTRE_CSW_M247H_Weapon
+  {
+    author = "Waylen";
+    dlc = "SFT";
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[SFT] M247H Gun w/ Shield";    
+    class ace_csw: ace_csw
+    {
+      class assembleTo
+      {
+        SFT_CSW_M247H_Tripod = "SFT_Static_M247H_Shield_Tripod";
+      };
+    };
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+      mass = 300;
+    };
+  };
+
 };
