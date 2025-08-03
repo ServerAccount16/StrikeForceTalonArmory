@@ -4,7 +4,12 @@ class CfgPatches
 {
 	class SFTMusic
 	{
-		name = "SFT Music";
+		name 							 = "SFT Music";
+		units[]            = {};
+		weapons[]          = {};
+		requiredVersion    = 0.1;
+		requiredAddons[]   = {};
+		author             = "Weber";
 	};
 };
 
