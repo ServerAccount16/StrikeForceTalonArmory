@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "95_Templates/BUG - (Short Title).md",
+                "file": "99_Archive/Temp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BUG - (Short Title)"
+              "title": "Temp"
             }
           }
         ]
@@ -170,7 +170,12 @@
   },
   "active": "80bbbd19ee8ed33b",
   "lastOpenFiles": [
-    "02_Work/Untitled.md",
+    "90_Refs/Temp.md",
+    "99_Archive/Temp.md",
+    "04_Release/Temp.md",
+    "03_Issues/Temp.md",
+    "02_Work/Temp.md",
+    "01_Planning/Temp.md",
     "95_Templates/BUG - (Short Title).md",
     "00_Home_Page/Main Page.md",
     "95_Templates",
