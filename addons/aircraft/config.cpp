@@ -45,7 +45,7 @@ class CfgVehicles
     crew = "SFT_B_UNSCMarines_Helicopter_Pilot_Woodland_01";
     weapons[] = 
     {
-      "SFT_40mm",
+      "SFT_40mm_Chingun",
       "CMFlareLauncher",
       "Laserdesignator_pilotCamera"
     };
