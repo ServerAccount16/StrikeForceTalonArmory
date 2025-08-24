@@ -58,7 +58,7 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVOSJ SmartLink (1-4x)";
+    displayName = "[SFT] EVOSJ SmartLink (1.4-2.8x)";
     picture = "\TCP\Weapons_F_TCP\Acc\Optic\EVOSJ\data\ui\icon_optic_EVOSJ_ca.paa";
     weaponInfoType = "CTGCY_Smartlink_AR";
     class ItemInfo : ItemInfo
@@ -94,7 +94,7 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVOSM SmartLink (1-4x)";
+    displayName = "[SFT] EVOSM SmartLink (1.4-2.8x)";
     picture = "\TCP\Weapons_F_TCP\Acc\Optic\EVOSM\data\ui\icon_optic_EVOSM_ca.paa";
     weaponInfoType = "CTGCY_Smartlink_LMG";
     class ItemInfo : ItemInfo
