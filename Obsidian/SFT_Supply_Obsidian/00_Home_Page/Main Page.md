@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## Bugs
 
-- [ ] [[Weapon inheritance issues]]
 
 
 ## To-Do
@@ -29,10 +28,15 @@ kanban-plugin: board
 - [ ] [[CBUU SFT Variant]]
 
 
+## Finished
+
+- [ ] [[Weapon inheritance issues]]
+
+
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false]}
 ```
 %%

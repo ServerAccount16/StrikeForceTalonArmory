@@ -1,2 +1,16 @@
 Current bugs:
 [[Weapon inheritance issues]]
+Current projects:
+[[BR55 SR 9.5 mm SFT Variant]]
+[[CBUU SFT Variant]]
+[[M7 SMG 5 mm SFT Variant]]
+[[M27 RCO SFT Variant]]
+[[M41 'Warthog' SFT Variant]]
+[[M42 RCO and base varants SFT Variants]]
+[[M43 D Variants]]
+[[M58 SLS V SFT Variant]]
+[[M81 ERO SFT Variant]]
+[[M128 ASRO 'ORACLE N' SFT Variant]]
+[[M319 IGL 40 mm SFT Variant]]
+[[MA5K ICWS 7.62 mm SFT Variant]]
+[[SRS99-AM 12.7 mm]]

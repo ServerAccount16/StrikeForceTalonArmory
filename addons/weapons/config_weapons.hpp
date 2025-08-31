@@ -275,24 +275,67 @@ class CfgWeapons
       };
     };
   };
-  /* 
-  class 19_UNSC_M7_optic;
-  class SFT_optic_M7 : 19_UNSC_M7_optic
+  class TCP_optic_M27RCO;
+  class SFT_optic_M27RCO : TCP_optic_M27RCO
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M27 RCO SmartLink (1-4x)";
+    weaponInfoType = "CTGCY_BR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.125;
+					opticsZoomMax = 0.063;
+					opticsZoomInit = 0.125;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_2","\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_4"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
+  class TCP_optic_M5BSLSV;
+  class SFT_optic_M5BSLSV : TCP_optic_M5BSLSV
   {
     author = "Weber";
     dlc = "SFT";
     scope = 2;
     opticsFlare = 0;
     opticsDisablePeripherialVision = 0;
-    displayName = "[SFT] M7 Red-Dot SmartLink";
-    model = "\UNSC_F_Weapons\weapons\m7_data\attachments\m7_scope.p3d";
+    displayName = "[SFT] M7 M5B SLS/V (Red)";
     weaponInfoType = "CTGCY_Smartlink_SMG";
     class ItemInfo : ItemInfo
     {
       mass = 2;
       opticType=1;
       optics=1;
-      modelOptics = "\UNSC_F_Weapons\weapons\m7_data\attachments\m7_scope.p3d";
       class OpticsModes : OpticsModes
       {
         class M7_optic
@@ -348,13 +391,83 @@ class CfgWeapons
       };
     };
   };
-  class 19_UNSC_SRS99AM_scope;
-  class SFT_optic_SRS99AM : 19_UNSC_SRS99AM_scope
+  class TCP_optic_M5BSLSV_Blue;
+  class SFT_optic_M5BSLSV_Blue : TCP_optic_M5BSLSV_Blue
   {
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] Oracle Scope";
+    opticsFlare = 0;
+    opticsDisablePeripherialVision = 0;
+    displayName = "[SFT] M7 M5B SLS/V (Blue)";
+    weaponInfoType = "CTGCY_Smartlink_SMG";
+    class ItemInfo : ItemInfo
+    {
+      mass = 2;
+      opticType=1;
+      optics=1;
+      class OpticsModes : OpticsModes
+      {
+        class M7_optic
+        {
+          opticsID=1;
+          useModelOptics=0;
+          opticsPPEffects[]=
+          {
+            ""
+          };
+          opticsZoomMin=0.375;
+          opticsZoomMax=1.25;
+          opticsZoomInit=0.75;
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          memoryPointCamera="eye";
+          visionMode[]=
+          {
+            "Normal",
+            "NVG"
+          };
+          discreteDistance[]={200};
+          discreteDistanceInitIndex=1;
+          distanceZoomMin=200;
+          distanceZoomMax=200;
+          distanceZoominit=00;
+          cameraDir="";
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID=2;
+					useModelOptics=1;
+          opticsPPEffects[]=
+          {
+            ""
+          };
+					opticsZoomMin=0.125;
+					opticsZoomMax=0.125;
+					opticsZoomInit=0.125;
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+					discretefov[]={0.125};
+					distanceZoomMin=50;
+					distanceZoomMax=300;
+					memoryPointCamera="opticView";
+					modelOptics[]=
+					{
+						"\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_Scope_2"
+					};
+        };
+      };
+    };
+  };
+  class TCP_optic_Oracle_N;
+  class SFT_optic_SRS99AM : TCP_optic_Oracle_N
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M128 ASRO 'Oracle-N' Sniper Scope (5-25x)";
     weaponInfoType = "CTGCY_SRS_Display_Info";
     ace_scopeZeroRange=100;
     opticsFlare = 0;
@@ -419,7 +532,291 @@ class CfgWeapons
 		ACE_twistDirection=1;
 		ace_overheating_closedBolt=1;
 		ACE_overheating_barrelMass=62.610001;
-  };*/
+  };
+  class TCP_optic_M43RCO;
+  class SFT_optic_M43RCO : TCP_optic_M43RCO
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M43 RCO SmartLink (1-4x)";
+    weaponInfoType = "CTGCY_BR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.125;
+					opticsZoomMax = 0.063;
+					opticsZoomInit = 0.125;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_2","\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_4"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
+  class TCP_optic_M43RCO_CRS;
+  class SFT_optic_M43RCO_CRS : TCP_optic_M43RCO_CRS
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M43 RCO (CRS) SmartLink (1-4x)";
+    weaponInfoType = "CTGCY_BR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.125;
+					opticsZoomMax = 0.063;
+					opticsZoomInit = 0.125;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_2","\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_4"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
+  class TCP_optic_M43RCO_CRS_CUP;
+  class SFT_optic_M43RCO_CRS_CUP : TCP_optic_M43RCO_CRS_CUP
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M43 RCO (CRS, Eyecup) SmartLink (1-4x)";
+    weaponInfoType = "CTGCY_BR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.125;
+					opticsZoomMax = 0.063;
+					opticsZoomInit = 0.125;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_2","\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_4"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
+  class TCP_optic_M43RCO_CUP;
+  class SFT_optic_M43RCO_CUP : TCP_optic_M43RCO_CUP
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M43 RCO (Eyecup) SmartLink (1-4x)";
+    weaponInfoType = "CTGCY_BR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.125;
+					opticsZoomMax = 0.063;
+					opticsZoomInit = 0.125;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_2","\CTGCY_Weapons\data\scopes\UI\CTGCY_BR_Scope_4"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
+  class TCP_optic_M831ERO;
+  class SFT_optic_M831ERO : TCP_optic_M831ERO
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M81 ERO SmartLink Red (1-3x)";
+    picture = "\TCP\Weapons\Acc\Optic\M81ERO\data\ui\icon_acco_M81ERO_Red_CA.paa";
+    weaponInfoType = "CTGCY_DMR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.25;
+          opticsZoomMax = 0.082000002;
+          opticsZoomInit = 0.25;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] =
+              {
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_1",
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_3"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
+  class TCP_optic_M831ERO_Blue;
+  class SFT_optic_M831ERO_Blue : TCP_optic_M831ERO_Blue
+  {
+    author = "Weber";
+    dlc = "SFT";
+    scope = 2;
+    displayName = "[SFT] M81 ERO SmartLink Blue (1-3x)";
+    picture = "\TCP\Weapons\Acc\Optic\M81ERO\data\ui\icon_acco_M81ERO_Red_CA.paa";
+    weaponInfoType = "CTGCY_DMR_Display_Info";
+    class ItemInfo : ItemInfo
+    {
+      class OpticsModes : OpticsModes
+      {
+        class EVO : SFT_OpticsMode_Base
+        {
+        };
+        class SmartLink : EVOSJ
+        {
+          opticsID = 1;
+          useModelOptics = 1;
+          opticsZoomMin = 0.25;
+          opticsZoomMax = 0.082000002;
+          opticsZoomInit = 0.25;
+          discretefov[] = {0.25, 0.082000002};
+          memoryPointCamera = "opticView";
+          modelOptics[] =
+              {
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_1",
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_3"};
+          opticsFlare = 0;
+          opticsDisablePeripherialVision = 0;
+          discreteInitIndex = 0;
+          discreteDistance[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000};
+          discreteDistanceInitIndex = 1;
+          distanceZoomMin = 50;
+          distanceZoomMax = 2000;
+          cameraDir = "";
+          visionMode[] =
+              {
+                  "Normal",
+                  "NVG",
+                  "TI"};
+          thermalMode[] = {0};
+          opticsPPEffects[] =
+              {
+                  ""};
+        };
+      };
+    };
+  };
   //------------------------------------------------------------------//
   //  Arsenal inventory object
   //------------------------------------------------------------------//
@@ -1396,12 +1793,12 @@ class CfgWeapons
 			dispersion=0.0029088822;
 		};
   };
-  //class 19_UNSC_M7;
+  class TCP_SMG_M7;
   class WeaponSlotsInfo;
   class MuzzleSlot;
   class CowsSlot;
   class PointerSlot;
-  /*class SFT_M7: 19_UNSC_M7
+  class SFT_M7: TCP_SMG_M7
   {
     author="Weber";
     baseWeapon="SFT_M7";
@@ -1416,39 +1813,11 @@ class CfgWeapons
       holsterOffset = "";	// name of a memory point in weapon to serve as zero of the model
       holsterScale = .75;
       mass=20;
-      class MuzzleSlot: MuzzleSlot
-      {
-        inkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
-        displayName="Muzzle Slot";
-        compatibleItems[]=
-        {
-          "19_UNSC_m7_Suppressor"
-        };
-        iconPosition[]={0,0.40000001};
-      };
-      class CowsSlot: CowsSlot
-      {
-        linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
-        displayName="$STR_A3_CowsSlot0";
-        compatibleitems[]=
-        {
-          "SFT_optic_M7",
-        };
-        iconPosition[]={0.5,0.30000001};
-      };
-      class PointerSlot: PointerSlot
-      {
-        compatibleItems[]=
-        {
-          "19_UNSC_M7_LAM"
-        };
-        iconPosition[]={0.2,0.40000001};
-      };
     };
   };
-  class 19_UNSC_SRS99AM;*/
+  class TCP_srifle_SRS99;
   class UnderBarrelSlot;
-  /*class SFT_SRS99AM: 19_UNSC_SRS99AM
+  class SFT_SRS99AM: TCP_srifle_SRS99
   {
     author="Weber";
     baseWeapon="SFT_SRS99AM";
@@ -1464,36 +1833,7 @@ class CfgWeapons
       "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_10",
       "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_25"
     };
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-      mass=300;
-      class MuzzleSlot: MuzzleSlot
-      {
-        inkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
-        displayName="Muzzle Slot";
-        compatibleItems[]={};
-        iconPosition[]={0,0.40000001};
-      };
-      class CowsSlot: CowsSlot
-      {
-        linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
-        displayName="$STR_A3_CowsSlot0";
-        compatibleitems[]=
-        {
-          "SFT_optic_SRS99AM",
-        };
-        iconPosition[]={0.5,0.30000001};
-      };
-      class PointerSlot: PointerSlot
-      {
-        compatibleitems[]={};
-      };
-      class UnderBarrelSlot: UnderBarrelSlot
-      {
-        compatibleitems[]={};
-      };
-    };
-  };*/
+  };
   class OPTRE_M319N;
   class SFT_M319N : OPTRE_M319N
   {
