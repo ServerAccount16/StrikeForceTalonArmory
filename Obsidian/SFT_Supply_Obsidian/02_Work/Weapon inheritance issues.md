@@ -1,0 +1,1 @@
+All Weapons are affected. Supposedly just adding a "_F" will fix it.

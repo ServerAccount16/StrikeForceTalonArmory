@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50c04ad6991086ad",
+        "id": "d60bd5f60b8c8089",
         "type": "tabs",
         "children": [
           {
-            "id": "80bbbd19ee8ed33b",
+            "id": "f4b2fd48c160052c",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -24,26 +24,6 @@
               },
               "icon": "lucide-trello",
               "title": "Main Page"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c357379feefd0f98",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d0a9433da06727f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Work/Custom ACE Spray Cans.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Custom ACE Spray Cans"
             }
           }
         ]
@@ -182,6 +162,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,9 +174,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbb045ce84c00ecc",
+  "active": "f4b2fd48c160052c",
   "lastOpenFiles": [
+    "02_Work/Weapon inheritance issues.md",
     "00_Home_Page/Main Page.md",
+    "02_Work/BR55 SR 9.5 mm SFT Variant.md",
+    "02_Work/TCP Update 0.2.1 Mod Fix.md",
+    "02_Work/CBUU SFT Variant.md",
+    "02_Work/M43 D Variants.md",
+    "02_Work/TCP Radio ACRE adaptation.md",
+    "02_Work/M41 'Warthog' SFT Variant.md",
+    "02_Work/M81 ERO SFT Variant.md",
+    "02_Work/M58 SLS V SFT Variant.md",
+    "02_Work/M42 RCO and base varants SFT Variants.md",
+    "02_Work/M27 RCO SFT Variant.md",
+    "02_Work/SRS99-AM 12.7 mm.md",
+    "02_Work/M128 ASRO 'ORACLE N' SFT Variant.md",
+    "02_Work/MA5K ICWS 7.62 mm SFT Variant.md",
+    "02_Work/M7 SMG 5 mm SFT Variant.md",
+    "02_Work/M319 IGL 40 mm SFT Variant.md",
     "02_Work/Custom ACE Spray Cans.md",
     "Task 1.md",
     "02_Work/Innie Faction🛫 2025-08-03 ⏫ ➕ 2025-08-03.md",
@@ -205,10 +202,7 @@
     "90_Refs/Temp.md",
     "04_Release/Temp.md",
     "03_Issues/Temp.md",
-    "02_Work/Temp.md",
-    "95_Templates/BUG - (Short Title).md",
     "95_Templates",
-    "Welcome.md",
     "99_Archive",
     "90_Refs",
     "04_Release",

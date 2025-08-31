@@ -58,8 +58,7 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVOSJ SmartLink (1.4-2.8x)";
-    picture = "\TCP\Weapons_F_TCP\Acc\Optic\EVOSJ\data\ui\icon_optic_EVOSJ_ca.paa";
+    displayName = "[SFT] M882 WSD 'EVOS-J' SmartLink (1.4-2.8x)";
     weaponInfoType = "CTGCY_Smartlink_AR";
     class ItemInfo : ItemInfo
     {
@@ -94,8 +93,7 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVOSM SmartLink (1.4-2.8x)";
-    picture = "\TCP\Weapons_F_TCP\Acc\Optic\EVOSM\data\ui\icon_optic_EVOSM_ca.paa";
+    displayName = "[SFT] M1022 WSD 'EVOS-M' SmartLink (1.4-2.8x)";
     weaponInfoType = "CTGCY_Smartlink_LMG";
     class ItemInfo : ItemInfo
     {
@@ -133,8 +131,7 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVOSD SmartLink (1-8x)";
-    picture = "\TCP\Weapons_F_TCP\Acc\Optic\EVOSD\data\ui\icon_optic_EVOSD_ca.paa";
+    displayName = "[SFT] M45 DMO 'EVOS-D' SmartLink (1-8x)";
     weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
@@ -175,15 +172,14 @@ class CfgWeapons
       };
     };
   };
-  class TCP_optic_ERO;
-  class TCP_optic_ERO_Blue;
-  class SFT_optic_ERO : TCP_optic_ERO
+  class TCP_optic_M11VERO;
+  class TCP_optic_M11VERO_Blue;
+  class SFT_optic_ERO : TCP_optic_M11VERO
   {
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVO SmartLink Red (1-3x)";
-    picture = "\TCP\Weapons_F_TCP\Acc\Optic\ERO\data\ui\icon_optic_ERO_Red_ca.paa";
+    displayName = "[SFT] M11V ERO SmartLink Red (1-3x)";
     weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
@@ -226,13 +222,12 @@ class CfgWeapons
       };
     };
   };
-  class SFT_optic_ERO_Blue : TCP_optic_ERO_Blue
+  class SFT_optic_ERO_Blue : TCP_optic_M11VERO_Blue
   {
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] EVO SmartLink Blue (1-3x)";
-    picture = "\TCP\Weapons_F_TCP\Acc\Optic\ERO\data\ui\icon_optic_ERO_Red_ca.paa";
+    displayName = "[SFT] M11V ERO SmartLink Blue (1-3x)";
     weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
