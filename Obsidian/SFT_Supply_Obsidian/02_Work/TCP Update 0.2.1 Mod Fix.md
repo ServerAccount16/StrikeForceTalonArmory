@@ -13,4 +13,4 @@ Current projects:
 [[M128 ASRO 'ORACLE N' SFT Variant - Complete]]
 [[M319 IGL 40 mm SFT Variant]]
 [[MA5K ICWS 7.62 mm SFT Variant]]
-[[SRS99-AM 12.7 mm - Complete]]
+[[SRS99-AM 12.7 mm - In Progress]]

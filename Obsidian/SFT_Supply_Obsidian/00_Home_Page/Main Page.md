@@ -6,6 +6,8 @@ kanban-plugin: board
 
 ## Bugs
 
+- [ ] M45 Shotgun Internal Magazine Broken
+- [ ] [[Find Better Reload animations and sounds]]
 
 
 ## To-Do
@@ -21,12 +23,13 @@ kanban-plugin: board
 - [ ] [[M43 D Variants]]
 - [ ] [[CBUU SFT Variant]]
 - [ ] Steal stamina config from havok
+- [ ] M6C SOCOM smartlink
 
 
 ## Finished
 
 - [ ] [[Weapon inheritance issues]]
-- [ ] [[SRS99-AM 12.7 mm - Complete]]
+- [ ] [[SRS99-AM 12.7 mm - In Progress]]
 - [ ] [[M128 ASRO 'ORACLE N' SFT Variant - Complete]]
 - [ ] [[M27 RCO SFT Variant - Complete]]
 - [ ] [[M42 RCO and base varants SFT Variants - Complete]]

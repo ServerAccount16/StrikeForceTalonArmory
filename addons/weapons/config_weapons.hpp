@@ -7,8 +7,16 @@ class asdg_OpticRail1913 // defined by CBA/ASDG
     SFT_optic_EVOSD_SL = 1;
     SFT_optic_ERO = 1;
     SFT_optic_ERO_blue = 1;
-    SFT_optic_M7 = 1;
+    SFT_optic_M27RCO = 1;
+    SFT_optic_M5BSLSV = 1;
+    SFT_optic_M5BSLSV_Blue = 1;
     SFT_optic_SRS99AM = 1;
+    SFT_optic_M43RCO = 1;
+    SFT_optic_M43RCO_CRS = 1;
+    SFT_optic_M43RCO_CRS_CUP = 1;
+    SFT_optic_M43RCO_CUP = 1;
+    SFT_optic_M831ERO = 1;
+    SFT_optic_M831ERO_Blue = 1;
   };
 };
 class asdg_MuzzleSlot_762;
@@ -482,9 +490,22 @@ class CfgWeapons
     {
       class OpticsModes : OpticsModes
       {
-        class SRS99AM : SFT_OpticsMode_Base
-        {
-        };
+        class R2T
+				{
+					opticsID = 1;
+					useModelOptics = 0;
+					opticsPPEffects[] = {"OpticsCHAbera5","OpticsBlur5"};
+					discreteDistance[] = {100,300,400,500,600,700,800,900,1000};
+					discreteDistanceInitIndex = 1;
+					distanceZoomMin = 100;
+					distanceZoomMax = 1000;
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					opticsFlare = 1;
+					opticsDisablePeripherialVision = 0;
+					memoryPointCamera = "opticView";
+				};
         class SmartLink : EVOSJ
         {
           opticsID=2;
@@ -723,9 +744,9 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] M81 ERO SmartLink Red (1-3x)";
+    displayName = "[SFT] M81 ERO SmartLink Red (1-2x)";
     picture = "\TCP\Weapons\Acc\Optic\M81ERO\data\ui\icon_acco_M81ERO_Red_CA.paa";
-    weaponInfoType = "CTGCY_DMR_Display_Info";
+    weaponInfoType = "CTGCY_Smartlink_SMG";
     class ItemInfo : ItemInfo
     {
       class OpticsModes : OpticsModes
@@ -742,10 +763,7 @@ class CfgWeapons
           opticsZoomInit = 0.25;
           discretefov[] = {0.25, 0.082000002};
           memoryPointCamera = "opticView";
-          modelOptics[] =
-              {
-                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_1",
-                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_3"};
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_1-4","\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_2-8"};
           opticsFlare = 0;
           opticsDisablePeripherialVision = 0;
           discreteInitIndex = 0;
@@ -773,9 +791,9 @@ class CfgWeapons
     author = "Weber";
     dlc = "SFT";
     scope = 2;
-    displayName = "[SFT] M81 ERO SmartLink Blue (1-3x)";
+    displayName = "[SFT] M81 ERO SmartLink Blue (1-2x)";
     picture = "\TCP\Weapons\Acc\Optic\M81ERO\data\ui\icon_acco_M81ERO_Red_CA.paa";
-    weaponInfoType = "CTGCY_DMR_Display_Info";
+    weaponInfoType = "CTGCY_Smartlink_SMG";
     class ItemInfo : ItemInfo
     {
       class OpticsModes : OpticsModes
@@ -792,10 +810,7 @@ class CfgWeapons
           opticsZoomInit = 0.25;
           discretefov[] = {0.25, 0.082000002};
           memoryPointCamera = "opticView";
-          modelOptics[] =
-              {
-                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_1",
-                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_3"};
+          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_1-4","\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_2-8"};
           opticsFlare = 0;
           opticsDisablePeripherialVision = 0;
           discreteInitIndex = 0;
@@ -1823,15 +1838,187 @@ class CfgWeapons
     baseWeapon="SFT_SRS99AM";
     scope=2;
     displayName="[SFT] SRS99 Anti-Material Sniper Rifle";
-    muzzles[]=
-    {
-      "this"
-    };
     modelOptics[]=
     {
       "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_5",
       "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_10",
       "\CTGCY_Weapons\data\scopes\UI\CTGCY_SRS_Scope_25"
+    };
+    reloadAction = "WBK_SRS99C_Reload";
+    // reloadAction = "WBK_GestureReloadDMR04"; We'll see if we need this one
+    reloadMagazineSound[] = {"wep_f_improve\animsounds\SRS_Reload.ogg",5,1,30};
+    magazines[] = SRS99AM_magazines;
+    magazineWell[]   = {"SFT_127x99_4"};
+    modes[] = {"Single","Single_Close_Optics","Single_Medium_Optics","Single_Far_Optics"};
+    class Single: Mode_SemiAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect = "DefaultRifle";
+				closure1[] = {};
+				closure2[] = {};
+				soundClosure[] = {"closure1",0.5,"closure2",0.5};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\Foundries\UNSC_F_Weapons\weapons\SRS99_data\Sounds\UNSC_SRS99_1.ogg","db10",1,2000};
+        begin2[] = {"\Foundries\UNSC_F_Weapons\weapons\SRS99_data\Sounds\UNSC_SRS99_3.ogg","db10.5",1,2000};
+        begin3[] = {"\Foundries\UNSC_F_Weapons\weapons\SRS99_data\Sounds\UNSC_SRS99_4.ogg","db10",1,2000};
+        begin4[] = {"\Foundries\UNSC_F_Weapons\weapons\SRS99_data\Sounds\UNSC_SRS99_2.ogg","db10.5",1,200};
+        soundBegin[] = {"begin1",0.14,"begin2",0.14,"begin3",0.14,"begin4",0.14};
+        class SoundTails
+        {
+          class TailForest
+          {
+            sound[]=
+            {
+              "A3\Sounds_F\arsenal\weapons\LongRangeRifles\Mk18\Mk18_tail_forest",
+              1,
+              1,
+              2000
+            };
+            frequency=1;
+            volume="(1-interior/1.4)*forest";
+          };
+          class TailHouses
+          {
+            sound[]=
+            {
+              "A3\Sounds_F\arsenal\weapons\LongRangeRifles\Mk18\Mk18_tail_houses",
+              5,
+              1,
+              2000
+            };
+            frequency=1;
+            volume="(1-interior/1.4)*houses";
+          };
+          class TailInterior
+          {
+            sound[]=
+            {
+              "A3\Sounds_F\arsenal\weapons\LongRangeRifles\Mk18\Mk18_tail_interior",
+              7,
+              1,
+              2000
+            };
+            frequency=1;
+            volume="interior";
+          };
+          class TailMeadows
+          {
+            sound[]=
+            {
+              "A3\Sounds_F\arsenal\weapons\LongRangeRifles\Mk18\Mk18_tail_meadows",
+              6,
+              1,
+              2000
+            };
+            frequency=1;
+            volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+          };
+          class TailTrees
+          {
+            sound[]=
+            {
+              "A3\Sounds_F\arsenal\weapons\LongRangeRifles\Mk18\Mk18_tail_trees",
+              6,
+              1,
+              2000
+            };
+            frequency=1;
+            volume="(1-interior/1.4)*trees";
+          };
+        };
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Msbs65_01_Shot_Silencer_SoundSet","Msbs65_01_Tail_Int_Silencer_SoundSet"};
+        begin1[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_01",1.0,1,400};
+        begin2[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_02",1.0,1,400};
+        begin3[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_03",1.0,1,400};
+        soundBegin[] = {"begin1",0.33,"begin2",0.33,"begin3",0.34};
+        class SoundTails
+        {
+          class TailTrees
+          {
+            sound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_trees",1.0,1,400};
+            frequency = 1;
+            volume = "(1-interior/1.4)*trees";
+          };
+          class TailForest
+          {
+            sound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_forest",1.0,1,400};
+            frequency = 1;
+            volume = "(1-interior/1.4)*forest";
+          };
+          class TailInterior
+          {
+            sound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_tail_interior",1.0,1,400};
+            frequency = 1;
+            volume = "interior";
+          };
+          class TailMeadows
+          {
+            sound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_meadows",1.0,1,400};
+            frequency = 1;
+            volume = "(1-interior/1.4)*(meadows/2 max sea/2)";
+          };
+          class TailHouses
+          {
+            sound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_houses",1.0,1,400};
+            frequency = 1;
+            volume = "(1-interior/1.4)*houses";
+          };
+        };
+      aiRateOfFire = 3;
+      aiRateOfFireDistance = 500;
+      minRange = 2;
+      minRangeProbab = 0.5;
+      midRange = 150;
+      midRangeProbab = 0.7;
+      maxRange = 450;
+      maxRangeProbab = 0.3;
+      reloadTime = 0.76666665;
+      dispersion = 0.00023271058;
+      };
+    };
+    class Single_Close_Optics: Single
+    {
+      showToPlayer = 0;
+      aiRateOfFire = 3;
+      aiRateOfFireDistance = 500;
+      minRange = 150;
+      minRangeProbab = 0.2;
+      midRange = 500;
+      midRangeProbab = 0.7;
+      maxRange = 1500;
+      maxRangeProbab = 0.4;
+      requiredOpticType = 2;
+    };
+    class Single_Medium_Optics: Single_Close_Optics
+    {
+      aiRateOfFire = 5;
+      aiRateOfFireDistance = 1000;
+      minRange = 250;
+      minRangeProbab = 0.2;
+      midRange = 750;
+      midRangeProbab = 0.7;
+      maxRange = 1000;
+      maxRangeProbab = 0.4;
+      requiredOpticType = 1;
+    };
+    class Single_Far_Optics: Single_Medium_Optics
+    {
+      aiRateOfFire = 7;
+      aiRateOfFireDistance = 1000;
+      minRange = 500;
+      minRangeProbab = 0.2;
+      midRange = 1200;
+      midRangeProbab = 0.7;
+      maxRange = 2100;
+      maxRangeProbab = 0.3;
+      requiredOpticType = 2;
     };
   };
   class OPTRE_M319N;

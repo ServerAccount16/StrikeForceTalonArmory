@@ -17,7 +17,7 @@
 // Launcher
 #define M41_magazines {"SFT_2Rnd_102mm_Mag_HEAT", "SFT_2Rnd_102mm_Mag_HEAP", "SFT_2Rnd_102mm_Mag_HEAT_G", "SFT_2Rnd_102mm_Mag_HEAT_SACLOS", "SFT_2Rnd_102mm_Mag_HEAT_G_AA", "SFT_2Rnd_102mm_Mag_HEAT_SALH"}
 // Sniper
-#define SRS99_magazines {"OPTRE_4Rnd_145x114_APFSDS_Mag"}
+#define SRS99AM_magazines {"SFT_4Rnd_127x99_Mag_APFSDS", "SFT_4Rnd_127x99_Mag_APFSDS_Tracer"}
 // 12 Gauge
 #define M45TAC_magazines {"OPTRE_6Rnd_8Gauge_Pellets", "OPTRE_6Rnd_8Gauge_Slugs"}
 #define FlareGun_magazines {"OPTRE_signalSmokeB", "OPTRE_signalSmokeG", "OPTRE_signalSmokeO", "OPTRE_signalSmokeP", "OPTRE_signalSmokeR", "OPTRE_signalSmokeY"}

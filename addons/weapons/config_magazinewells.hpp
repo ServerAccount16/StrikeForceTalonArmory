@@ -69,6 +69,14 @@ class CfgMagazineWells
       "SFT_24Rnd_127x30_46_Mag_Tracer"
     };
   };
+  class SFT_127x99_4
+  {
+    SFT[]=
+    {
+      "SFT_4Rnd_127x99_Mag_APFSDS",
+      "SFT_4Rnd_127x99_Mag_APFSDS_Tracer"
+    };
+  };
   class SFT_50Rnd_127x99
   {
     SFT[]=

@@ -192,6 +192,27 @@ class CfgMagazines
 		count=12;
 		tracersEvery=0;
 	};
+	class TCP_4Rnd_127x99_Mag_APFSDS;
+	class SFT_4Rnd_145x114_Mag_APFSDS : TCP_4Rnd_127x99_Mag_APFSDS
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 4Rnd 14.5x114mm APFSDS Magazine";
+		ammo = "OPTRE_B_145x114_APFSDS";
+		count=4;
+		tracersEvery=0;
+	};
+	class SFT_4Rnd_145x114_Mag_APFSDS_Tracer : TCP_4Rnd_127x99_Mag_APFSDS
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 4Rnd 14.5x114mm APFSDS Magazine [Tracer]";
+		ammo = "OPTRE_B_145x114_APFSDS";
+		count=4;
+		tracersEvery=4;
+	};
 	class TCP_2Rnd_102mm_Mag_HEAT;
 	class SFT_2Rnd_102mm_Mag_HEAT : TCP_2Rnd_102mm_Mag_HEAT
 	{
