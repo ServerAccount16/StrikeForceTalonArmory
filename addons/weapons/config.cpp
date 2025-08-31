@@ -29,11 +29,7 @@ class CfgPatches
             "SFT_M6C",
             "SFT_M41",
             "SFT_M45TAC",
-            "SFT_FlareGun",
-            "SFT_optic_M7",
-            "SFT_M7",
-            "SFT_optic_SRS99AM",
-            "SFT_SRS99AM"
+            "SFT_FlareGun"
         }; // Ensure any newly created weapon class is listed above.
         ammo[] = {"SFT_M9R_G_Frag"}; // Please add your new ammo types to this list.
         magazines[] =
@@ -58,7 +54,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "CTGCY_Weapons",
-            "A3_Weapons_F_TCP",
+            "TCP_Weapons",
             "OPTRE_Weapons",
             "cba_main",
             "A3_Weapons_F",

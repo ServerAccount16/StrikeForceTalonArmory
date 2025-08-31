@@ -59,6 +59,7 @@ class CfgWeapons
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M882 WSD 'EVOS-J' SmartLink (1.4-2.8x)";
+    picture = "\TCP\Weapons\Acc\Optic\EVOSJ\data\ui\icon_optic_EVOSJ_ca.paa";
     weaponInfoType = "CTGCY_Smartlink_AR";
     class ItemInfo : ItemInfo
     {
@@ -94,6 +95,7 @@ class CfgWeapons
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M1022 WSD 'EVOS-M' SmartLink (1.4-2.8x)";
+    picture = "\TCP\Weapons\Acc\Optic\EVOSM\data\ui\icon_optic_EVOSM_ca.paa";
     weaponInfoType = "CTGCY_Smartlink_LMG";
     class ItemInfo : ItemInfo
     {
@@ -132,6 +134,7 @@ class CfgWeapons
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M45 DMO 'EVOS-D' SmartLink (1-8x)";
+    picture = "\TCP\Weapons\Acc\Optic\EVOSD\data\ui\icon_optic_EVOSD_ca.paa";
     weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
@@ -180,6 +183,7 @@ class CfgWeapons
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M11V ERO SmartLink Red (1-3x)";
+    picture = "\TCP\Weapons\Acc\Optic\M11VERO\data\ui\icon_optic_M11VERO_Red_ca.paa";
     weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
@@ -228,6 +232,7 @@ class CfgWeapons
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M11V ERO SmartLink Blue (1-3x)";
+    picture = "\TCP\Weapons\Acc\Optic\M11VERO\data\ui\icon_optic_M11VERO_Red_ca.paa";
     weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
@@ -270,6 +275,7 @@ class CfgWeapons
       };
     };
   };
+  /* 
   class 19_UNSC_M7_optic;
   class SFT_optic_M7 : 19_UNSC_M7_optic
   {
@@ -413,7 +419,7 @@ class CfgWeapons
 		ACE_twistDirection=1;
 		ace_overheating_closedBolt=1;
 		ACE_overheating_barrelMass=62.610001;
-  };
+  };*/
   //------------------------------------------------------------------//
   //  Arsenal inventory object
   //------------------------------------------------------------------//
@@ -439,11 +445,11 @@ class CfgWeapons
   //  Weapons
   //--------------------------------------------------------------------
   //  MA37
-  class TCP_arifle_MA37_F;
-  class TCP_arifle_MA37_GL_F;
-  class TCP_launcher_M301_F;
+  class TCP_arifle_MA37;
+  class TCP_arifle_MA37_GL;
+  class TCP_launcher_M301;
   class BaseSoundModeType;
-  class SFT_MA37 : TCP_arifle_MA37_F
+  class SFT_MA37 : TCP_arifle_MA37
   {
     author = "Weber";
     scope = 2;
@@ -512,7 +518,7 @@ class CfgWeapons
         };
       };
   };
-  class SFT_MA37GL : TCP_arifle_MA37_GL_F
+  class SFT_MA37GL : TCP_arifle_MA37_GL
   {
     author = "Weber";
     scope = 2;
@@ -533,7 +539,7 @@ class CfgWeapons
         {
             "this",
             "M301"};
-    class M301 : TCP_launcher_M301_F
+    class M301 : TCP_launcher_M301
     {
       useModelOptics = 0;
       useExternalOptic = 0;
@@ -604,8 +610,8 @@ class CfgWeapons
       };
   };
   //  M731
-  class TCP_LMG_M731_F;
-  class SFT_M731 : TCP_LMG_M731_F
+  class TCP_LMG_M731;
+  class SFT_M731 : TCP_LMG_M731
   {
     author = "Weber";
     scope = 2;
@@ -739,8 +745,8 @@ class CfgWeapons
 		};
   };
   //  M392
-  class TCP_srifle_M392_F;
-  class SFT_M392 : TCP_srifle_M392_F
+  class TCP_srifle_M392;
+  class SFT_M392 : TCP_srifle_M392
   {
     author = "Weber";
     dlc = "SFT";
@@ -901,8 +907,8 @@ class CfgWeapons
 			requiredOpticType=1;
 		};
   };
-  class TCP_srifle_VK78_F;
-  class SFT_VK78 : TCP_srifle_VK78_F
+  class TCP_Weapon_srifle_VK78_Gray;
+  class SFT_VK78 : TCP_Weapon_srifle_VK78_Gray
   {
     author = "Weber";
     dlc = "SFT";
@@ -916,7 +922,7 @@ class CfgWeapons
     class FullAuto;
     class SemiAuto;
     model="\TCP\Weapons_F_TCP\LongRangeRifles\VK78\VK78_Gray.p3d";
-		picture="\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\ui\icon_srifle_VK78_Gray_F_X_ca.paa";
+		picture = "\TCP\Weapons\LongRangeRifles\VK78\data\ui\icon_srifle_VK78_X_ca.paa";
     hiddenSelectionsTextures[]=
 		{
 			"\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\camo\gray\VK78_01_CO.paa",
@@ -1079,8 +1085,8 @@ class CfgWeapons
 			requiredOpticType=1;
 		};
   };
-  class TCP_arifle_M6J_F;
-  class SFT_M6J : TCP_arifle_M6J_F
+  class TCP_arifle_M6J;
+  class SFT_M6J : TCP_arifle_M6J
   {
     author = "Weber";
     dlc = "SFT";
@@ -1201,8 +1207,8 @@ class CfgWeapons
 			requiredOpticType=1;
 		};
   };
-  class TCP_hgun_Pistol_M6C2_F;
-  class SFT_M6C :TCP_hgun_Pistol_M6C2_F
+  class TCP_hgun_Pistol_M6C2;
+  class SFT_M6C :TCP_hgun_Pistol_M6C2
   {
     author = "Weber";
     dlc = "SFT";
@@ -1217,8 +1223,8 @@ class CfgWeapons
       "SFT_127x30_46_24"
     };
 	};
-  class TCP_launch_M41_F;
-  class SFT_M41 : TCP_launch_M41_F
+  class TCP_launch_M41;
+  class SFT_M41 : TCP_launch_M41
   {
     author = "Weber";
     dlc = "SFT";
@@ -1337,8 +1343,8 @@ class CfgWeapons
 			1
 		};
   };
-  class TCP_hgun_Pistol_FlareGun_Black_F;
-  class SFT_FlareGun : TCP_hgun_Pistol_FlareGun_Black_F
+  class TCP_hgun_Pistol_FlareGun_Black;
+  class SFT_FlareGun : TCP_hgun_Pistol_FlareGun_Black
   {
     author = "Weber";
     dlc = "SFT";
@@ -1390,12 +1396,12 @@ class CfgWeapons
 			dispersion=0.0029088822;
 		};
   };
-  class 19_UNSC_M7;
+  //class 19_UNSC_M7;
   class WeaponSlotsInfo;
   class MuzzleSlot;
   class CowsSlot;
   class PointerSlot;
-  class SFT_M7: 19_UNSC_M7
+  /*class SFT_M7: 19_UNSC_M7
   {
     author="Weber";
     baseWeapon="SFT_M7";
@@ -1440,9 +1446,9 @@ class CfgWeapons
       };
     };
   };
-  class 19_UNSC_SRS99AM;
+  class 19_UNSC_SRS99AM;*/
   class UnderBarrelSlot;
-  class SFT_SRS99AM: 19_UNSC_SRS99AM
+  /*class SFT_SRS99AM: 19_UNSC_SRS99AM
   {
     author="Weber";
     baseWeapon="SFT_SRS99AM";
@@ -1487,7 +1493,7 @@ class CfgWeapons
         compatibleitems[]={};
       };
     };
-  };
+  };*/
   class OPTRE_M319N;
   class SFT_M319N : OPTRE_M319N
   {
@@ -1649,10 +1655,10 @@ class CfgWeapons
 			class UnderBarrelSlot: asdg_UnderSlot {};
 		};
   };
-  class TCP_sgun_M45_F;
+  class TCP_sgun_M45;
   class EventHandlers;
   class InternalMagazine;
-  class SFT_M45 : TCP_sgun_M45_F
+  class SFT_M45 : TCP_sgun_M45
   {
     author = "Weber";
     dlc = "SFT";
@@ -1663,7 +1669,7 @@ class CfgWeapons
     class InternalMagazine: InternalMagazine
 		{
 			displayName="$STR_TCP_Weapons_Shotguns_M45_displayName";
-			cursor="TCP_sgun_M45_F";
+			cursor="TCP_sgun_M45";
 			magazines[]=
 			{
 				"SFT_1Rnd_12Gauge_Pellets"
