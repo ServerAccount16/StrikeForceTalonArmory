@@ -1,5 +1,21 @@
 class CfgMagazineWells
 {
+  class SFT_5x23_60
+  {
+		SFT[]=
+    {
+      "SFT_60Rnd_5x23_Mag", 
+      "SFT_60Rnd_5x23_Mag_Tracer"
+    };
+	};
+  class SFT_5x23_48
+  {
+		SFT[]=
+    {
+      "SFT_48Rnd_5x23_Mag", 
+      "SFT_48Rnd_5x23_Mag_Tracer"
+    };
+	};
   class SFT_762x51_15
 	{
 		SFT[]=

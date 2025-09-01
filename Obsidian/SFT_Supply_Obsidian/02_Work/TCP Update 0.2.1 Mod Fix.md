@@ -3,7 +3,7 @@ Current bugs:
 Current projects:
 [[BR55 SR 9.5 mm SFT Variant]]
 [[CBUU SFT Variant]]
-[[M7 SMG 5 mm SFT Variant]]
+[[M7 SMG 5 mm SFT Variant - Complete]]
 [[M27 RCO SFT Variant - Complete]]
 [[M41 'Warthog' SFT Variant]]
 [[M42 RCO and base varants SFT Variants - Complete]]

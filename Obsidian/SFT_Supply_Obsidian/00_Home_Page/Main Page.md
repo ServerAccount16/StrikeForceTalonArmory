@@ -16,7 +16,7 @@ kanban-plugin: board
 - [ ] [[TCP Update 0.2.1 Mod Fix]]
 - [ ] [[BR55 SR 9.5 mm SFT Variant]]
 - [ ] [[M319 IGL 40 mm SFT Variant]]
-- [ ] [[M7 SMG 5 mm SFT Variant]]
+- [ ] [[M7 SMG 5 mm SFT Variant - Complete]]
 - [ ] [[MA5K ICWS 7.62 mm SFT Variant]]
 - [ ] [[M41 'Warthog' SFT Variant]]
 - [ ] [[TCP Radio ACRE adaptation]]

@@ -1826,16 +1826,24 @@ class CfgWeapons
     baseWeapon="SFT_M7";
     scope=2;
     displayName="[SFT] M7 Caseless Submachine Gun";
-    muzzles[]=
-    {
-      "this"
-    };
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-      holsterOffset = "";	// name of a memory point in weapon to serve as zero of the model
-      holsterScale = .75;
-      mass=20;
-    };
+    magazines[] = {M7_magazines};
+		magazineWell[] = {"SFT_5x23_60","SFT_5x23_48"};
+    reloadMagazineSound[] = {"wep_f_improve\animsounds\M7_Reload.ogg",5,1,30};
+    class FullAuto: Mode_FullAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect = "DefaultRifle";
+				closure1[] = {};
+				closure2[] = {};
+				soundClosure[] = {"closure1",0.5,"closure2",0.5};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"M7_Shot_Soundset"};
+			};
+		};
   };
   class TCP_srifle_SRS99;
   class UnderBarrelSlot;

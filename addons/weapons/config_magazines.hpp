@@ -1,5 +1,48 @@
 class CfgMagazines
 {
+	//	SMG
+	class TCP_60Rnd_5x23_Mag;
+	class SFT_60Rnd_5x23_Mag : TCP_60Rnd_5x23_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 60Rnd 5x23mm Magazine";
+		ammo = "OPTRE_B_5x23_Caseless";
+		tracersEvery=0;
+		count=60;
+	};
+	class SFT_60Rnd_5x23_Mag_Tracer : TCP_60Rnd_5x23_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 60Rnd 5x23mm Magazine";
+		ammo = "OPTRE_B_5x23_Caseless";
+		tracersEvery=3;
+		count=60;
+	};
+	class TCP_48Rnd_5x23_Mag;
+	class SFT_48Rnd_5x23_Mag : TCP_48Rnd_5x23_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 48Rnd 5x23mm Magazine";
+		ammo = "OPTRE_B_5x23_Caseless";
+		tracersEvery=0;
+		count=48;
+	};
+	class SFT_48Rnd_5x23_Mag_Tracer : TCP_48Rnd_5x23_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 48Rnd 5x23mm Magazine [Tracer]";
+		ammo = "OPTRE_B_5x23_Caseless";
+		tracersEvery=3;
+		count=48;
+	};
 	//	Rifle
 	class TCP_32Rnd_762x51_Mag;
 	class SFT_32Rnd_762x51_Mag : TCP_32Rnd_762x51_Mag
