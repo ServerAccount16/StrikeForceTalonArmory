@@ -867,7 +867,7 @@ class CfgWeapons
   //  MA37
   class TCP_arifle_MA37;
   class TCP_arifle_MA37_GL;
-  class TCP_launcher_M301;
+  class TCP_launch_M301;
   class BaseSoundModeType;
   class SFT_MA37 : TCP_arifle_MA37
   {
@@ -955,28 +955,21 @@ class CfgWeapons
             1,
             25};
     reloadAction = "GestureReloadMA5";
-    muzzles[] =
-        {
-            "this",
-            "M301"};
-    class M301 : TCP_launcher_M301
+    class Flashlight{};
+		muzzles[] = {"this","M301"};
+    class M301 : TCP_launch_M301
     {
       useModelOptics = 0;
-      useExternalOptic = 0;
-      cameraDir = "op_look";
-      discreteDistance[] = {25, 50, 75, 100, 150, 200};
-      reloadAction="GestureReloadMSBS_UGL";
-      discreteDistanceInitIndex=1;
-      discreteDistanceCameraPoint[] =
-          {
-              "op_eye_25",
-              "op_eye_50",
-              "op_eye_75",
-              "op_eye_100",
-              "op_eye_150",
-              "op_eye_200"};
+			useExternalOptic = 0;
+			cameraDir = "op_look";
+			discreteDistance[] = {50,75,100,150,200,300,400};
+			discreteDistanceCameraPoint[] = {"op_eye_50","op_eye_75","op_eye_100","op_eye_150","op_eye_200","op_eye_300","op_eye_400"};
+			discreteDistanceInitIndex = 3;
+			reloadAction = "GestureReloadMSBS_UGL";
+			reloadMagazineSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_UGL_reload",1,1,10};
+			magazineReloadSwitchPhase = 1;
       magazines[] = UGL_magazines;
-      magazineWell[]   = {"SFT_762x51_30"};
+      magazineWell[]   = {"SFT_40mmugl_1"};
     };
     class SemiAuto;
     class FullAuto;
