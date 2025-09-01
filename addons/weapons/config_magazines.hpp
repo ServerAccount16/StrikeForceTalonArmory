@@ -17,7 +17,7 @@ class CfgMagazines
 		author="Weber";
 		dlc="SFT";
 		scope=2;
-		displayName="[SFT] 60Rnd 5x23mm Magazine";
+		displayName="[SFT] 60Rnd 5x23mm Magazine [Tracer]";
 		ammo = "OPTRE_B_5x23_Caseless";
 		tracersEvery=3;
 		count=60;
@@ -112,6 +112,27 @@ class CfgMagazines
 		mass=40;
 		tracersEvery=3;
 		ACE_isBelt = 1;
+	};
+	class TCP_36Rnd_95x40_Mag;
+	class SFT_36Rnd_95x40_Mag : TCP_36Rnd_95x40_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 36Rnd 9.5x40mm Magazine";
+		ammo = "OPTRE_B_95x40_Ball";
+		count=36;
+		tracersEvery=0;
+	};
+	class SFT_36Rnd_95x40_Mag_Tracer : TCP_36Rnd_95x40_Mag
+	{
+		author="Weber";
+		dlc="SFT";
+		scope=2;
+		displayName="[SFT] 36Rnd 9.5x40mm Magazine [Tracer]";
+		ammo = "OPTRE_B_95x40_Ball";
+		count=36;
+		tracersEvery=3;
 	};
 	class OPTRE_50Rnd_127x99_M250_Box;
 	class SFT_50Rnd_127x99_M250_Box : OPTRE_50Rnd_127x99_M250_Box

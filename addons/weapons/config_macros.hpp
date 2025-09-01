@@ -23,3 +23,5 @@
 #define FlareGun_magazines {"OPTRE_signalSmokeB", "OPTRE_signalSmokeG", "OPTRE_signalSmokeO", "OPTRE_signalSmokeP", "OPTRE_signalSmokeR", "OPTRE_signalSmokeY"}
 // SMG
 #define M7_magazines {"SFT_60Rnd_5x23_Mag", "SFT_60Rnd_5x23_Mag_Tracer", "SFT_48Rnd_5x23_Mag", "SFT_48Rnd_5x23_Mag_Tracer"}
+// BR55
+#define BR55_magazines {"SFT_36Rnd_95x40_Mag", "SFT_36Rnd_95x40_Mag_Tracer"}
