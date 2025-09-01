@@ -20,6 +20,7 @@ kanban-plugin: board
 - [ ] [[CBUU SFT Variant]]
 - [ ] Steal stamina config from havok
 - [ ] M6C SOCOM smartlink
+- [ ] Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc)
 
 
 ## Finished
