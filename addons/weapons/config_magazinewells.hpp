@@ -73,8 +73,8 @@ class CfgMagazineWells
   {
     SFT[]=
     {
-      "SFT_4Rnd_127x99_Mag_APFSDS",
-      "SFT_4Rnd_127x99_Mag_APFSDS_Tracer"
+      "SFT_4Rnd_145x114_Mag_APFSDS",
+      "SFT_4Rnd_145x114_Mag_APFSDS_Tracer"
     };
   };
   class SFT_50Rnd_127x99

@@ -15,8 +15,8 @@ class asdg_OpticRail1913 // defined by CBA/ASDG
     SFT_optic_M43RCO_CRS = 1;
     SFT_optic_M43RCO_CRS_CUP = 1;
     SFT_optic_M43RCO_CUP = 1;
-    SFT_optic_M831ERO = 1;
-    SFT_optic_M831ERO_Blue = 1;
+    SFT_optic_M81ERO = 1;
+    SFT_optic_M81ERO_Blue = 1;
   };
 };
 class asdg_MuzzleSlot_762;
@@ -284,6 +284,7 @@ class CfgWeapons
     };
   };
   class TCP_optic_M27RCO;
+  class TCP_OpticsMode_Base_Irons;
   class SFT_optic_M27RCO : TCP_optic_M27RCO
   {
     author = "Weber";
@@ -295,7 +296,7 @@ class CfgWeapons
     {
       class OpticsModes : OpticsModes
       {
-        class EVO : SFT_OpticsMode_Base
+        class EVO : TCP_OpticsMode_Base_Irons
         {
         };
         class SmartLink : EVOSJ
@@ -566,7 +567,7 @@ class CfgWeapons
     {
       class OpticsModes : OpticsModes
       {
-        class EVO : SFT_OpticsMode_Base
+        class EVO : TCP_OpticsMode_Base_Irons
         {
         };
         class SmartLink : EVOSJ
@@ -612,7 +613,7 @@ class CfgWeapons
     {
       class OpticsModes : OpticsModes
       {
-        class EVO : SFT_OpticsMode_Base
+        class EVO : TCP_OpticsMode_Base_Irons
         {
         };
         class SmartLink : EVOSJ
@@ -658,7 +659,7 @@ class CfgWeapons
     {
       class OpticsModes : OpticsModes
       {
-        class EVO : SFT_OpticsMode_Base
+        class EVO : TCP_OpticsMode_Base_Irons
         {
         };
         class SmartLink : EVOSJ
@@ -738,15 +739,15 @@ class CfgWeapons
       };
     };
   };
-  class TCP_optic_M831ERO;
-  class SFT_optic_M831ERO : TCP_optic_M831ERO
+  class TCP_optic_M81ERO;
+  class SFT_optic_M81ERO : TCP_optic_M81ERO
   {
     author = "Weber";
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M81 ERO SmartLink Red (1-2x)";
     picture = "\TCP\Weapons\Acc\Optic\M81ERO\data\ui\icon_acco_M81ERO_Red_CA.paa";
-    weaponInfoType = "CTGCY_Smartlink_SMG";
+    weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
       class OpticsModes : OpticsModes
@@ -763,7 +764,10 @@ class CfgWeapons
           opticsZoomInit = 0.25;
           discretefov[] = {0.25, 0.082000002};
           memoryPointCamera = "opticView";
-          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_1-4","\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_2-8"};
+          modelOptics[] =
+              {
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_1",
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_3"};
           opticsFlare = 0;
           opticsDisablePeripherialVision = 0;
           discreteInitIndex = 0;
@@ -785,15 +789,15 @@ class CfgWeapons
       };
     };
   };
-  class TCP_optic_M831ERO_Blue;
-  class SFT_optic_M831ERO_Blue : TCP_optic_M831ERO_Blue
+  class TCP_optic_M81ERO_Blue;
+  class SFT_optic_M81ERO_Blue : TCP_optic_M81ERO_Blue
   {
     author = "Weber";
     dlc = "SFT";
     scope = 2;
     displayName = "[SFT] M81 ERO SmartLink Blue (1-2x)";
     picture = "\TCP\Weapons\Acc\Optic\M81ERO\data\ui\icon_acco_M81ERO_Red_CA.paa";
-    weaponInfoType = "CTGCY_Smartlink_SMG";
+    weaponInfoType = "CTGCY_DMR_Display_Info";
     class ItemInfo : ItemInfo
     {
       class OpticsModes : OpticsModes
@@ -810,7 +814,10 @@ class CfgWeapons
           opticsZoomInit = 0.25;
           discretefov[] = {0.25, 0.082000002};
           memoryPointCamera = "opticView";
-          modelOptics[] = {"\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_1-4","\CTGCY_Weapons\data\scopes\UI\CTGCY_SMG_SmartLink_2-8"};
+          modelOptics[] =
+              {
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_1",
+                  "\CTGCY_Weapons\data\scopes\UI\CTGCY_VK78_Scope_3"};
           opticsFlare = 0;
           opticsDisablePeripherialVision = 0;
           discreteInitIndex = 0;
