@@ -22,6 +22,9 @@ kanban-plugin: board
 - [ ] Steal stamina config from havok
 - [ ] M6C SOCOM smartlink
 - [ ] Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc)
+- [ ] Create ACE compatable TCP explosives
+- [ ] [[Update SRS magazine weight]]
+- [ ] Up weight of BR55 & mags
 
 
 ## Finished

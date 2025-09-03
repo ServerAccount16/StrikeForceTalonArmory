@@ -1,0 +1,1 @@
+Put them to .5kg each
