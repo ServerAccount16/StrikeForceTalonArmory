@@ -1320,8 +1320,8 @@ class CfgWeapons
 			requiredOpticType=1;
 		};
   };
-  class TCP_Weapon_srifle_VK78_Gray;
-  class SFT_VK78 : TCP_Weapon_srifle_VK78_Gray
+  class TCP_srifle_VK78_Gray;
+  class SFT_VK78 : TCP_srifle_VK78_Gray
   {
     author = "Weber";
     dlc = "SFT";
@@ -1334,13 +1334,6 @@ class CfgWeapons
     reloadAction = "WBK_Commando_Reload";
     class FullAuto;
     class SemiAuto;
-    model="\TCP\Weapons_F_TCP\LongRangeRifles\VK78\VK78_Gray.p3d";
-		picture = "\TCP\Weapons\LongRangeRifles\VK78\data\ui\icon_srifle_VK78_X_ca.paa";
-    hiddenSelectionsTextures[]=
-		{
-			"\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\camo\gray\VK78_01_CO.paa",
-			"\TCP\Weapons_F_TCP\LongRangeRifles\VK78\data\camo\gray\VK78_02_CO.paa"
-		};
     reloadMagazineSound[] =
     {
       "\OPTRE_Wbk_WeaponImprovements\reload\srs99_reload.ogg",

@@ -8,6 +8,7 @@ kanban-plugin: board
 
 - [ ] M45 Shotgun Internal Magazine Broken
 - [ ] [[Find Better Reload animations and sounds]]
+- [ ] [[Grenades in the M319 appear sideways]]
 
 
 ## To-Do
@@ -38,10 +39,15 @@ kanban-plugin: board
 - [ ] [[BR55 SR 9.5 mm SFT Variant - Complete]]
 
 
+## Changelogs
+
+- [ ] [[1.0.1.0 Update]]
+
+
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
 ```
 %%

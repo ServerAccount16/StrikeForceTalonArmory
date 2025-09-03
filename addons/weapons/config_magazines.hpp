@@ -181,8 +181,8 @@ class CfgMagazines
 		tracersEvery=3;
 	};
 	// VK78
-	class TCP_20Rnd_65x57_Mag;
-	class SFT_20Rnd_65x57_Mag : TCP_20Rnd_65x57_Mag
+	class TCP_20Rnd_65x48_Mag;
+	class SFT_20Rnd_65x57_Mag : TCP_20Rnd_65x48_Mag
 	{
 		author="Weber";
 		dlc="SFT";
@@ -192,7 +192,7 @@ class CfgMagazines
 		count=20;
 		tracersEvery=0;
 	};
-	class SFT_20Rnd_65x57_Mag_Tracer : TCP_20Rnd_65x57_Mag
+	class SFT_20Rnd_65x57_Mag_Tracer : TCP_20Rnd_65x48_Mag
 	{
 		author="Weber";
 		dlc="SFT";
