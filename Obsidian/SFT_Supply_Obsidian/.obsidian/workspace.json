@@ -4,52 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d60bd5f60b8c8089",
+        "id": "8b02800bf3422215",
         "type": "tabs",
         "children": [
           {
-            "id": "f4b2fd48c160052c",
+            "id": "6164f6672bf57201",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "00_Home_Page/Main Page.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Main Page"
-            }
-          },
-          {
-            "id": "fb6dd08647d876ad",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "00_Home_Page/Main Page.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Main Page"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,11 +165,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb6dd08647d876ad",
+  "active": "6164f6672bf57201",
   "lastOpenFiles": [
-    "Update SRS magazine weight.md",
     "00_Home_Page/Main Page.md",
+    "Innie Factions.md",
+    "Make Helmets have CTAB camera by default.md",
     "1.0.1.0 Update.md",
+    "02_Work/M41 'Warthog' SFT Variant.md",
+    "Update SRS magazine weight.md",
     "Grenades in the M319 appear sideways.md",
     "02_Work/M319 IGL 40 mm SFT Variant - Complete.md",
     "02_Work/MA5K ICWS 7.62 mm SFT Variant - Complete.md",
@@ -217,14 +188,11 @@
     "02_Work/M58 SLS V SFT Variant - Complete.md",
     "02_Work/M43 D Variants.md",
     "02_Work/M42 RCO and base varants SFT Variants - Complete.md",
-    "02_Work/M41 'Warthog' SFT Variant.md",
     "02_Work/M27 RCO SFT Variant - Complete.md",
     "02_Work/Custom ACE Spray Cans.md",
     "02_Work/CBUU SFT Variant.md",
     "Task 1.md",
     "02_Work/Innie Faction🛫 2025-08-03 ⏫ ➕ 2025-08-03.md",
-    "02_Work/Merkava M2B.md",
-    "01_Planning/Temp.md",
     "95_Templates",
     "99_Archive",
     "90_Refs",

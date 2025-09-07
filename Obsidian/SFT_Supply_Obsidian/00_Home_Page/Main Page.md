@@ -9,6 +9,9 @@ kanban-plugin: board
 - [ ] M45 Shotgun Internal Magazine Broken
 - [ ] [[Find Better Reload animations and sounds]]
 - [ ] [[Grenades in the M319 appear sideways]]
+- [ ] All Machine Guns Weight the same
+- [ ] 247 mag weight is wrong
+- [ ] Fix Painkillers in IFAK
 
 
 ## To-Do
@@ -25,6 +28,10 @@ kanban-plugin: board
 - [ ] Create ACE compatable TCP explosives
 - [ ] [[Update SRS magazine weight]]
 - [ ] Up weight of BR55 & mags
+- [ ] Remake Contigency sights
+- [ ] Remove red highlight from contigency sights
+- [ ] [[Make Helmets have CTAB camera by default]]
+- [ ] [[Innie Factions]]
 
 
 ## Finished
