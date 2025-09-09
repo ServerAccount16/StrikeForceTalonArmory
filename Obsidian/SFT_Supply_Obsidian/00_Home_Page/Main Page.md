@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## Bugs
 
-- [ ] M45 Shotgun Internal Magazine Broken
 - [ ] [[Find Better Reload animations and sounds]]
 - [ ] [[Grenades in the M319 appear sideways]]
 - [ ] All Machine Guns Weight the same
@@ -23,7 +22,6 @@ kanban-plugin: board
 - [ ] [[TCP Radio ACRE adaptation]]
 - [ ] [[M43 D Variants]]
 - [ ] [[CBUU SFT Variant]]
-- [ ] Steal stamina config from havok
 - [ ] M6C SOCOM smartlink
 - [ ] Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc)
 - [ ] Create ACE compatable TCP explosives
@@ -48,6 +46,8 @@ kanban-plugin: board
 - [ ] [[M58 SLS V SFT Variant - Complete]]
 - [ ] [[M81 ERO SFT Variant - Complete]]
 - [ ] [[BR55 SR 9.5 mm SFT Variant - Complete]]
+- [ ] [[M45 Shotgun Internal Magazine Broken]]
+- [ ] Steal stamina config from havok
 
 
 ## Changelogs
