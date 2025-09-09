@@ -1,4 +1,14 @@
 #include "config_macros.hpp"
+class CfgPatches
+{
+	class SFT_Misc
+	{
+ 		units[] = {};	
+ 		weapons[] = {};
+ 		requiredAddons[] = {};	
+		author="Weber";
+ 	};
+};
 
 class CfgMovesFatigue
 {
