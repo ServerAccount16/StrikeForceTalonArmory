@@ -420,8 +420,8 @@ class CfgMagazines
 		count=3;
 	};
 	// 12g
-	class TCP_1Rnd_12Gauge_Pellets;
-	class SFT_1Rnd_12Gauge_Pellets : TCP_1Rnd_12Gauge_Pellets
+	class TCP_1Rnd_12Gauge_Shell_Pellets;
+	class SFT_1Rnd_12Gauge_Pellets : TCP_1Rnd_12Gauge_Shell_Pellets
 	{
 		author="Weber";
 		dlc="SFT";
@@ -430,7 +430,7 @@ class CfgMagazines
 		ammo="OPTRE_8Gauge_Pellets";
 		count=1;
 	};
-	class SFT_6Rnd_12Gauge_Pellets : SFT_1Rnd_12Gauge_Pellets
+	class SFT_6Rnd_12Gauge_Pellets : TCP_1Rnd_12Gauge_Shell_Pellets
 	{
 		displayName="REMOVE!";
 	};
@@ -444,8 +444,8 @@ class CfgMagazines
 		ammo="OPTRE_8Gauge_Pellets";
 		count=6;
 	};
-	class TCP_1Rnd_12Gauge_Slug;
-	class SFT_1Rnd_12Gauge_Slug : TCP_1Rnd_12Gauge_Slug
+	class TCP_1Rnd_12Gauge_Shell_Slug;
+	class SFT_1Rnd_12Gauge_Slug : TCP_1Rnd_12Gauge_Shell_Slug
 	{
 		author="Weber";
 		dlc="SFT";
@@ -454,7 +454,7 @@ class CfgMagazines
 		ammo="OPTRE_8Gauge_Slugs";
 		count=1;
 	};
-	class SFT_6Rnd_12Gauge_Slug : SFT_1Rnd_12Gauge_Slug
+	class SFT_6Rnd_12Gauge_Slug : TCP_1Rnd_12Gauge_Shell_Slug
 	{
 		displayName="REMOVE!";
 	};

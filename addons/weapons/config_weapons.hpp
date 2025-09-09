@@ -2231,19 +2231,16 @@ class CfgWeapons
 			{
 				"SFT_12Gauge_1"
 			};
-			magazineReloadSwitchPhase=0.40000001;
+			magazineReloadSwitchPhase=0.4;
 			reloadAction="TCP_GestureM45Reload";
 			submunitionConeCoef="0f";
 			class EventHandlers: EventHandlers
 			{
-				reloaded="_this call TCP_fnc_internalMagReloaded;";
-				magazineUnloaded="_this call TCP_fnc_internalMagUnloaded;";
-				weaponChanged="_this spawn TCP_fnc_hideMuzzleWeaponChanged;";
+				reloaded = "_this call TCP_fnc_internalMagReloaded;";
+				magazineUnloaded = "_this call TCP_fnc_internalMagUnloaded;";
+				weaponChanged = "_this call TCP_fnc_internalMagWeaponChanged; _this spawn TCP_fnc_hideMuzzleWeaponChanged;";
 			};
-			modes[]=
-			{
-				"Single"
-			};
+			modes[] = {"Single"};
 			class Single: Mode_SemiAuto
 			{
 				showToPlayer=1;
