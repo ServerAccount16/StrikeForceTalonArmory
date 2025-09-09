@@ -7,7 +7,7 @@ class CfgPatches
         units[]            = {};
         weapons[]          = {};
         requiredVersion    = 0.1;
-        requiredAddons[]   = {"A3_Data_F_Enoch_Loadorder", "1st_MEU_patch_main_loadingScreens", "OPTRE_Core"};
+        requiredAddons[]   = {"A3_Data_F_Enoch_Loadorder", "OPTRE_Core"};
         author             = "Weber";
     };
 };

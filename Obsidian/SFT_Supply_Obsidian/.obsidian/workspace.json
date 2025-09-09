@@ -11,10 +11,21 @@
             "id": "6164f6672bf57201",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "kanban",
+              "state": {
+                "file": "00_Home_Page/Main Page.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Main Page"
             }
           }
         ]
@@ -167,7 +178,10 @@
   },
   "active": "6164f6672bf57201",
   "lastOpenFiles": [
+    "02_Work/M43 D Variants.md",
     "00_Home_Page/Main Page.md",
+    "02_Work/SRS99-AM 12.7 mm - In Progress.md",
+    "02_Work/TCP Update 0.2.1 Mod Fix.md",
     "Innie Factions.md",
     "Make Helmets have CTAB camera by default.md",
     "1.0.1.0 Update.md",
@@ -178,15 +192,12 @@
     "02_Work/MA5K ICWS 7.62 mm SFT Variant - Complete.md",
     "02_Work/BR55 SR 9.5 mm SFT Variant - Complete.md",
     "02_Work/M7 SMG 5 mm SFT Variant - Complete.md",
-    "02_Work/SRS99-AM 12.7 mm - In Progress.md",
     "Find Better Reload animations and sounds.md",
     "02_Work/Weapon inheritance issues - Complete.md",
     "02_Work/TCP Radio ACRE adaptation.md",
-    "02_Work/TCP Update 0.2.1 Mod Fix.md",
     "02_Work/M128 ASRO 'ORACLE N' SFT Variant - Complete.md",
     "02_Work/M81 ERO SFT Variant - Complete.md",
     "02_Work/M58 SLS V SFT Variant - Complete.md",
-    "02_Work/M43 D Variants.md",
     "02_Work/M42 RCO and base varants SFT Variants - Complete.md",
     "02_Work/M27 RCO SFT Variant - Complete.md",
     "02_Work/Custom ACE Spray Cans.md",

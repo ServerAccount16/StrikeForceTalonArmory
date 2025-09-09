@@ -18,6 +18,7 @@ kanban-plugin: board
 
 - [ ] [[Custom ACE Spray Cans]]
 - [ ] [[TCP Update 0.2.1 Mod Fix]]
+- [ ] [[SRS99-AM 12.7 mm - In Progress]]
 - [ ] [[M41 'Warthog' SFT Variant]]
 - [ ] [[TCP Radio ACRE adaptation]]
 - [ ] [[M43 D Variants]]
@@ -32,12 +33,12 @@ kanban-plugin: board
 - [ ] Remove red highlight from contigency sights
 - [ ] [[Make Helmets have CTAB camera by default]]
 - [ ] [[Innie Factions]]
+- [ ] Marines Helmets
 
 
 ## Finished
 
 - [ ] [[Weapon inheritance issues]]
-- [ ] [[SRS99-AM 12.7 mm - In Progress]]
 - [ ] [[MA5K ICWS 7.62 mm SFT Variant - Complete]]
 - [ ] [[M7 SMG 5 mm SFT Variant - Complete]]
 - [ ] [[M128 ASRO 'ORACLE N' SFT Variant - Complete]]
