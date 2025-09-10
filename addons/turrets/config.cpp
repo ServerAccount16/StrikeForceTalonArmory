@@ -119,10 +119,10 @@ class OPTRE_Static_ATGM_CMA;
 // -----------------------------------------------------------------------------
 class CfgVehicles {
   // -------------------- UNSC Turrets --------------------
-  DEFINE_TURRET(SFT_Static_M41, OPTRE_Static_M41, "[SFT] M41 LAAG Turret", "SFT", "SFT", "SFT_Turrets")
-  DEFINE_TURRET(SFT_Static_Gauss, OPTRE_Static_Gauss, "[SFT] M41 Gauss Turret", "SFT", "SFT", "SFT_Turrets")
-  DEFINE_TURRET(SFT_Static_ATGM, OPTRE_Static_ATGM, "[SFT] M41 ATGM Turret", "SFT", "SFT", "SFT_Turrets")
-  DEFINE_TURRET(SFT_Static_AA, OPTRE_Static_AA, "[SFT] M41 AA Turret", "SFT", "SFT", "SFT_Turrets")
+  DEFINE_TURRET(SFT_Static_M41, OPTRE_Static_M41, "[SFT] M41 LAAG Turret", "SFT_BLUE_SFT_F", "Turrets", "SFT_Turrets")
+  DEFINE_TURRET(SFT_Static_Gauss, OPTRE_Static_Gauss, "[SFT] M41 Gauss Turret", "SFT_BLUE_SFT_F", "Turrets", "SFT_Turrets")
+  DEFINE_TURRET(SFT_Static_ATGM, OPTRE_Static_ATGM, "[SFT] M41 ATGM Turret", "SFT_BLUE_SFT_F", "Turrets", "SFT_Turrets")
+  DEFINE_TURRET(SFT_Static_AA, OPTRE_Static_AA, "[SFT] M41 AA Turret", "SFT_BLUE_SFT_F", "Turrets", "SFT_Turrets")
 
   // ----------------- Insurrectionist Turrets -----------------
   DEFINE_TURRET(SFT_Static_M41_Ins, OPTRE_Static_M41_Ins, "[SFT] M41 LAAG Turret (Insurrectionist)", "SFT_Ins", "SFT_Ins", "SFT_INS_Turrets")
