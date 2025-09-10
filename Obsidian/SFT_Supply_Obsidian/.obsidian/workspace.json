@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b02800bf3422215",
+        "id": "45cf315c4be74035",
         "type": "tabs",
         "children": [
           {
-            "id": "6164f6672bf57201",
+            "id": "31c6c1dbbce9a016",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -176,17 +176,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6164f6672bf57201",
+  "active": "31c6c1dbbce9a016",
   "lastOpenFiles": [
-    "M45 Shotgun Internal Magazine Broken.md",
+    "02_Work/M41 'Warthog' SFT Variant.md",
     "00_Home_Page/Main Page.md",
     "02_Work/M43 D Variants.md",
+    "M45 Shotgun Internal Magazine Broken.md",
     "02_Work/SRS99-AM 12.7 mm - In Progress.md",
     "02_Work/TCP Update 0.2.1 Mod Fix.md",
     "Innie Factions.md",
     "Make Helmets have CTAB camera by default.md",
     "1.0.1.0 Update.md",
-    "02_Work/M41 'Warthog' SFT Variant.md",
     "Update SRS magazine weight.md",
     "Grenades in the M319 appear sideways.md",
     "02_Work/M319 IGL 40 mm SFT Variant - Complete.md",

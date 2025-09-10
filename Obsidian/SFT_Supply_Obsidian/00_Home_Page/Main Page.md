@@ -32,6 +32,7 @@ kanban-plugin: board
 - [ ] [[Make Helmets have CTAB camera by default]]
 - [ ] [[Innie Factions]]
 - [ ] Marines Helmets
+- [ ] JSRS Compat
 
 
 ## Finished
