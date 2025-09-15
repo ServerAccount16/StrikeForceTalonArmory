@@ -473,6 +473,7 @@ class CfgWeapons
 		scope         = 2;
     scopeArsenal  = 2;
 		displayName   = "[SFT] ECH55/D Helmet Black (Silver)";
+		ctab_camera = 1;
 		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Black_Silver","SFT_H_Helmet_ECH55D_Black_Silver_DP"};
 		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa","tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"};
 		class ItemInfo: ItemInfo
@@ -524,6 +525,7 @@ class CfgWeapons
 		scope         = 1;
     scopeArsenal  = 1;
 		displayName   = "[SFT] ECH55/D Helmet Black (Silver)";
+		ctab_camera = 1;
 		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Black_Silver","SFT_H_Helmet_ECH55D_Black_Silver_DP"};
 		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa","tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"};
 		class ItemInfo: ItemInfo

@@ -34,6 +34,8 @@ kanban-plugin: board
 - [ ] Marines Helmets
 - [ ] JSRS Compat
 - [ ] [[Weight Rebalance]]
+- [ ] Buddy loading for MGs
+- [ ] Custom Supply Pods
 
 
 ## Finished
