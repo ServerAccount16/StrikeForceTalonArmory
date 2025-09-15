@@ -1,1 +1,0 @@
-Currently ingame. Awaiting decision on whether or not to balance to vanilla and textures.

@@ -20,7 +20,7 @@ kanban-plugin: board
 - [ ] [[SRS99-AM 12.7 mm - In Progress]]
 - [ ] [[M41 'Warthog' SFT Variant]]
 - [ ] [[TCP Radio ACRE adaptation]]
-- [ ] [[M43 D Variants]]
+- [ ] [[M43 D Variants - In progress]]
 - [ ] [[CBUU SFT Variant]]
 - [ ] M6C SOCOM smartlink
 - [ ] Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc)
@@ -33,6 +33,7 @@ kanban-plugin: board
 - [ ] [[Innie Factions]]
 - [ ] Marines Helmets
 - [ ] JSRS Compat
+- [ ] [[Weight Rebalance]]
 
 
 ## Finished

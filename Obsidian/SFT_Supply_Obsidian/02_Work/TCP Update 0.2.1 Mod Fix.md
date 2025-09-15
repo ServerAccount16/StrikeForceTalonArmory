@@ -7,7 +7,7 @@ Current projects:
 [[M27 RCO SFT Variant - Complete]]
 [[M41 'Warthog' SFT Variant]]
 [[M42 RCO and base varants SFT Variants - Complete]]
-[[M43 D Variants]]
+[[M43 D Variants - In progress]] 
 [[M58 SLS V SFT Variant - Complete]]
 [[M81 ERO SFT Variant - Complete]]
 [[M128 ASRO 'ORACLE N' SFT Variant - Complete]]
