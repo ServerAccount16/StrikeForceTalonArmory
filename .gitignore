@@ -1,2 +1,4 @@
 # Ignore the build log
 .hemttout/
+# Ignore logs
+logs/
