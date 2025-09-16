@@ -597,6 +597,32 @@ class CfgWeapons
 			containerClass="Supply150";
 		};
 	};
+	class TCP_U_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive;
+	class SFT_U_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive: TCP_U_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive
+	{
+		author = "Weber";
+		dlc = "SFT";
+		scope = 2;
+		displayName = "[SFT] CBUU Unzipped (Olive)";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass = "SFT_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive";
+			containerClass="Supply150";
+		};
+	};
+	class TCP_U_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive;
+	class SFT_U_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive: TCP_U_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive
+	{
+		author = "Weber";
+		dlc = "SFT";
+		scope = 2;
+		displayName = "[SFT] CBUU Unzipped (Olive)";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass = "SFT_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive";
+			containerClass="Supply150";
+		};
+	};
   class SFT_CH252D_Helmet: CH252D_Helmet
   {
     scope         = 2;
@@ -687,6 +713,24 @@ class CfgVehicles
 		scopeCurator = 1;
 		uniformClass = "SFT_U_B_CBUU_TacShirt_SlimSleeve_Gloves_Black";
 		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Army\Uniforms\CBUU\data\camo\Black\CBUU_TacShirt_CO.paa","\TCP\Characters\BLUFOR\UNSC\Army\Uniforms\CBUU\data\camo\Black\CBUU_Pants_CO.paa","\TCP\Characters\BLUFOR\UNSC\Army\Uniforms\CBUU\data\camo\Black\CBUU_Gloves_CO.paa"};
+	};
+	class TCP_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive;
+	class SFT_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive: TCP_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive
+	{
+		author = "Weber";
+		dlc = "TCP";
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "SFT_U_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive";
+	};
+	class TCP_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive;
+	class SFT_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive: TCP_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive
+	{
+		author = "Weber";
+		dlc = "TCP";
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "SFT_U_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive";
 	};
   class SFT_ODST_BDU_HJ: MA_Marine_ODST_BDU_HJ
   {
