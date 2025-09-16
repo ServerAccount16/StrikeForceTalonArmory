@@ -236,3 +236,19 @@ class SFT_M52_Vest_##SQUAD##_##RANK##_##SLOT: SFT_M52_Vest_Base { \
 	DEFINE_SFT_VEST_CORPSMAN(Corpsman2,"[SFT] M52D Vest (Corpsman)",SLOTS_CORPSMAN_VAR2_STD,HM1,SQUAD,SFT_Vests_Corpsman) \
 	DEFINE_SFT_VEST_CORPSMAN(Corpsman1,"[SFT] M52D Vest (Corpsman)",SLOTS_CORPSMAN_VAR1_STD,HMC,SQUAD,SFT_Vests_Corpsman) \
 	DEFINE_SFT_VEST_CORPSMAN(Corpsman2,"[SFT] M52D Vest (Corpsman)",SLOTS_CORPSMAN_VAR2_STD,HMC,SQUAD,SFT_Vests_Corpsman)
+
+#define HITPROT(CLASS,HITPOINT,ARMOR,PASS) \
+class CLASS { hitpointName=#HITPOINT; armor=ARMOR; passThrough=PASS; };
+
+#define VEST_HITPOINT_INFO \
+class HitpointsProtectionInfo { \
+  HITPROT(Neck,HitNeck,30,0.5) \
+  HITPROT(Legs,HitLegs,30,0.5) \
+  HITPROT(Arms,HitArms,30,0.1) \
+  HITPROT(Hands,HitHands,30,0.1) \
+  HITPROT(Chest,HitChest,30,0.1) \
+  HITPROT(Diaphragm,HitDiaphragm,30,0.1) \
+  HITPROT(Abdomen,HitAbdomen,30,0.1) \
+  HITPROT(Pelvis,HitPelvis,30,0.1) \
+  class Body { hitpointName="HitBody"; passThrough=0.1; }; \
+};

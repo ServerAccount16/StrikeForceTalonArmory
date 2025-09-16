@@ -322,62 +322,7 @@ class CfgWeapons
 			hiddenSelections[] = {"camo","camo1","camo2","camo3","decals"};
 			containerClass="Supply200";
 		};
-		class HitpointsProtectionInfo
-		{
-			class Neck
-			{
-				hitpointName="HitNeck";
-				armor=30;
-				passThrough=0.5;
-			};
-			class Legs
-			{
-				hitpointName="HitLegs";
-				armor=30;
-				passThrough=0.5;
-			};
-			class Arms
-			{
-				hitpointName="HitArms";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Hands
-			{
-				hitpointName="HitHands";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Chest
-			{
-				hitpointName="HitChest";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Diaphragm
-			{
-				hitpointName="HitDiaphragm";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Abdomen
-			{
-				hitpointName="HitAbdomen";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Pelvis
-			{
-				hitpointName="HitPelvis";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Body
-			{
-				hitpointName="HitBody";
-				passThrough=0.1;
-			};
-		};
+		VEST_HITPOINT_INFO
 	};
 	class SFT_V_M43D_ODST_TEST : SFT_V_M43D_ODST_4_Black
 	{
@@ -408,62 +353,7 @@ class CfgWeapons
 		{
 			containerClass="Supply200";
 		};
-		class HitpointsProtectionInfo
-		{
-			class Neck
-			{
-				hitpointName="HitNeck";
-				armor=30;
-				passThrough=0.5;
-			};
-			class Legs
-			{
-				hitpointName="HitLegs";
-				armor=30;
-				passThrough=0.5;
-			};
-			class Arms
-			{
-				hitpointName="HitArms";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Hands
-			{
-				hitpointName="HitHands";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Chest
-			{
-				hitpointName="HitChest";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Diaphragm
-			{
-				hitpointName="HitDiaphragm";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Abdomen
-			{
-				hitpointName="HitAbdomen";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Pelvis
-			{
-				hitpointName="HitPelvis";
-				armor=30;
-				passThrough=0.1;
-			};
-			class Body
-			{
-				hitpointName="HitBody";
-				passThrough=0.1;
-			};
-		};
+		VEST_HITPOINT_INFO
 	};
 	class TCP_H_Helmet_ECH55D_Black_Silver;
 	class SFT_H_Helmet_ECH55D_Black_Silver : TCP_H_Helmet_ECH55D_Black_Silver
