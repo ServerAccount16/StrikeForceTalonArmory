@@ -33,64 +33,41 @@ class CfgWeapons
   class UniformItem;
   class ItemInfo;
 	class TCP_V_M43D_ODST_4_Black;
-	class SFT_V_M43D_ODST_4_Black : TCP_V_M43D_ODST_4_Black
+	// Base Enlisted
+	M43D_BASIC_VESTS(1,"[SFT] M43/D CBBAS Var 1 (Black)",basic)
+	M43D_BASIC_VESTS(2,"[SFT] M43/D CBBAS Var 2 (Black)",basic)
+	M43D_BASIC_VESTS(3,"[SFT] M43/D CBBAS Var 3 (Black)",basic)
+	M43D_BASIC_VESTS(4,"[SFT] M43/D CBBAS Var 4 (Black)",basic)
+	// Corpsman
+	M43D_BASIC_VESTS(1,"[SFT] M43/D CBBAS Corpsman Var 1 (Black)",Corpsman)
+	M43D_BASIC_VESTS(2,"[SFT] M43/D CBBAS Corpsman Var 2 (Black)",Corpsman)
+	M43D_BASIC_VESTS(3,"[SFT] M43/D CBBAS Corpsman Var 3 (Black)",Corpsman)
+	M43D_BASIC_VESTS(4,"[SFT] M43/D CBBAS Corpsman Var 4 (Black)",Corpsman)
+	// NCO
+	M43D_NCO_VESTS(1,"[SFT] M43/D CBBAS NCO Var 1 (Black)",orange)
+	class TCP_H_Helmet_ECH55D_Black_Silver;
+	/*M43D_BASIC_HELMETS(1,"[SFT] ECH55/D Helmet Var 1 (Silver)")
+	M43D_BASIC_HELMETS(2,"[SFT] ECH55/D Helmet Var 2 (Silver)")
+	M43D_BASIC_HELMETS(3,"[SFT] ECH55/D Helmet Var 3 (Silver)")
+	M43D_BASIC_HELMETS(4,"[SFT] ECH55/D Helmet Var 4 (Silver)")
+	// NCO
+	M43D_NCO_HELMETS(1,"[SFT] ECH55/D Helmet NCO Var 1 (Silver)")*/
+	class TCP_H_Helmet_ECH55D_Black_Black_DP;
+	class SFT_H_Helmet_ECH55D_Var1_Silver : TCP_H_Helmet_ECH55D_Black_Silver
 	{
 		author 				= "Weber";
 		dlc 					= "SFT";
 		scope         = 2;
     scopeArsenal  = 2;
-    displayName   = "[SFT] M43/D CBBAS Var 2 (Black)";
-		hiddenSelectionsTextures[] = {"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\Black\vest_M43A_01_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Vests\M43D\data\camo\Black\vest_Shoulders_ODST_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Vests\M43D\data\camo\Black\vest_M43D_ODST_CO.paa","\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\Black\vest_M43A_02_CO.paa","\TCP\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\white\vest_M43_DecalSheet_CA.paa"};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelections[] = {"camo","camo1","camo2","camo3","decals"};
-			containerClass="Supply200";
-			VEST_HITPOINT_INFO
-		};
-	};
-	class SFT_V_M43D_ODST_TEST : SFT_V_M43D_ODST_4_Black
-	{
-		author 				= "Weber";
-		dlc 					= "SFT";
-		scope         = 2;
-    scopeArsenal  = 2;
-    displayName   = "[SFT] M43/D TEST";
+		ctab_camera = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 1 (Silver)";
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var1_Silver","SFT_H_Helmet_ECH55D_Black_Var1_Silver_DP"};
 		hiddenSelectionsTextures[] = 
 		{
-			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\Black\vest_M43A_01_CO.paa",
-			"\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\vest_Shoulders_ODST_CO.paa",// Test Shoulders
-			"\x\strikeforcetalon_armory\addons\sft_gear\armor\vest\base\vest_M43D_ODST_CO.paa",// Test Chestplate
-			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\Black\vest_M43A_02_CO.paa",
-			"\TCP\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\white\vest_M43_DecalSheet_CA.paa"
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v1_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
 		};
-	};
-	class TCP_V_M43D_ODST_1_Black;
-	class SFT_V_M43D_ODST_1_Black : TCP_V_M43D_ODST_1_Black
-	{
-		author 				= "Weber";
-		dlc 					= "SFT";
-		scope         = 2;
-    scopeArsenal  = 2;
-    displayName   = "[SFT] M43/D CBBAS Var 1 (Black)";
-		hiddenSelectionsTextures[] = {"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\Black\vest_M43A_01_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Vests\M43D\data\camo\Black\vest_Shoulders_ODST_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Vests\M43D\data\camo\Black\vest_M43D_ODST_CO.paa","\TCP\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\white\vest_M43_DecalSheet_CA.paa"};
-		class ItemInfo: ItemInfo
-		{
-			containerClass="Supply200";
-			VEST_HITPOINT_INFO
-		};
-		
-	};
-	class TCP_H_Helmet_ECH55D_Black_Silver;
-	class SFT_H_Helmet_ECH55D_Black_Silver : TCP_H_Helmet_ECH55D_Black_Silver
-	{
-		author 				= "Weber";
-		dlc 					= "SFT";
-		scope         = 2;
-    scopeArsenal  = 2;
-		displayName   = "[SFT] ECH55/D Helmet Black (Silver)";
-		ctab_camera = 1;
-		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Black_Silver","SFT_H_Helmet_ECH55D_Black_Silver_DP"};
-		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa","tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"};
 		class ItemInfo: ItemInfo
 		{
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
@@ -117,22 +94,296 @@ class CfgWeapons
 			};
 		};
 	};
-	class SFT_H_Helmet_ECH55D_TEST_Silver : SFT_H_Helmet_ECH55D_Black_Silver
+	class SFT_H_Helmet_ECH55D_Black_Var1_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 1;
+    scopeArsenal  = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 1 (Silver)";
+		ctab_camera = 1;
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var1_Silver","SFT_H_Helmet_ECH55D_Black_Var1_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v1_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+	// Var 2
+	class SFT_H_Helmet_ECH55D_Var2_Silver : TCP_H_Helmet_ECH55D_Black_Silver
 	{
 		author 				= "Weber";
 		dlc 					= "SFT";
 		scope         = 2;
     scopeArsenal  = 2;
-		displayName   = "[SFT] ECH55/D Helmet TEST (Silver)";
-		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_TEST_Silver","SFT_H_Helmet_ECH55D_TEST_Silver_DP"};
+		ctab_camera = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 2 (Silver)";
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var2_Silver","SFT_H_Helmet_ECH55D_Black_Var2_Silver_DP"};
 		hiddenSelectionsTextures[] = 
 		{
-			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\helmet_ECH55D_CO.paa",
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v2_helmet.paa",
 			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa",
 			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
 	};
-	class TCP_H_Helmet_ECH55D_Black_Black_DP;
+	class SFT_H_Helmet_ECH55D_Black_Var2_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 1;
+    scopeArsenal  = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 2 (Silver)";
+		ctab_camera = 1;
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var2_Silver","SFT_H_Helmet_ECH55D_Black_Var2_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v2_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+	// Var 3
+	class SFT_H_Helmet_ECH55D_Var3_Silver : TCP_H_Helmet_ECH55D_Black_Silver
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 2;
+    scopeArsenal  = 2;
+		ctab_camera = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 3 (Silver)";
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var3_Silver","SFT_H_Helmet_ECH55D_Black_Var3_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v3_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+	class SFT_H_Helmet_ECH55D_Black_Var3_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 1;
+    scopeArsenal  = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 3 (Silver)";
+		ctab_camera = 1;
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var3_Silver","SFT_H_Helmet_ECH55D_Black_Var3_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v3_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+	// Var 4
+	class SFT_H_Helmet_ECH55D_Var4_Silver : TCP_H_Helmet_ECH55D_Black_Silver
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 2;
+    scopeArsenal  = 2;
+		ctab_camera = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 4 (Silver)";
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var4_Silver","SFT_H_Helmet_ECH55D_Black_Var4_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v4_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+	class SFT_H_Helmet_ECH55D_Black_Var4_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 1;
+    scopeArsenal  = 1;
+		displayName   = "[SFT] ECH55/D Helmet Var 4 (Silver)";
+		ctab_camera = 1;
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var4_Silver","SFT_H_Helmet_ECH55D_Black_Var4_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\basic_v4_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
 	class SFT_H_Helmet_ECH55D_Black_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
 	{
 		author 				= "Weber";
@@ -279,5 +530,32 @@ class CfgVehicles
 		scope = 1;
 		scopeCurator = 1;
 		uniformClass = "SFT_U_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive";
+	};
+	class OPTRE_ILCS_Rucksack_Black;
+	class SFT_ILCS_Rucksack_Black : OPTRE_ILCS_Rucksack_Black
+	{
+		author = "Weber";
+		dlc = "SFT";
+		scope = 2;
+		displayName = "[SFT] ILCS Rucksack (Black)";
+		maximumLoad = 350;
+	};
+	class OPTRE_ILCS_Rucksack_Medical;
+	class SFT_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Medical
+	{
+		author = "Weber";
+		dlc = "SFT";
+		scope = 2;
+		displayName = "[SFT] ILCS Rucksack (Medic)";
+		maximumLoad = 400;
+	};
+	class OPTRE_ILCS_Rucksack_Heavy;
+	class SFT_ILCS_Rucksack_Heavy : OPTRE_ILCS_Rucksack_Heavy
+	{
+		author = "Weber";
+		dlc = "SFT";
+		scope = 2;
+		displayName = "[SFT] ILCS Rucksack (Heavy)";
+		maximumLoad = 450;
 	};
 };

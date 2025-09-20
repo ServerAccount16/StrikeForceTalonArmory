@@ -10,7 +10,6 @@ kanban-plugin: board
 - [ ] [[Grenades in the M319 appear sideways]]
 - [ ] All Machine Guns Weight the same
 - [ ] 247 mag weight is wrong
-- [ ] Fix Painkillers in IFAK
 
 
 ## To-Do
@@ -36,6 +35,7 @@ kanban-plugin: board
 - [ ] [[Weight Rebalance]]
 - [ ] Buddy loading for MGs
 - [ ] Custom Supply Pods
+- [ ] [[Make AI specific HMG using HWF]]
 
 
 ## Finished
@@ -52,6 +52,7 @@ kanban-plugin: board
 - [ ] [[BR55 SR 9.5 mm SFT Variant - Complete]]
 - [ ] [[M45 Shotgun Internal Magazine Broken]]
 - [ ] Steal stamina config from havok
+- [ ] Fix Painkillers in IFAK
 
 
 ## Changelogs
