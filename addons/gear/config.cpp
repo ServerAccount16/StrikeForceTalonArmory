@@ -384,6 +384,89 @@ class CfgWeapons
 			};
 		};
 	};
+	// NCO
+	class SFT_H_Helmet_ECH55D_NCO_Silver : TCP_H_Helmet_ECH55D_Black_Silver
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 2;
+    scopeArsenal  = 2;
+		ctab_camera = 1;
+		displayName   = "[SFT] ECH55/D Helmet NCO (Silver)";
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_NCO_Silver","SFT_H_Helmet_ECH55D_Black_NCO_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\nco_v1_helmet",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\silver\helmet_ECH55D_Visor_CO.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+	class SFT_H_Helmet_ECH55D_Black_NCO_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
+	{
+		author 				= "Weber";
+		dlc 					= "SFT";
+		scope         = 1;
+    scopeArsenal  = 1;
+		displayName   = "[SFT] ECH55/D Helmet NCO (Silver)";
+		ctab_camera = 1;
+		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_NCO_Silver","SFT_H_Helmet_ECH55D_Black_NCO_Silver_DP"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\x\strikeforcetalon_armory\addons\sft_gear\helmets\base\nco_v1_helmet.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa",
+			"tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
 	class SFT_H_Helmet_ECH55D_Black_Silver_DP : TCP_H_Helmet_ECH55D_Black_Black_DP
 	{
 		author 				= "Weber";
