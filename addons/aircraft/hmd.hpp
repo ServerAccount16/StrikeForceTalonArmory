@@ -1,6 +1,6 @@
 
 #define HMD	\
-		class MFD	\
+		class MFD: MFD	\
 		{	\
 			class Kimi_HMD_Weapons	\
 			{	\

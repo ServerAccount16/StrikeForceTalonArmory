@@ -21,7 +21,28 @@ class asdg_OpticRail1913 // defined by CBA/ASDG
 };
 class asdg_MuzzleSlot_762;
 class asdg_FrontSideRail;
-class asdg_UnderSlot;
+class asdg_UnderSlot  {
+  class compatibleItems {
+    bipod_01_F_blk = 1;
+    bipod_01_F_khk = 1;
+    bipod_01_F_mtp = 1;
+    bipod_01_F_snd = 1;
+    bipod_02_F_arid = 1;
+    bipod_02_F_blk = 1;
+    bipod_02_F_hex = 1;
+    bipod_02_F_lush = 1;
+    bipod_02_F_tan = 1;
+    bipod_03_F_blk = 1;
+    bipod_03_F_oli = 1;
+    TCP_bipod_01 = 1;
+  };
+  iconPicture = "\a3\weapons_f_mark\Data\UI\attachment_under";
+  iconPinpoint = "Bottom";
+  iconPosition[] = {0.35,0.8};
+  iconScale = 0.2;
+  linkProxy = "\a3\data_f_mark\Proxies\Weapon_Slots\UNDERBARREL";
+  scope = 0;
+};
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -2165,7 +2186,7 @@ class CfgWeapons
     class WeaponSlotsInfo
 		{
 			allowedSlots[]={901};
-			mass=170;
+			mass=155;
 			class CowsSlot: asdg_OpticRail1913 {};
 			class MuzzleSlot: asdg_MuzzleSlot_762 {};
 			class PointerSlot: asdg_FrontSideRail {};
@@ -2183,7 +2204,7 @@ class CfgWeapons
     class WeaponSlotsInfo
 		{
 			allowedSlots[]={901};
-			mass=170;
+			mass=190;
 			class CowsSlot: asdg_OpticRail1913 {};
 			class MuzzleSlot: asdg_MuzzleSlot_762 {};
 			class PointerSlot: asdg_FrontSideRail {};

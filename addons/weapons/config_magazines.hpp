@@ -83,7 +83,7 @@ class CfgMagazines
 		displayName="[SFT] 100Rnd 7.62x51mm Box Magazine [Tracer]";
 		ammo="OPTRE_B_762x51_Tracer";
 		count=100;
-		mass=44.094;
+		mass=16.5;
 		tracersEvery=3;
 		ACE_isBelt = 1; 
 	};
@@ -96,7 +96,7 @@ class CfgMagazines
 		displayName="[SFT] 200Rnd 7.62x51mm Box Magazine [Tracer]";
 		ammo="OPTRE_B_762x51_Tracer";
 		count=200;
-		mass=88.188;
+		mass=38.5;
 		tracersEvery=3;
 		ACE_isBelt = 1;
 	};
@@ -143,6 +143,7 @@ class CfgMagazines
 		displayName="[SFT] 50Rnd 12.7x99mm Box Magazine [Tracer]";
 		ammo="OPTRE_B_127x99_Ball_White";
 		count=50;
+		mass = 37;
 		tracersEvery=3;
 		ACE_isBelt = 1;
 	};
