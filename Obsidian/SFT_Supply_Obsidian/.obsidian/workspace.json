@@ -4,28 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2133b5afaa171fea",
+        "id": "1112aafb71349022",
         "type": "tabs",
         "children": [
           {
-            "id": "e0b53ad369c8e9ef",
+            "id": "002f49f49124e0a9",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "00_Home_Page/Main Page.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Main Page"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -101,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Home_Page/Main Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Main Page"
+              "title": "Backlinks"
             }
           },
           {
@@ -176,14 +164,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e0b53ad369c8e9ef",
+  "active": "002f49f49124e0a9",
   "lastOpenFiles": [
-    "Make AI specific HMG using HWF.md",
-    "00_Home_Page/Main Page.md",
-    "Make Helmets have CTAB camera by default.md",
     "02_Work/M43 D Variants - In progress.md",
-    "02_Work/TCP Update 0.2.1 Mod Fix.md",
+    "00_Home_Page/Main Page.md",
     "Weight Rebalance.md",
+    "Make AI specific HMG using HWF.md",
+    "Make Helmets have CTAB camera by default.md",
+    "02_Work/TCP Update 0.2.1 Mod Fix.md",
     "1.0.1.0 Update.md",
     "02_Work/M41 'Warthog' SFT Variant.md",
     "M45 Shotgun Internal Magazine Broken.md",

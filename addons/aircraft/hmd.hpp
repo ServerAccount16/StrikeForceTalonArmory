@@ -1,6 +1,6 @@
 
 #define HMD	\
-		class MFD: MFD	\
+		class MFD	\
 		{	\
 			class Kimi_HMD_Weapons	\
 			{	\
@@ -12299,5 +12299,4 @@
 				priority=-11;	\
 			};	\
 		};	\
-
 

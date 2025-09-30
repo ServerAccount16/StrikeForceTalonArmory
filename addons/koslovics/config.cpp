@@ -670,15 +670,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ALFA_Green","SA_HM03_Lynx_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ALFA_Green","SA_HM03_Lynx_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM03_Lynx_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM03_Lynx_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -748,15 +748,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_IA70_ALFA_Green","Frieden_Beret","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_IA70_ALFA_Green","Frieden_Beret","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_M6J","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_M6J","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_M6J","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_M6J","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_24Rnd_127x30_46_Mag","TCP_8Rnd_127x30_46_Mag","SFT_24Rnd_127x30_46_Mag","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_24Rnd_127x30_46_Mag","TCP_8Rnd_127x30_46_Mag","SFT_24Rnd_127x30_46_Mag","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_M6J","TCP_muzzle_flash_127_01","","SFT_optic_ERO_Blue",{"SFT_24Rnd_127x30_46_Mag",24},{},"TCP_bipod_handGuard_M6G"},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_24Rnd_127x30_46_Mag_Tracer",4,24}}},{"OPTRE_UNSC_Rucksack",{}},"Frieden_Beret","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_M6J","TCP_muzzle_flash_127_01","","SFT_optic_ERO_Blue",{"SFT_24Rnd_127x30_46_Mag",24},{},"TCP_bipod_handGuard_M6G"},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_24Rnd_127x30_46_Mag_Tracer",4,24}}},{"OPTRE_UNSC_Rucksack",{}},"Frieden_Beret","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -788,15 +788,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA90_Alfa_Green","SA_HM03_Lynx_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA90_Alfa_Green","SA_HM03_Lynx_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag","M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag","M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37GL","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{},{"M319_HE_Grenade_Shell",1},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"SFT_32Rnd_762x51_Mag_Tracer",1,32}}},{"SA_HA90_Alfa_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"M319_HE_Grenade_Shell",5,1},{"M319_HEDP_Grenade_Shell",2,1},{"OPTRE_signalSmokeB",2,1},{"OPTRE_signalSmokeG",2,1},{"OPTRE_signalSmokeR",2,1},{"OPTRE_3Rnd_Smoke_Grenade_shell",2,3},{"ACE_40mm_Flare_white",10,1},{"ACE_40mm_Flare_green",2,1},{"ACE_40mm_Flare_red",2,1}}},"SA_HM03_Lynx_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37GL","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{},{"M319_HE_Grenade_Shell",1},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"SFT_32Rnd_762x51_Mag_Tracer",1,32}}},{"SA_HA90_Alfa_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"M319_HE_Grenade_Shell",5,1},{"M319_HEDP_Grenade_Shell",2,1},{"OPTRE_signalSmokeB",2,1},{"OPTRE_signalSmokeG",2,1},{"OPTRE_signalSmokeR",2,1},{"OPTRE_3Rnd_Smoke_Grenade_shell",2,3},{"ACE_40mm_Flare_white",10,1},{"ACE_40mm_Flare_green",2,1},{"ACE_40mm_Flare_red",2,1}}},"SA_HM03_Lynx_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -828,15 +828,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA90_Charlie_Green","SA_HM04S_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA90_Charlie_Green","SA_HM04S_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_M739","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_M739","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_M739","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_M739","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_762x51_M739_Box","TCP_8Rnd_127x30_46_Mag","SFT_762x51_M739_Box","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_762x51_M739_Box","TCP_8Rnd_127x30_46_Mag","SFT_762x51_M739_Box","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_M739","TCP_muzzle_brake_762_01","","OPTRE_M739_SAW_Smartlink",{"SFT_762x51_M739_Box",192},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA90_Charlie_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_762x51_M739_Box",5,192}}},"SA_HM04S_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_M739","TCP_muzzle_brake_762_01","","OPTRE_M739_SAW_Smartlink",{"SFT_762x51_M739_Box",192},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA90_Charlie_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_762x51_M739_Box",5,192}}},"SA_HM04S_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -868,15 +868,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_CHARLIE_Green","SA_HM05S_Fox_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_CHARLIE_Green","SA_HM05S_Fox_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "TCF_RUCKSACK_UNSC_WDL_RAD_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_CHARLIE_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},{"TCF_RUCKSACK_UNSC_WDL_RAD_F",{{"ACRE_PRC152",1},{"ACRE_PRC117F",1},{"SFT_32Rnd_762x51_Mag_Tracer",1,32}}},"SA_HM05S_Fox_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_CHARLIE_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},{"TCF_RUCKSACK_UNSC_WDL_RAD_F",{{"ACRE_PRC152",1},{"ACRE_PRC117F",1},{"SFT_32Rnd_762x51_Mag_Tracer",1,32}}},"SA_HM05S_Fox_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -908,15 +908,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA90_Charlie_Green","SA_HM05_Fox_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA90_Charlie_Green","SA_HM05_Fox_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37GL","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag","M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag","M319_HE_Grenade_Shell","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37GL","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{},{"M319_HE_Grenade_Shell",1},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"SFT_32Rnd_762x51_Mag_Tracer",1,32}}},{"SA_HA90_Charlie_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"ACRE_PRC152",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"M319_HE_Grenade_Shell",2,1},{"OPTRE_signalSmokeB",2,1},{"OPTRE_signalSmokeG",2,1},{"OPTRE_signalSmokeR",2,1},{"OPTRE_3Rnd_Smoke_Grenade_shell",2,3}}},"SA_HM05_Fox_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37GL","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{},{"M319_HE_Grenade_Shell",1},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"SFT_32Rnd_762x51_Mag_Tracer",1,32}}},{"SA_HA90_Charlie_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"ACRE_PRC152",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"M319_HE_Grenade_Shell",2,1},{"OPTRE_signalSmokeB",2,1},{"OPTRE_signalSmokeG",2,1},{"OPTRE_signalSmokeR",2,1},{"OPTRE_3Rnd_Smoke_Grenade_shell",2,3}}},"SA_HM05_Fox_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -948,13 +948,13 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04E_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04E_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_M392","TCP_hgun_Pistol_M6G2_F","CTGCY_H155_LD"};
-        respawnWeapons[] = {"SFT_M392","TCP_hgun_Pistol_M6G2_F","CTGCY_H155_LD"};
+        weapons[] = {"SFT_M392","TCP_hgun_Pistol_M6G2","CTGCY_H155_LD"};
+        respawnWeapons[] = {"SFT_M392","TCP_hgun_Pistol_M6G2","CTGCY_H155_LD"};
 
         magazines[] = {"SFT_15Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries","SFT_15Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries"};
         respawnMagazines[] = {"SFT_15Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries","SFT_15Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries"};
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_M392","TCP_muzzle_brake_762_01","","SFT_optic_EVOSD_SL",{"SFT_15Rnd_762x51_Mag_Tracer",15},{},"TCP_bipod_01"},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"ACE_RangeCard",1},{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_15Rnd_762x51_Mag_Tracer",8,15}}},{},"SA_HM04E_Ocelot_Green","TCP_G_VisrGlasses",{"CTGCY_H155_LD","","","",{"Laserbatteries",1},{},""},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_M392","TCP_muzzle_brake_762_01","","SFT_optic_EVOSD_SL",{"SFT_15Rnd_762x51_Mag_Tracer",15},{},"TCP_bipod_01"},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"ACE_RangeCard",1},{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_15Rnd_762x51_Mag_Tracer",8,15}}},{},"SA_HM04E_Ocelot_Green","TCP_G_VisrGlasses",{"CTGCY_H155_LD","","","",{"Laserbatteries",1},{},""},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -986,15 +986,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","DMNS_M96_LAW","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","DMNS_M96_LAW","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","DMNS_M96_LAW","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","DMNS_M96_LAW","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"DMNS_M96_LAW","","","",{},{},""},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"DMNS_M96_HEAT",1,1},{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",2,32}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"DMNS_M96_LAW","","","",{},{},""},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"DMNS_M96_HEAT",1,1},{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",2,32}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1026,15 +1026,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ECHO_Green","SA_HM05E_Tiger_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ECHO_Green","SA_HM05E_Tiger_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Medic";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Medic",{{"kat_MFAK",2},{"ACE_surgicalKit",1},{"ACE_personalAidKit",1},{"kat_accuvac",1},{"kat_X_AED",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM05E_Tiger_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Medic",{{"kat_MFAK",2},{"ACE_surgicalKit",1},{"ACE_personalAidKit",1},{"kat_accuvac",1},{"kat_X_AED",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM05E_Tiger_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1066,15 +1066,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ALFA_Green","SA_HM05S_Fox_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ALFA_Green","SA_HM05S_Fox_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"advrepair_ToolkitLight",1},{"advrepair_SpareParts",3},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM05S_Fox_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"advrepair_ToolkitLight",1},{"advrepair_SpareParts",3},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM05S_Fox_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1106,15 +1106,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_IA70_BRAVO_Green","SA_HM05C_Fox_C_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_IA70_BRAVO_Green","SA_HM05C_Fox_C_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"ACE_Clacker",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"C7_Remote_Mag",4,1},{"C12_Remote_Mag",2,1}}},"SA_HM05C_Fox_C_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"ACE_Clacker",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"C7_Remote_Mag",4,1},{"C12_Remote_Mag",2,1}}},"SA_HM05C_Fox_C_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1184,15 +1184,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_IA70_BRAVO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_IA70_BRAVO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_32Rnd_762x51_Mag_Tracer",10,32},{"SFT_M319_HE_Grenade_Shell",3,3},{"SFT_100Rnd_762x51_mag",2,100},{"SFT_15Rnd_762x51_Mag_Tracer",3,15},{"SFT_24Rnd_127x30_46_Mag_Tracer",2,24},{"SFT_50Rnd_127x99_M250_Box",1,50}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_32Rnd_762x51_Mag_Tracer",10,32},{"SFT_M319_HE_Grenade_Shell",3,3},{"SFT_100Rnd_762x51_mag",2,100},{"SFT_15Rnd_762x51_Mag_Tracer",3,15},{"SFT_24Rnd_127x30_46_Mag_Tracer",2,24},{"SFT_50Rnd_127x99_M250_Box",1,50}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1224,15 +1224,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCF_2Rnd_50x137_HEAT","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCF_2Rnd_50x137_HEAT","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"TCF_M57_Pilum_b","","","TCF_M57_QAS2",{"TCF_2Rnd_50x137_HEAT",2},{},""},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCF_2Rnd_50x137_HEAT",2,2}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"TCF_M57_Pilum_b","","","TCF_M57_QAS2",{"TCF_2Rnd_50x137_HEAT",2},{},""},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCF_2Rnd_50x137_HEAT",2,2}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1264,15 +1264,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","SFT_M41","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","SFT_M41","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","SFT_M41","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","SFT_M41","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","SFT_2Rnd_102mm_Mag_HEAT_G_AA","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","SFT_2Rnd_102mm_Mag_HEAT_G_AA","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"SFT_M41","","","",{"SFT_2Rnd_102mm_Mag_HEAT_G_AA",2},{},""},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_2Rnd_102mm_Mag_HEAT_G_AA",2,2}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"SFT_M41","","","",{"SFT_2Rnd_102mm_Mag_HEAT_G_AA",2},{},""},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_2Rnd_102mm_Mag_HEAT_G_AA",2,2}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1304,15 +1304,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ALFA_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ALFA_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"cigs_cigars_cigarbox_5",1,5},{"cigs_matches",1,10}}},{"SA_HA80_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"ToolKit",1},{"advrepair_SpareParts",5},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"cigs_cigars_cigarbox_5",1,5},{"cigs_matches",1,10}}},{"SA_HA80_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"ToolKit",1},{"advrepair_SpareParts",5},{"SFT_32Rnd_762x51_Mag_Tracer",4,32}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1344,15 +1344,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_IA70_ALFA_Green","SA_HM04S_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_IA70_ALFA_Green","SA_HM04S_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_M7","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_M7","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_M7","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_M7","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"60Rnd_5x23_m7_fmj_tracer","TCP_8Rnd_127x30_46_Mag","60Rnd_5x23_m7_fmj_tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"60Rnd_5x23_m7_fmj_tracer","TCP_8Rnd_127x30_46_Mag","60Rnd_5x23_m7_fmj_tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_M7","","","SFT_optic_M7",{"60Rnd_5x23_m7_fmj_tracer",60},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{}},"SA_HM04S_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_M7","","","SFT_optic_M7",{"60Rnd_5x23_m7_fmj_tracer",60},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{}},"SA_HM04S_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1462,15 +1462,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_IA70_ALFA_Green","SA_HM05SF_Coyote_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_IA70_ALFA_Green","SA_HM05SF_Coyote_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "DMNS_UAV_01_backpack_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_UAVBattery",1}}},{"SA_IA70_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"DMNS_UAV_01_backpack_F",{}},"SA_HM05SF_Coyote_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_UAVBattery",1}}},{"SA_IA70_ALFA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"DMNS_UAV_01_backpack_F",{}},"SA_HM05SF_Coyote_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1502,15 +1502,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA90_Alfa_Green","SA_HM05_Fox_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA90_Alfa_Green","SA_HM05_Fox_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA90_Alfa_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_762x51_M739_Box",3,192}}},"SA_HM05_Fox_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA90_Alfa_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_762x51_M739_Box",3,192}}},"SA_HM05_Fox_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1542,15 +1542,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_2Rnd_102mm_Mag_HEAT",1,2}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_2Rnd_102mm_Mag_HEAT",1,2}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1582,15 +1582,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_2Rnd_102mm_Mag_HEAT_G_AA",1,2}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_2Rnd_102mm_Mag_HEAT_G_AA",1,2}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1622,15 +1622,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03_Lynx_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03_Lynx_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_50Rnd_127x99_M250_Box",3,50}}},"SA_HM03_Lynx_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"SFT_50Rnd_127x99_M250_Box",3,50}}},"SA_HM03_Lynx_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1662,13 +1662,13 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_CHARLIE_Green","SA_HM06_Wolf_Green","ItemMap","ItemGPS","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_CHARLIE_Green","SA_HM06_Wolf_Green","ItemMap","ItemGPS","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_SRS99AM","TCP_hgun_Pistol_M6G2_F","CTGCY_H155_LD"};
-        respawnWeapons[] = {"SFT_SRS99AM","TCP_hgun_Pistol_M6G2_F","CTGCY_H155_LD"};
+        weapons[] = {"SFT_SRS99AM","TCP_hgun_Pistol_M6G2","CTGCY_H155_LD"};
+        respawnWeapons[] = {"SFT_SRS99AM","TCP_hgun_Pistol_M6G2","CTGCY_H155_LD"};
 
         magazines[] = {"4Rnd_145x114_srs99_apfsds_tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries","4Rnd_145x114_srs99_apfsds_tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries"};
         respawnMagazines[] = {"4Rnd_145x114_srs99_apfsds_tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries","4Rnd_145x114_srs99_apfsds_tracer","TCP_8Rnd_127x30_46_Mag","Laserbatteries"};
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_SRS99AM","","","SFT_optic_SRS99AM",{"4Rnd_145x114_srs99_apfsds_tracer",4},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_CHARLIE_Green",{{"ACE_RangeCard",1},{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"4Rnd_145x114_srs99_apfsds_tracer",3,4}}},{},"SA_HM06_Wolf_Green","",{"CTGCY_H155_LD","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_SRS99AM","","","SFT_optic_SRS99AM",{"4Rnd_145x114_srs99_apfsds_tracer",4},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_CHARLIE_Green",{{"ACE_RangeCard",1},{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"4Rnd_145x114_srs99_apfsds_tracer",3,4}}},{},"SA_HM06_Wolf_Green","",{"CTGCY_H155_LD","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1700,15 +1700,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_DELTA_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_DELTA_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_M250","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_M250","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_M250","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_M250","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_50Rnd_127x99_M250_Box","TCP_8Rnd_127x30_46_Mag","SFT_50Rnd_127x99_M250_Box","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_50Rnd_127x99_M250_Box","TCP_8Rnd_127x30_46_Mag","SFT_50Rnd_127x99_M250_Box","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_M250","TCP_muzzle_brake_762_01","","",{"SFT_50Rnd_127x99_M250_Box",50},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_DELTA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_50Rnd_127x99_M250_Box",1,50}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_50Rnd_127x99_M250_Box",8,50}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_M250","TCP_muzzle_brake_762_01","","",{"SFT_50Rnd_127x99_M250_Box",50},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_DELTA_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_50Rnd_127x99_M250_Box",1,50}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_50Rnd_127x99_M250_Box",8,50}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1740,13 +1740,13 @@ class CfgVehicles {
         linkedItems[] = {"H_PilotHelmetFighter_O","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"H_PilotHelmetFighter_O","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"TCP_8Rnd_127x30_52_Mag","TCP_8Rnd_127x30_52_Mag"};
         respawnMagazines[] = {"TCP_8Rnd_127x30_52_Mag","TCP_8Rnd_127x30_52_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_52_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"U_I_pilotCoveralls",{{"FirstAidKit",1},{"SmokeShellOrange",1,1},{"Chemlight_green",2,1}}},{},{},"H_PilotHelmetFighter_O","TCP_G_VisrGlasses",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_52_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"U_I_pilotCoveralls",{{"FirstAidKit",1},{"SmokeShellOrange",1,1},{"Chemlight_green",2,1}}},{},{},"H_PilotHelmetFighter_O","TCP_G_VisrGlasses",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1778,15 +1778,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_IA70_BRAVO_Green","SA_HM05C_Fox_C_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_IA70_BRAVO_Green","SA_HM05C_Fox_C_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"ACE_Clacker",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"UNSCMine_Range_Mag",2,1},{"APERSBoundingMine_Range_Mag",5,1}}},"SA_HM05C_Fox_C_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_IA70_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"ACE_Clacker",1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"UNSCMine_Range_Mag",2,1},{"APERSBoundingMine_Range_Mag",5,1}}},"SA_HM05C_Fox_C_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1818,15 +1818,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_BRAVO_Green","SA_HM03S_Lynx_S_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCF_M57_Pilum_b","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCF_2Rnd_50x137_PEN","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCF_2Rnd_50x137_PEN","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"TCF_M57_Pilum_b","","","TCF_M57_QAS2",{"TCF_2Rnd_50x137_PEN",2},{},""},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCF_2Rnd_50x137_THERMO",1,2},{"TCF_2Rnd_50x137_PEN",1,2}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{"TCF_M57_Pilum_b","","","TCF_M57_QAS2",{"TCF_2Rnd_50x137_PEN",2},{},""},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_BRAVO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCF_2Rnd_50x137_THERMO",1,2},{"TCF_2Rnd_50x137_PEN",1,2}}},"SA_HM03S_Lynx_S_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1858,15 +1858,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA80_ECHO_Green","SA_HM04_Ocelot_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_MA37","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag","SFT_32Rnd_762x51_Mag_Tracer","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCF_2Rnd_50x137_THERMO",1,2}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_MA37","TCP_muzzle_brake_762_01","TCP_acc_pointer_lam_MA37","SFT_optic_EVOSJ_SL",{"SFT_32Rnd_762x51_Mag_Tracer",32},{},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA80_ECHO_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCP_8Rnd_127x30_46_Mag",2,8}}},{"OPTRE_UNSC_Rucksack",{{"SFT_32Rnd_762x51_Mag_Tracer",4,32},{"TCF_2Rnd_50x137_THERMO",1,2}}},"SA_HM04_Ocelot_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1898,15 +1898,15 @@ class CfgVehicles {
         linkedItems[] = {"SA_HA90_Charlie_Green","SA_HM03H_Lynx_H_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
         respawnlinkedItems[] = {"SA_HA90_Charlie_Green","SA_HM03H_Lynx_H_Green","ItemMap","TCP_RF55","ItemCompass","TCP_Watch"};
 
-        weapons[] = {"SFT_M45","TCP_hgun_Pistol_M6G2_F"};
-        respawnWeapons[] = {"SFT_M45","TCP_hgun_Pistol_M6G2_F"};
+        weapons[] = {"SFT_M45","TCP_hgun_Pistol_M6G2"};
+        respawnWeapons[] = {"SFT_M45","TCP_hgun_Pistol_M6G2"};
 
         magazines[] = {"SFT_1Rnd_12Gauge_Pellets","SFT_6Rnd_Internal_Mag","TCP_8Rnd_127x30_46_Mag","SFT_1Rnd_12Gauge_Pellets","SFT_6Rnd_Internal_Mag","TCP_8Rnd_127x30_46_Mag"};
         respawnMagazines[] = {"SFT_1Rnd_12Gauge_Pellets","SFT_6Rnd_Internal_Mag","TCP_8Rnd_127x30_46_Mag","SFT_1Rnd_12Gauge_Pellets","SFT_6Rnd_Internal_Mag","TCP_8Rnd_127x30_46_Mag"};
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"SFT_M45","","","SFT_optic_ERO_Blue",{"SFT_1Rnd_12Gauge_Pellets",1},{"SFT_6Rnd_Internal_Mag",6},""},{},{"TCP_hgun_Pistol_M6G2_F","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA90_Charlie_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_1Rnd_12Gauge_Pellets",24,1},{"SFT_1Rnd_12Gauge_Slug",6,1}}},{"OPTRE_UNSC_Rucksack",{{"tsp_breach_block_mag",4,1},{"tsp_breach_package_mag",2,1}}},"SA_HM03H_Lynx_H_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"SFT_M45","","","SFT_optic_ERO_Blue",{"SFT_1Rnd_12Gauge_Pellets",1},{"SFT_6Rnd_Internal_Mag",6},""},{},{"TCP_hgun_Pistol_M6G2","","","TCP_optic_KFA_M6G2",{"TCP_8Rnd_127x30_46_Mag",8},{},"TCP_bipod_handGuard_M6G2"},{"SA_CU10G_UNI",{{"ACRE_PRC343",1},{"RS_Equip_Retention",1},{"ItemMicroDAGR",1},{"ACE_EarPlugs",1},{"kat_IFAK",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1}}},{"SA_HA90_Charlie_Green",{{"TCP_M21_Smoke",4,1},{"TCP_M9R_Frag",2,1},{"TCP_8Rnd_127x30_46_Mag",2,8},{"SFT_1Rnd_12Gauge_Pellets",24,1},{"SFT_1Rnd_12Gauge_Slug",6,1}}},{"OPTRE_UNSC_Rucksack",{{"tsp_breach_block_mag",4,1},{"tsp_breach_package_mag",2,1}}},"SA_HM03H_Lynx_H_Green","",{},{"ItemMap","","TCP_RF55","ItemCompass","TCP_Watch",""}};
 
 
         class EventHandlers : EventHandlers {
