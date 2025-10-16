@@ -6,41 +6,42 @@ kanban-plugin: board
 
 ## Bugs
 
-- [ ] [[Find Better Reload animations and sounds]]
 - [ ] [[Grenades in the M319 appear sideways]]
-- [ ] All Machine Guns Weight the same
-- [ ] 247 mag weight is wrong
+- [ ] [[SRS ACE Ballistics broken]]
+- [ ] [[SRS Ammo Broken]]
 
 
 ## To-Do
 
-- [ ] [[Custom ACE Spray Cans]]
-- [ ] [[TCP Update 0.2.1 Mod Fix]]
-- [ ] [[SRS99-AM 12.7 mm - In Progress]]
-- [ ] [[M41 'Warthog' SFT Variant]]
-- [ ] [[TCP Radio ACRE adaptation]]
-- [ ] [[M43 D Variants - In progress]]
-- [ ] [[CBUU SFT Variant]]
-- [ ] M6C SOCOM smartlink
-- [ ] Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc)
-- [ ] Create ACE compatable TCP explosives
-- [ ] [[Update SRS magazine weight]]
-- [ ] Up weight of BR55 & mags
-- [ ] Remake Contigency sights
-- [ ] Remove red highlight from contigency sights
-- [ ] [[Make Helmets have CTAB camera by default]]
-- [ ] [[Innie Factions]]
-- [ ] Marines Helmets
-- [ ] JSRS Compat
 - [ ] [[Weight Rebalance]]
-- [ ] Buddy loading for MGs
-- [ ] Custom Supply Pods
+- [ ] [[Custom ACE Spray Cans]]
+- [ ] [[M41 'Warthog' SFT Variant - In Progress]]
+- [ ] [[Find Better Reload animations and sounds]]
+- [ ] [[M6C SOCOM smartlink]]
+- [ ] [[Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc)]]
+- [ ] [[Create ACE compatable TCP explosives]]
+- [ ] [[Remove red highlight from contigency sights]]
+- [ ] [[Innie Factions]]
+- [ ] [[Marine factions]]
+- [ ] [[JSRS Compat]]
+- [ ] [[Buddy loading for MGs]]
+- [ ] [[Custom Supply Pods]]
 - [ ] [[Make AI specific HMG using HWF]]
+- [ ] [[Medical Items Overhaul]]
+
+
+## In Progress
+
 
 
 ## Finished
 
-- [ ] [[Weapon inheritance issues]]
+**Complete**
+- [ ] [[Weapon inheritance issues - Complete 1]]
+- [ ] [[TCP Update 0.2.1 Mod Fix - Complete]]
+- [ ] [[M43 D Variants - Complete]]
+- [ ] [[SRS99-AM 12.7 mm - Complete]]
+- [ ] [[CBUU SFT Variant - Complete]]
 - [ ] [[MA5K ICWS 7.62 mm SFT Variant - Complete]]
 - [ ] [[M7 SMG 5 mm SFT Variant - Complete]]
 - [ ] [[M128 ASRO 'ORACLE N' SFT Variant - Complete]]
@@ -50,9 +51,10 @@ kanban-plugin: board
 - [ ] [[M58 SLS V SFT Variant - Complete]]
 - [ ] [[M81 ERO SFT Variant - Complete]]
 - [ ] [[BR55 SR 9.5 mm SFT Variant - Complete]]
-- [ ] [[M45 Shotgun Internal Magazine Broken]]
+- [ ] [[M45 Shotgun Internal Magazine Broken - Fixed]]
 - [ ] Steal stamina config from havok
 - [ ] Fix Painkillers in IFAK
+- [ ] [[Make Helmets have CTAB camera by default - Complete]]
 
 
 ## Changelogs
@@ -64,6 +66,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
 ```
 %%

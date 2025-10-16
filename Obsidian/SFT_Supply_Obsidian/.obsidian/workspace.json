@@ -4,28 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2133b5afaa171fea",
+        "id": "9f6bd991664922f8",
         "type": "tabs",
         "children": [
           {
-            "id": "e0b53ad369c8e9ef",
+            "id": "a3a51c2a89896c00",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "00_Home_Page/Main Page.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Main Page"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -101,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Home_Page/Main Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Main Page"
+              "title": "Backlinks"
             }
           },
           {
@@ -176,41 +164,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbb045ce84c00ecc",
+  "active": "a3a51c2a89896c00",
   "lastOpenFiles": [
-    "Make AI specific HMG using HWF.md",
+    "02_Work/To-Do/Custom Supply Pods.md",
+    "02_Work/To-Do/Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc).md",
+    "02_Work/To-Do/SRS ACE Ballistics broken.md",
+    "02_Work/To-Do/Remove red highlight from contigency sights.md",
     "00_Home_Page/Main Page.md",
-    "Make Helmets have CTAB camera by default.md",
-    "02_Work/M43 D Variants - In progress.md",
-    "02_Work/TCP Update 0.2.1 Mod Fix.md",
-    "Weight Rebalance.md",
-    "1.0.1.0 Update.md",
-    "02_Work/M41 'Warthog' SFT Variant.md",
-    "M45 Shotgun Internal Magazine Broken.md",
-    "02_Work/SRS99-AM 12.7 mm - In Progress.md",
-    "Innie Factions.md",
+    "02_Work/To-Do/Weight Rebalance.md",
+    "02_Work/Completed/Weapon inheritance issues - Complete 1.md",
     "Update SRS magazine weight.md",
-    "Grenades in the M319 appear sideways.md",
-    "02_Work/M319 IGL 40 mm SFT Variant - Complete.md",
-    "02_Work/MA5K ICWS 7.62 mm SFT Variant - Complete.md",
-    "02_Work/BR55 SR 9.5 mm SFT Variant - Complete.md",
-    "02_Work/M7 SMG 5 mm SFT Variant - Complete.md",
-    "Find Better Reload animations and sounds.md",
-    "02_Work/Weapon inheritance issues - Complete.md",
-    "02_Work/TCP Radio ACRE adaptation.md",
-    "02_Work/M128 ASRO 'ORACLE N' SFT Variant - Complete.md",
-    "02_Work/M81 ERO SFT Variant - Complete.md",
-    "02_Work/M58 SLS V SFT Variant - Complete.md",
-    "02_Work/M42 RCO and base varants SFT Variants - Complete.md",
-    "02_Work/M27 RCO SFT Variant - Complete.md",
-    "02_Work/Custom ACE Spray Cans.md",
+    "02_Work/Bugs/SRS Ammo Broken.md",
+    "02_Work/To-Do/Marine factions.md",
+    "02_Work/Completed/Make Helmets have CTAB camera by default - Complete.md",
+    "02_Work/Completed/M45 Shotgun Internal Magazine Broken - Fixed.md",
+    "02_Work/To-Do/JSRS Compat.md",
+    "02_Work/To-Do/Innie Factions.md",
+    "02_Work/To-Do/Innie Factions.md",
+    "02_Work/Bugs/Grenades in the M319 appear sideways.md",
+    "02_Work/To-Do/Find Better Reload animations and sounds.md",
+    "02_Work/Bugs",
+    "02_Work/Temp.md",
+    "02_Work/Changelogs",
+    "02_Work/Completed/TCP Update 0.2.1 Mod Fix - Complete.md",
+    "02_Work/Completed/CBUU SFT Variant - Complete.md",
+    "02_Work/Completed/M7 SMG 5 mm SFT Variant - Complete.md",
+    "02_Work/In Progress/M41 'Warthog' SFT Variant - In Progress.md",
+    "02_Work/To-Do/Custom ACE Spray Cans.md",
+    "02_Work/Completed/BR55 SR 9.5 mm SFT Variant - Complete.md",
+    "02_Work/To-Do",
+    "02_Work/In Progress",
+    "02_Work/Completed",
+    "02_Work/To-Do/Medical Items Overhaul.md",
+    "02_Work/To-Do/Buddy loading for MGs.md",
     "95_Templates",
     "99_Archive",
     "90_Refs",
     "04_Release",
-    "03_Issues",
-    "02_Work",
-    "01_Planning",
-    "00_Home_Page"
+    "03_Issues"
   ]
 }
