@@ -34,6 +34,11 @@ kanban-plugin: board
 
 
 
+## Changelogs
+
+- [ ] [[1.0.1.0 Update]]
+
+
 ## Finished
 
 **Complete**
@@ -55,11 +60,6 @@ kanban-plugin: board
 - [ ] Steal stamina config from havok
 - [ ] Fix Painkillers in IFAK
 - [ ] [[Make Helmets have CTAB camera by default - Complete]]
-
-
-## Changelogs
-
-- [ ] [[1.0.1.0 Update]]
 
 
 
