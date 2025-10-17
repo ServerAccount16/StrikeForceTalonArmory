@@ -71,6 +71,7 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
+    		mass = 44.1;
 			class HitpointsProtectionInfo
 			{
 				class Head
@@ -99,7 +100,7 @@ class CfgWeapons
 		author 				= "Weber";
 		dlc 					= "SFT";
 		scope         = 1;
-    scopeArsenal  = 1;
+    	scopeArsenal  = 1;
 		displayName   = "[SFT] ECH55/D Helmet Var 1 (Silver)";
 		ctab_camera = 1;
 		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_Var1_Silver","SFT_H_Helmet_ECH55D_Black_Var1_Silver_DP"};
@@ -111,6 +112,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -153,6 +155,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -194,6 +197,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -236,6 +240,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -277,6 +282,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -319,6 +325,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -360,6 +367,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -402,6 +410,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -443,6 +452,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -479,6 +489,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_CO.paa","\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\data\camo\default\helmet_ECH55D_Visor_CA.paa","tcp\characters\BLUFOR\UNSC\ARMY\Vests\M43A\data\camo\White\vest_M43_DecalSheet_CA.paa"};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 44.1;
 			uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_DP.p3d";
 			class HitpointsProtectionInfo
 			{
@@ -505,10 +516,10 @@ class CfgWeapons
 	};
 	class SFT_H_Helmet_ECH55D_TEST_Silver_DP : SFT_H_Helmet_ECH55D_Black_Silver_DP
 	{
-		author 				= "Weber";
-		dlc 					= "SFT";
+		author 		  = "Weber";
+		dlc 		  = "SFT";
 		scope         = 1;
-    scopeArsenal  = 1;
+ 	    scopeArsenal  = 1;
 		displayName   = "[SFT] ECH55/D Helmet TEST (Silver)";
 		TCP_visrClasses[] = {"SFT_H_Helmet_ECH55D_TEST_Silver","SFT_H_Helmet_ECH55D_TEST_Silver_DP"};
 		hiddenSelectionsTextures[] = 
@@ -528,6 +539,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Army\Uniforms\CBUU\data\camo\Black\CBUU_TacShirt_CO.paa"};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 33.0;
 			uniformClass = "SFT_B_CBUU_TacShirt_SlimSleeve_Gloves_Unzipped_Black";
 			containerClass="Supply150";
 		};
@@ -542,6 +554,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\TCP\Characters\BLUFOR\UNSC\Army\Uniforms\CBUU\data\camo\Black\CBUU_TacShirt_CO.paa"};
 		class ItemInfo: ItemInfo
 		{
+    		mass = 33.0;
 			uniformClass = "SFT_B_CBUU_TacShirt_SlimSleeve_Gloves_Black";
 			containerClass="Supply150";
 		};
@@ -555,6 +568,7 @@ class CfgWeapons
 		displayName = "[SFT] CBUU Unzipped (Olive)";
 		class ItemInfo: ItemInfo
 		{
+    		mass = 33.0;
 			uniformClass = "SFT_B_CBUU_TacShirt_Full_Bloused_Unzipped_Olive";
 			containerClass="Supply150";
 		};
@@ -568,6 +582,7 @@ class CfgWeapons
 		displayName = "[SFT] CBUU Unzipped (Olive)";
 		class ItemInfo: ItemInfo
 		{
+    		mass = 33.0;
 			uniformClass = "SFT_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_Olive";
 			containerClass="Supply150";
 		};
@@ -622,6 +637,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "[SFT] ILCS Rucksack (Black)";
 		maximumLoad = 350;
+    	mass = 27.5;
 	};
 	class OPTRE_ILCS_Rucksack_Medical;
 	class SFT_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Medical
@@ -631,6 +647,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "[SFT] ILCS Rucksack (Medic)";
 		maximumLoad = 400;
+    	mass = 27.5;
 	};
 	class OPTRE_ILCS_Rucksack_Heavy;
 	class SFT_ILCS_Rucksack_Heavy : OPTRE_ILCS_Rucksack_Heavy
@@ -640,5 +657,6 @@ class CfgVehicles
 		scope = 2;
 		displayName = "[SFT] ILCS Rucksack (Heavy)";
 		maximumLoad = 450;
+    	mass = 27.5;
 	};
 };

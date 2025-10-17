@@ -1,0 +1,1 @@
+sourceScale=227; // each a/c has a different torque output

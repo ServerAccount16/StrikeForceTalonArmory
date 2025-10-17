@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/SFT_Supply_Obsidian/02_Work/M43 D Variants - In progress.md",
+                "file": "Obsidian/SFT_Supply_Obsidian/02_Work/To-Do/Weight Rebalance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M43 D Variants - In progress"
+              "title": "Weight Rebalance"
             }
           }
         ]
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,6 +171,15 @@
   },
   "active": "2198dfc16e436f8d",
   "lastOpenFiles": [
+    "Obsidian/SFT_Supply_Obsidian/02_Work/Changelogs/1.0.1.0 Update.md",
+    "Obsidian/SFT_Supply_Obsidian/02_Work/Changelogs/Untitled.md",
+    "Obsidian/SFT_Supply_Obsidian/02_Work/To-Do/Weight Rebalance.md",
+    "logs/build_20251016_212122.txt",
+    "logs/build_20251016_205238.txt",
+    "logs/build_20251016_204454.txt",
+    "logs/build_20251016_203328.txt",
+    "logs/build_20251016_202232.txt",
+    "logs/build_20251016_195850.txt",
     "Obsidian/SFT_Supply_Obsidian/02_Work/M42 RCO and base varants SFT Variants - Complete.md",
     "Obsidian/SFT_Supply_Obsidian/02_Work/M41 'Warthog' SFT Variant.md",
     "Obsidian/SFT_Supply_Obsidian/Weight Rebalance.md",
@@ -197,15 +207,6 @@
     "pbo_include/xs_f_samantha.pbo.xakuda.bisign",
     "pbo_include/xs_f_samantha.pbo",
     "pbo_include/xs_f_base.pbo.xakuda.bisign",
-    "pbo_include/xs_f_base.pbo",
-    "pbo_include/vtn_u_body_ru_tx.pbo.unter.bisign",
-    "pbo_include/vtn_u_body_ru_tx.pbo",
-    "pbo_include/vtn_u_body_ru_md.pbo.unter.bisign",
-    "pbo_include/vtn_u_body_ru_md.pbo",
-    "pbo_include/vtn_u_body_ru_cf.pbo.unter.bisign",
-    "Obsidian/SFT_Supply_Obsidian/99_Archive/Temp.md",
-    "Obsidian/SFT_Supply_Obsidian/04_Release/Temp.md",
-    "Obsidian/SFT_Supply_Obsidian/90_Refs/Temp.md",
     "Untitled.canvas",
     "addons/aircraft/falcon/data/dap/falcon_main_co.png"
   ]

@@ -167,7 +167,7 @@ class CfgWeapons
     {
 			displayName	= "SNGL";
 			autoFire	= 0;
-			burst		= 2;
+			burst		= 1;
 			textureType	= "semi";
     };
   };

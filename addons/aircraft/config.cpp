@@ -111,8 +111,15 @@ class CfgVehicles
 
     PILOTCAMERA_FALCON
 
-    HMD
+		#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_106_Pilot_Lynx_A.hpp"
+		// ^^^ HMD script
 
+		#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_082_User_Actions_Default_Values.hpp"
+		class UserActions: UserActions
+		{
+			#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_081_User_Action_ALL.hpp"
+		};
+		
   };
 
     // AH144 DAP ///
@@ -240,7 +247,14 @@ class CfgVehicles
       };  
     }; 
 
-    HMD
+		#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_106_Pilot_Lynx_A.hpp"
+		// ^^^ HMD script
+
+		#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_082_User_Actions_Default_Values.hpp"
+		class UserActions: UserActions
+		{
+			#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_081_User_Action_ALL.hpp"
+		};
 
   };
   
@@ -378,8 +392,14 @@ class CfgVehicles
       };  
     }; 
 
-    HMD
+		#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_106_Pilot_Lynx_A.hpp"
+		// ^^^ HMD script
 
+		#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_082_User_Actions_Default_Values.hpp"
+		class UserActions: UserActions
+		{
+			#include "\x\strikeforcetalon_armory\addons\sft_aircraft\hmds\cfg_HMD_AH64D_081_User_Action_ALL.hpp"
+		};
   };
 
 };

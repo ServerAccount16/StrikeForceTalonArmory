@@ -61,6 +61,7 @@ class SFT_V_M43D_ODST_##VAR##_##SHOULDER : TCP_V_M43D_ODST_4_Black \
   }; \
   class ItemInfo: ItemInfo \
   { \
+    mass = 88.1;  \
     hiddenSelections[] = {"camo","camo1","camo2","camo3","decals"}; \
     containerClass="Supply200"; \
     VEST_HITPOINT_INFO \
@@ -85,6 +86,7 @@ class SFT_V_M43D_ODST_##VAR##_##SHOULDER : TCP_V_M43D_ODST_4_Black \
   }; \
   class ItemInfo: ItemInfo \
   { \
+    mass = 88.1;  \
     hiddenSelections[] = {"camo","camo1","camo2","camo3","decals"}; \
     containerClass="Supply200"; \
     VEST_HITPOINT_INFO \
@@ -113,6 +115,7 @@ class SFT_H_Helmet_ECH55D_##VAR##_Black_Silver : TCP_H_Helmet_ECH55D_Black_Silve
   }; \
   class ItemInfo: ItemInfo \
   { \
+    mass = 44.1;  \
     uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d"; \
     HELMET_HITPOINT_INFO \
   }; \
@@ -140,6 +143,7 @@ class SFT_H_Helmet_ECH55D_##VAR##_NCO_Black_Silver : TCP_H_Helmet_ECH55D_Black_S
   }; \
   class ItemInfo: ItemInfo \
   { \
+    mass = 44.1;  \
     uniformModel = "\TCP\Characters\BLUFOR\UNSC\Marines\Headgear\helmet_ECH55D\h_helmet_ECH55D_Silver.p3d"; \
     HELMET_HITPOINT_INFO \
   }; \
