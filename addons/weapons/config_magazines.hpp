@@ -288,6 +288,7 @@ class CfgMagazines
 		ammo="OPTRE_M41_Rocket_HEAT";
 		count=2;
 		tracersEvery=0;
+		mass = 63.0;
 	};
 	class SFT_2Rnd_102mm_Mag_HEAP : TCP_2Rnd_102mm_Mag_HEAT
 	{
@@ -298,6 +299,7 @@ class CfgMagazines
 		ammo="OPTRE_M41_Rocket_HEAP";
 		count=2;
 		tracersEvery=0;
+		mass = 63.0;
 	};
 	class SFT_2Rnd_102mm_Mag_HEAT_G : TCP_2Rnd_102mm_Mag_HEAT
 	{
@@ -308,6 +310,7 @@ class CfgMagazines
 		ammo="OPTRE_M41_Rocket_HEAT_G";
 		count=2;
 		tracersEvery=0;
+		mass = 63.0;
 	};
 	class SFT_2Rnd_102mm_Mag_HEAT_SACLOS : TCP_2Rnd_102mm_Mag_HEAT
 	{
@@ -318,6 +321,7 @@ class CfgMagazines
 		ammo="OPTRE_M41_Rocket_HEAT_SACLOS";
 		count=2;
 		tracersEvery=0;
+		mass = 63.0;
 	};
 	class SFT_2Rnd_102mm_Mag_HEAT_G_AA : TCP_2Rnd_102mm_Mag_HEAT
 	{
@@ -328,6 +332,7 @@ class CfgMagazines
 		ammo="OPTRE_M41_Rocket_HEAT_G_AA";
 		count=2;
 		tracersEvery=0;
+		mass = 63.0;
 	};
 	class SFT_2Rnd_102mm_Mag_HEAT_SALH : TCP_2Rnd_102mm_Mag_HEAT
 	{
@@ -338,6 +343,7 @@ class CfgMagazines
 		ammo="OPTRE_M41_Rocket_HEAT_Laser";
 		count=2;
 		tracersEvery=0;
+		mass = 63.0;
 	};
 	class M319_HEDP_Grenade_Shell;
 	class SFT_M319_HEDP_Grenade_Shell : M319_HEDP_Grenade_Shell

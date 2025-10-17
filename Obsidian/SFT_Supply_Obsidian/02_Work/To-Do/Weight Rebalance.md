@@ -26,3 +26,4 @@ Pistol: 2.04kg + LLM: 0.27kg + Sup: 0.45kg + mag: 0.4kg x 3 = 3.96 kg
 - Uniform > 1.5kg
 - Backpacks > 1.25kg
 - Vest > 4kg
+- SPNKR Rockets > 2.9kg
