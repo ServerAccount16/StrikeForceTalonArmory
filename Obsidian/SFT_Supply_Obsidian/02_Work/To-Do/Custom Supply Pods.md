@@ -5,3 +5,5 @@
 5. Ordnance - C7s, C12s, breaching charges, M96 Laws, SPKNRs
 Fine tune as you see fit
 Inquire about other pods you see a need for
+
+Possibly use the models from TCP

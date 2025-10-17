@@ -4,17 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "9f6bd991664922f8",
+        "id": "b6f3c112f639bf70",
         "type": "tabs",
         "children": [
           {
-            "id": "a3a51c2a89896c00",
+            "id": "0f8d47f9e15629fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "kanban",
+              "state": {
+                "file": "00_Home_Page/Main Page.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Main Page"
             }
           }
         ]
@@ -90,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00_Home_Page/Main Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +112,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Main Page"
             }
           },
           {
@@ -164,14 +177,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3a51c2a89896c00",
+  "active": "0f8d47f9e15629fd",
   "lastOpenFiles": [
+    "Modlist V1o5.md",
+    "00_Home_Page/Main Page.md",
+    "MG Specifications.md",
     "02_Work/To-Do/Custom Supply Pods.md",
+    "02_Work/To-Do/Weight Rebalance.md",
     "02_Work/To-Do/Integrate Ammo Can into our Vehicles (Falcon, Warthog, etc).md",
     "02_Work/To-Do/SRS ACE Ballistics broken.md",
     "02_Work/To-Do/Remove red highlight from contigency sights.md",
-    "00_Home_Page/Main Page.md",
-    "02_Work/To-Do/Weight Rebalance.md",
     "02_Work/Completed/Weapon inheritance issues - Complete 1.md",
     "Update SRS magazine weight.md",
     "02_Work/Bugs/SRS Ammo Broken.md",
@@ -195,8 +210,6 @@
     "02_Work/To-Do",
     "02_Work/In Progress",
     "02_Work/Completed",
-    "02_Work/To-Do/Medical Items Overhaul.md",
-    "02_Work/To-Do/Buddy loading for MGs.md",
     "95_Templates",
     "99_Archive",
     "90_Refs",
