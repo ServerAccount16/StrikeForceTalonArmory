@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] [[Grenades in the M319 appear sideways]]
 - [ ] [[SRS ACE Ballistics broken]]
 - [ ] [[SRS Ammo Broken]]
+- [ ] Figure out why weapons delete when using tertiary weapons mod
 
 
 ## To-Do
@@ -28,6 +29,8 @@ kanban-plugin: board
 - [ ] [[Custom Supply Pods]]
 - [ ] [[Make AI specific HMG using HWF]]
 - [ ] [[Medical Items Overhaul]]
+- [ ] [[MG Specifications]]
+- [ ] [[Modlist V1o5]]
 
 
 ## In Progress
