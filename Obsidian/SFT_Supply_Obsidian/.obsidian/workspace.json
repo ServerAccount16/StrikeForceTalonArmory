@@ -4,29 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6f3c112f639bf70",
+        "id": "c04ef8e23ce1395e",
         "type": "tabs",
         "children": [
           {
-            "id": "0f8d47f9e15629fd",
+            "id": "7a02fe28a1c66b80",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "00_Home_Page/Main Page.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "02_Work/To-Do/Weight Rebalance.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Main Page"
+              "icon": "lucide-file",
+              "title": "Weight Rebalance"
             }
           }
         ]
@@ -102,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Home_Page/Main Page.md",
+                "file": "02_Work/To-Do/Weight Rebalance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Main Page"
+              "title": "Backlinks for Weight Rebalance"
             }
           },
           {
@@ -177,10 +169,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f8d47f9e15629fd",
+  "active": "7a02fe28a1c66b80",
   "lastOpenFiles": [
-    "Modlist V1o5.md",
     "00_Home_Page/Main Page.md",
+    "Modlist V1o5.md",
     "MG Specifications.md",
     "02_Work/To-Do/Custom Supply Pods.md",
     "02_Work/To-Do/Weight Rebalance.md",

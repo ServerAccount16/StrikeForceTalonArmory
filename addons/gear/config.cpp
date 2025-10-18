@@ -12,7 +12,7 @@ class CfgPatches
                   // you should list that class name here.
     weapons[] = {"SFT_M52_Vest_Base", "SFT_M52_Vest_Standard", "SFT_CH252D_Helmet", 
                   "SFT_CH252D_Helmet_dp", "SFT_BDU_ODST_HJ", "SFT_ODST_BDU_HJ", 
-                  "SFT_M52D_Rucksack", "SFT_M52D_Rucksack_Corpsman"
+                  "SFT_ILCS_Rucksack_Black", "SFT_ILCS_Rucksack_Medical", "SFT_ILCS_Rucksack_Heavy"
                 };
     ammo[] = {};
     magazines[] = {};
