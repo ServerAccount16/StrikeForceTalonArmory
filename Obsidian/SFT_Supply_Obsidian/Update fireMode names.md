@@ -1,0 +1,1 @@
+Update the fireMode name to something that looks good when using immersive hud

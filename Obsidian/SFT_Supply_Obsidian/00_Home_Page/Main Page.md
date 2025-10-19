@@ -31,6 +31,9 @@ kanban-plugin: board
 - [ ] [[Medical Items Overhaul]]
 - [ ] [[MG Specifications]]
 - [ ] [[Modlist V1o5]]
+- [ ] [[Update fireMode names]]
+- [ ] Make weapon sights exclusive
+- [ ] [[Medical Cheat Sheets]]
 
 
 ## In Progress
